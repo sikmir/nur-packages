@@ -1,0 +1,38 @@
+{
+    "datamaps": {
+        "branch": "master",
+        "description": "Indexes points and lines and generates map tiles to display them",
+        "homepage": null,
+        "owner": "ericfischer",
+        "repo": "datamaps",
+        "rev": "76e620adabbedabd6866b23b30c145b53bae751e",
+        "sha256": "1rdqbyfmgidiv4aqy1s6llls304dxbg5226c7k622smd2rnda2jk",
+        "type": "tarball",
+        "url": "https://github.com/ericfischer/datamaps/archive/76e620adabbedabd6866b23b30c145b53bae751e.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "gpx-layer": {
+        "branch": "master",
+        "description": "Tools to turn GPX files into a GPS map tracing layer",
+        "homepage": null,
+        "owner": "ericfischer",
+        "repo": "gpx-layer",
+        "rev": "746b4723cf1f69fb86d45cf2d4efeaae9e711d2d",
+        "sha256": "0v5vfjqm5flmr30mpgabjwzy4avxl620051pcw03sdf3za8xkpr3",
+        "type": "tarball",
+        "url": "https://github.com/ericfischer/gpx-layer/archive/746b4723cf1f69fb86d45cf2d4efeaae9e711d2d.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "mbutil": {
+        "branch": "master",
+        "description": "Importer and Exporter of MBTiles",
+        "homepage": "http://mapbox.com/developers/",
+        "owner": "mapbox",
+        "repo": "mbutil",
+        "rev": "2fc4161f9be890a65d07f5e7b2ed0c8a0a123ed6",
+        "sha256": "1z48iispxg5mfch86f06amdaqy5mnpq6vsyrp8znspjsvr7s4r3r",
+        "type": "tarball",
+        "url": "https://github.com/mapbox/mbutil/archive/2fc4161f9be890a65d07f5e7b2ed0c8a0a123ed6.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}
