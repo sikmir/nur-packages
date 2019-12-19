@@ -59,6 +59,18 @@
         "url": "https://github.com/tkrajina/gpxpy/archive/5e81b930c81cb88f3534e6f48d970c367de302b7.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "gpxtools": {
+        "branch": "master",
+        "description": "A collection of c++ tools for using GPX files ",
+        "homepage": null,
+        "owner": "irdvo",
+        "repo": "gpxtools",
+        "rev": "b989f357abb9f9b694cbe95081dd8d1094019233",
+        "sha256": "0zqdfv8qh6k5am17xnzhpki2rlvf5vpfjdpxazgli3pzbv2i6dbn",
+        "type": "tarball",
+        "url": "https://notabug.org/irdvo/gpxtools/archive/b989f357abb9f9b694cbe95081dd8d1094019233.tar.gz",
+        "url_template": "https://notabug.org/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "mbutil": {
         "branch": "master",
         "description": "Importer and Exporter of MBTiles",
