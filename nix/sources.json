@@ -1,4 +1,16 @@
 {
+    "GPXSee-maps": {
+        "branch": "master",
+        "description": "GPXSee maps",
+        "homepage": "http://www.gpxsee.org",
+        "owner": "tumic0",
+        "repo": "GPXSee-maps",
+        "rev": "8d53800eb0ce4d9240a145959bccb94513128a17",
+        "sha256": "18rqar7qzdjypw8b0cyixkjvvmcksl7n949kxj0bcl8fq5y7lfsf",
+        "type": "tarball",
+        "url": "https://github.com/tumic0/GPXSee-maps/archive/8d53800eb0ce4d9240a145959bccb94513128a17.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "datamaps": {
         "branch": "master",
         "description": "Indexes points and lines and generates map tiles to display them",
