@@ -94,5 +94,17 @@
         "type": "tarball",
         "url": "https://github.com/mapbox/mbutil/archive/2fc4161f9be890a65d07f5e7b2ed0c8a0a123ed6.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "redict": {
+        "branch": "master",
+        "description": "A dictionary for Linux, based on C++/Qt development.",
+        "homepage": "",
+        "owner": "rekols",
+        "repo": "redict",
+        "rev": "525aac01ed5fc0f74f8393dc5b5b3bb57c9b0c5f",
+        "sha256": "1zlad1bmlyy4hirm93f0744c98y9hg11b32ym06rsax719qj2rjl",
+        "type": "tarball",
+        "url": "https://github.com/rekols/redict/archive/525aac01ed5fc0f74f8393dc5b5b3bb57c9b0c5f.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }

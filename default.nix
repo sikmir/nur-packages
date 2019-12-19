@@ -14,4 +14,5 @@ in
   gpxtools = callPackage ./pkgs/gpxtools { inherit (sources) gpxtools; };
   gt4gd = python3Packages.callPackage ./pkgs/gt4gd { inherit (sources) google-translate-for-goldendict; };
   mbutil = python3Packages.callPackage ./pkgs/mbutil { inherit (sources) mbutil; };
+  redict = libsForQt5.callPackage ./pkgs/redict { inherit (sources) redict; };
 }
