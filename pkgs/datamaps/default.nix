@@ -12,15 +12,14 @@ stdenv.mkDerivation rec {
   enableParallelBuilding = true;
 
   installPhase = ''
-    install -Dm755 encode $out/bin/datamaps-encode
-    install -Dm755 enumerate $out/bin/datamaps-enumerate
-    install -Dm755 merge $out/bin/datamaps-merge
-    install -Dm755 render $out/bin/datamaps-render
+    for tool in encode enumerate merge render; do
+      install -Dm755 $tool $out/bin/$pname-$tool
+    done
   '';
 
   meta = with stdenv.lib; {
     description = datamaps.description;
-    homepage = https://github.com/ericfischer/datamaps;
+    homepage = "https://github.com/ericfischer/datamaps";
     license = licenses.bsd2;
     maintainers = with maintainers; [ sikmir ];
     platforms = platforms.linux ++ platforms.darwin;
