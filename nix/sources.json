@@ -23,6 +23,18 @@
         "url": "https://github.com/ericfischer/gpx-layer/archive/746b4723cf1f69fb86d45cf2d4efeaae9e711d2d.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "gpxpy": {
+        "branch": "master",
+        "description": "gpx-py is a python GPX parser. GPX (GPS eXchange Format) is an XML based file format for GPS tracks.",
+        "homepage": "",
+        "owner": "tkrajina",
+        "repo": "gpxpy",
+        "rev": "5e81b930c81cb88f3534e6f48d970c367de302b7",
+        "sha256": "0ps468n0xhk69c7c8j612xmhml7pysv2d78241vkdyy3gr771576",
+        "type": "tarball",
+        "url": "https://github.com/tkrajina/gpxpy/archive/5e81b930c81cb88f3534e6f48d970c367de302b7.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "mbutil": {
         "branch": "master",
         "description": "Importer and Exporter of MBTiles",
