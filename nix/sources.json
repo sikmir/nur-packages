@@ -1,4 +1,16 @@
 {
+    "GPXLab": {
+        "branch": "master",
+        "description": "Program to show and manipulate GPS tracks",
+        "homepage": null,
+        "owner": "BourgeoisLab",
+        "repo": "GPXLab",
+        "rev": "68721865f5fd6a5b2414da47a00778d5c342a461",
+        "sha256": "07yrq852cayzrfcwgjzk7h8zp6vnk8639772dsnb4jiqgg8sns42",
+        "type": "tarball",
+        "url": "https://github.com/BourgeoisLab/GPXLab/archive/68721865f5fd6a5b2414da47a00778d5c342a461.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "GPXSee-maps": {
         "branch": "master",
         "description": "GPXSee maps",
