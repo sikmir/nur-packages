@@ -23,6 +23,18 @@
         "url": "https://github.com/ericfischer/datamaps/archive/76e620adabbedabd6866b23b30c145b53bae751e.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "google-translate-for-goldendict": {
+        "branch": "master",
+        "description": "Add Google translate to GoldenDict",
+        "homepage": "",
+        "owner": "xinebf",
+        "repo": "google-translate-for-goldendict",
+        "rev": "d8a271ed5f8b9db6c7504f5ebcc0a0bd0380b0c8",
+        "sha256": "1wmxyak6b86657wavfxi33m3l60v10r8n26fjv6z47krk7a318a1",
+        "type": "tarball",
+        "url": "https://github.com/xinebf/google-translate-for-goldendict/archive/d8a271ed5f8b9db6c7504f5ebcc0a0bd0380b0c8.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "gpx-layer": {
         "branch": "master",
         "description": "Tools to turn GPX files into a GPS map tracing layer",
