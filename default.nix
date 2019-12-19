@@ -16,6 +16,9 @@ in {
   gpxpy = python3Packages.callPackage ./pkgs/gpxpy {
     inherit (sources) gpxpy;
   };
+  gpxsee = libsForQt5.callPackage ./pkgs/gpxsee {
+    inherit (sources) GPXSee;
+  };
   gpxsee-maps = callPackage ./pkgs/gpxsee-maps {
     inherit (sources) GPXSee-maps;
   };

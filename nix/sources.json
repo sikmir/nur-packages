@@ -11,6 +11,18 @@
         "url": "https://github.com/BourgeoisLab/GPXLab/archive/68721865f5fd6a5b2414da47a00778d5c342a461.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "GPXSee": {
+        "branch": "master",
+        "description": "GPS log file viewer and analyzer with support for GPX, TCX, KML, FIT, IGC, NMEA, SLF, LOC, GeoJSON and OziExplorer files.",
+        "homepage": "https://www.gpxsee.org",
+        "owner": "tumic0",
+        "repo": "GPXSee",
+        "rev": "a986293f20fba8cf3a649c0ed308ac8d568ba9fc",
+        "sha256": "0910yjzpsd1cri7rc5738496zl94kb75yma7z7zm7jx5jxmagnmp",
+        "type": "tarball",
+        "url": "https://github.com/tumic0/GPXSee/archive/a986293f20fba8cf3a649c0ed308ac8d568ba9fc.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "GPXSee-maps": {
         "branch": "master",
         "description": "GPXSee maps",
