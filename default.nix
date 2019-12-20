@@ -34,4 +34,7 @@ in {
   redict = libsForQt5.callPackage ./pkgs/redict {
     inherit (sources) redict;
   };
+  stardict-tools = callPackage ./pkgs/stardict-tools {
+    inherit (sources) stardict-3;
+  };
 }

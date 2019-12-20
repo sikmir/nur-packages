@@ -118,5 +118,17 @@
         "type": "tarball",
         "url": "https://github.com/rekols/redict/archive/525aac01ed5fc0f74f8393dc5b5b3bb57c9b0c5f.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "stardict-3": {
+        "branch": "master",
+        "description": "Automatically exported from code.google.com/p/stardict-3",
+        "homepage": null,
+        "owner": "huzheng001",
+        "repo": "stardict-3",
+        "rev": "8c5c26996dca52d6bda0aedb5da0381db930a733",
+        "sha256": "0vmvhr1qlh0zih1v3xg7nnrfajrcy877cfphi5p249pyw3hsv0av",
+        "type": "tarball",
+        "url": "https://github.com/huzheng001/stardict-3/archive/8c5c26996dca52d6bda0aedb5da0381db930a733.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
