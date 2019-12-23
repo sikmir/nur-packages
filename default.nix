@@ -4,6 +4,9 @@ with pkgs;
 
 let sources = import ./nix/sources.nix;
 in {
+  csvtools = callPackage ./pkgs/csvtools {
+    inherit (sources) csvtools;
+  };
   datamaps = callPackage ./pkgs/datamaps {
     inherit (sources) datamaps;
   };
