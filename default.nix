@@ -44,6 +44,9 @@ in {
   gpxtools = callPackage ./pkgs/gpxtools {
     inherit (sources) gpxtools;
   };
+  lsd2dsl = libsForQt5.callPackage ./pkgs/lsd2dsl {
+    inherit (sources) lsd2dsl;
+  };
   lsdreader = python3Packages.callPackage ./pkgs/lsdreader {
     inherit (sources) lsdreader;
   };
