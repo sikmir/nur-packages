@@ -44,6 +44,9 @@ in {
   gpxtools = callPackage ./pkgs/gpxtools {
     inherit (sources) gpxtools;
   };
+  lsdreader = python3Packages.callPackage ./pkgs/lsdreader {
+    inherit (sources) lsdreader;
+  };
   gt4gd = python3Packages.callPackage ./pkgs/gt4gd {
     inherit (sources) google-translate-for-goldendict;
   };

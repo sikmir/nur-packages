@@ -119,6 +119,18 @@
         "url": "https://notabug.org/irdvo/gpxtools/archive/b989f357abb9f9b694cbe95081dd8d1094019233.tar.gz",
         "url_template": "https://notabug.org/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "lsdreader": {
+        "branch": "master",
+        "description": "decompile Lingvo LSD dictionary to DSL",
+        "homepage": "",
+        "owner": "sv99",
+        "repo": "lsdreader",
+        "rev": "c78ab22e794f1fbfbc93ffb3ee7ae481f54dd8c2",
+        "sha256": "039biv10772zrw6s8a0ydgv9z995gw13wgvsr514ck9s6icxyddx",
+        "type": "tarball",
+        "url": "https://github.com/sv99/lsdreader/archive/c78ab22e794f1fbfbc93ffb3ee7ae481f54dd8c2.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "mapper": {
         "branch": "master",
         "description": "OpenOrienteering Mapper is a software for creating maps for the orienteering sport.",
