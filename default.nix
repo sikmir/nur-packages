@@ -47,6 +47,9 @@ in {
   gt4gd = python3Packages.callPackage ./pkgs/gt4gd {
     inherit (sources) google-translate-for-goldendict;
   };
+  mbtileserver = callPackage ./pkgs/mbtileserver {
+    inherit (sources) mbtileserver;
+  };
   mbutil = python3Packages.callPackage ./pkgs/mbutil {
     inherit (sources) mbutil;
   };

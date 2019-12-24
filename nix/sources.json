@@ -131,6 +131,18 @@
         "url": "https://github.com/OpenOrienteering/mapper/archive/3c943cf1e11fe3b0268d2aea7b5365ffc1811bfa.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "mbtileserver": {
+        "branch": "master",
+        "description": "Basic Go server for mbtiles",
+        "homepage": null,
+        "owner": "consbio",
+        "repo": "mbtileserver",
+        "rev": "1043e833a649100426145caa2c6542a38834b280",
+        "sha256": "0mgd8id4z5qb8jhl7yra9zcwizjggpwq3byvcrbj858ddx5bfw3d",
+        "type": "tarball",
+        "url": "https://github.com/consbio/mbtileserver/archive/1043e833a649100426145caa2c6542a38834b280.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "mbutil": {
         "branch": "master",
         "description": "Importer and Exporter of MBTiles",
