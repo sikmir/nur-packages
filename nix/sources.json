@@ -35,6 +35,18 @@
         "url": "https://github.com/tumic0/GPXSee-maps/archive/8d53800eb0ce4d9240a145959bccb94513128a17.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "cfiles": {
+        "branch": "master",
+        "description": "A ncurses file manager written in C with vim like keybindings",
+        "homepage": "",
+        "owner": "mananapr",
+        "repo": "cfiles",
+        "rev": "ee3f001225764cf38161bafd463c30cf64249de4",
+        "sha256": "07skhabq6ddvm3gwxw8fzb4z7m2zghv3dd96z2ygxpfx8w6h7rpn",
+        "type": "tarball",
+        "url": "https://github.com/mananapr/cfiles/archive/ee3f001225764cf38161bafd463c30cf64249de4.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "csvquote": {
         "branch": "master",
         "description": "Enables common unix utlities like cut, awk, wc, head to work correctly with csv data containing delimiters and newlines",
