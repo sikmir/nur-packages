@@ -75,4 +75,7 @@ in {
     else callPackage ./pkgs/stardict-tools {
       inherit (sources) stardict-3;
     };
+  ueberzug = python3Packages.callPackage ./pkgs/ueberzug {
+    inherit (sources) ueberzug;
+  };
 }

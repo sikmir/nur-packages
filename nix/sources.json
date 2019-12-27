@@ -202,5 +202,17 @@
         "type": "tarball",
         "url": "https://github.com/huzheng001/stardict-3/archive/8c5c26996dca52d6bda0aedb5da0381db930a733.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "ueberzug": {
+        "branch": "master",
+        "description": "ueberzug is an alternative for w3mimgdisplay",
+        "homepage": "",
+        "owner": "seebye",
+        "repo": "ueberzug",
+        "rev": "6f488070a8eda856289f19b70604c0f80ffd5bf0",
+        "sha256": "1cliar6vsbc2mlrpigk6j13i20832giprargggb5ivscmfakywi8",
+        "type": "tarball",
+        "url": "https://github.com/seebye/ueberzug/archive/6f488070a8eda856289f19b70604c0f80ffd5bf0.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
