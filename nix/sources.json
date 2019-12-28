@@ -215,6 +215,18 @@
         "url": "https://github.com/huzheng001/stardict-3/archive/8c5c26996dca52d6bda0aedb5da0381db930a733.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "supload": {
+        "branch": "master",
+        "description": "Bash script for upload file to cloud storage based on OpenStack Swift API.",
+        "homepage": "",
+        "owner": "selectel",
+        "repo": "supload",
+        "rev": "70690682867713c68d7c6daa833a1013e79df407",
+        "sha256": "0di1hr9j2wdicj6n2mlf9achfxd05rqwrfnymsnxhhy7sv50n2bm",
+        "type": "tarball",
+        "url": "https://github.com/selectel/supload/archive/70690682867713c68d7c6daa833a1013e79df407.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "ueberzug": {
         "branch": "master",
         "description": "ueberzug is an alternative for w3mimgdisplay",
