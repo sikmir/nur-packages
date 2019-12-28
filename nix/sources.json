@@ -131,6 +131,18 @@
         "url": "https://notabug.org/irdvo/gpxtools/archive/b989f357abb9f9b694cbe95081dd8d1094019233.tar.gz",
         "url_template": "https://notabug.org/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "imgp": {
+        "branch": "master",
+        "description": ":camera_flash: High-performance CLI batch image resizer & rotator",
+        "homepage": "",
+        "owner": "jarun",
+        "repo": "imgp",
+        "rev": "9a50724cbc97a282ed79476398ab6ff3f6f7339e",
+        "sha256": "13r4fn3dd0nyidfhrr7zzpls5ifbyqdwxhyvpkqr8ahchws7wfc6",
+        "type": "tarball",
+        "url": "https://github.com/jarun/imgp/archive/9a50724cbc97a282ed79476398ab6ff3f6f7339e.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "lsd2dsl": {
         "branch": "master",
         "description": "Lingvo dictionaries decompiler",
