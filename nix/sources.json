@@ -107,6 +107,18 @@
         "url": "https://github.com/ericfischer/gpx-layer/archive/746b4723cf1f69fb86d45cf2d4efeaae9e711d2d.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "gpxelevations": {
+        "branch": "master",
+        "description": "Geo elevation data parser for \"The Shuttle Radar Topography Mission\" data",
+        "homepage": "",
+        "owner": "tkrajina",
+        "repo": "srtm.py",
+        "rev": "075126875bedbee0f23676f4a8159c6240398a95",
+        "sha256": "0yya7y5vkya6aqq338jwxry71yhywyjnb67nxvplq69nadzy0vn0",
+        "type": "tarball",
+        "url": "https://github.com/tkrajina/srtm.py/archive/075126875bedbee0f23676f4a8159c6240398a95.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "gpxpy": {
         "branch": "master",
         "description": "gpx-py is a python GPX parser. GPX (GPS eXchange Format) is an XML based file format for GPS tracks.",

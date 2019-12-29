@@ -33,6 +33,10 @@ in rec {
   gpx-layer = perlPackages.callPackage ./pkgs/gpx-layer {
     inherit (sources) gpx-layer;
   };
+  gpxelevations = python3Packages.callPackage ./pkgs/gpxelevations {
+    inherit gpxpy;
+    inherit (sources) gpxelevations;
+  };
   gpxlab = libsForQt5.callPackage ./pkgs/gpxlab {
     inherit (sources) GPXLab;
   };
