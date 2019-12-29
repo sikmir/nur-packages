@@ -38,7 +38,7 @@ in rec {
     inherit (sources) gpxelevations;
   };
   gpxlab = libsForQt5.callPackage ./pkgs/gpxlab {
-    inherit (sources) GPXLab;
+    inherit (sources) gpxlab;
   };
   gpxpy = python3Packages.callPackage ./pkgs/gpxpy {
     inherit (sources) gpxpy;
