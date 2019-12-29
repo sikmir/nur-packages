@@ -44,10 +44,10 @@ in rec {
     inherit (sources) gpxpy;
   };
   gpxsee = libsForQt5.callPackage ./pkgs/gpxsee {
-    inherit (sources) GPXSee;
+    inherit (sources) gpxsee;
   };
   gpxsee-maps = callPackage ./pkgs/gpxsee-maps {
-    inherit (sources) GPXSee-maps;
+    inherit (sources) gpxsee-maps;
   };
   gpxtools = callPackage ./pkgs/gpxtools {
     inherit (sources) gpxtools;
