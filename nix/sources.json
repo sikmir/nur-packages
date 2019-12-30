@@ -191,6 +191,18 @@
         "url": "https://github.com/OpenOrienteering/mapper/archive/9ff0368ca9548da52c6ac7f04c087ef4dcb3a1e3.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "mapsoft": {
+        "branch": "master",
+        "description": "Mapping software for linux",
+        "homepage": "http://slazav.mccme.ru/prog/mapsoft.htm",
+        "owner": "ushakov",
+        "repo": "mapsoft",
+        "rev": "23bd02a05ecf86280acbc2f836803699fa6b13b9",
+        "sha256": "0rq71l9ma82h8rabg1frcxmbpvxqsqnxfixphqmdjybrhxmq2921",
+        "type": "tarball",
+        "url": "https://github.com/ushakov/mapsoft/archive/23bd02a05ecf86280acbc2f836803699fa6b13b9.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "mbtileserver": {
         "branch": "master",
         "description": "Basic Go server for mbtiles",

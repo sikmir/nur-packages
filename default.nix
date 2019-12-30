@@ -64,6 +64,9 @@ in rec {
   imgp = python3Packages.callPackage ./pkgs/imgp {
     inherit (sources) imgp;
   };
+  mapsoft = callPackage ./pkgs/mapsoft {
+    inherit (sources) mapsoft;
+  };
   mbtileserver = callPackage ./pkgs/mbtileserver {
     inherit (sources) mbtileserver;
   };
