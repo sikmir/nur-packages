@@ -89,10 +89,10 @@
         "homepage": "https://github.com/BourgeoisLab/GPXLab",
         "owner": "BourgeoisLab",
         "repo": "GPXLab",
-        "rev": "68721865f5fd6a5b2414da47a00778d5c342a461",
-        "sha256": "07yrq852cayzrfcwgjzk7h8zp6vnk8639772dsnb4jiqgg8sns42",
+        "rev": "44755cf7d12c4342d24ee6204a09ad8d3e7cd994",
+        "sha256": "03cp8gx6d5bz645i9sp0vsy0fnhczw6a16bqgjkbjs3h9x2ls780",
         "type": "tarball",
-        "url": "https://github.com/BourgeoisLab/GPXLab/archive/68721865f5fd6a5b2414da47a00778d5c342a461.tar.gz",
+        "url": "https://github.com/BourgeoisLab/GPXLab/archive/44755cf7d12c4342d24ee6204a09ad8d3e7cd994.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "gpxpy": {
