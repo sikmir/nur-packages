@@ -227,6 +227,18 @@
         "url": "https://github.com/mapbox/mbutil/archive/2fc4161f9be890a65d07f5e7b2ed0c8a0a123ed6.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "pymbtiles": {
+        "branch": "master",
+        "description": "Python utilities for Mapbox mbtiles files",
+        "homepage": "https://github.com/consbio/pymbtiles",
+        "owner": "consbio",
+        "repo": "pymbtiles",
+        "rev": "02fbee6e935b9990e98874925b091e07ff89bdb0",
+        "sha256": "1gjvl0ywwl74ilkmq2m94my1m5v2m1qlfzs1kvkgxd32sl5yg9dv",
+        "type": "tarball",
+        "url": "https://github.com/consbio/pymbtiles/archive/02fbee6e935b9990e98874925b091e07ff89bdb0.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "redict": {
         "branch": "master",
         "description": "A dictionary for Linux, based on C++/Qt development.",
