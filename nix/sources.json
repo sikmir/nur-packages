@@ -227,6 +227,18 @@
         "url": "https://github.com/mapbox/mbutil/archive/2fc4161f9be890a65d07f5e7b2ed0c8a0a123ed6.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "mercantile": {
+        "branch": "master",
+        "description": "Spherical mercator tile and coordinate utilities",
+        "homepage": "https://github.com/mapbox/mercantile",
+        "owner": "mapbox",
+        "repo": "mercantile",
+        "rev": "dae32795f9da7a9f39d8ea52f2321af008f35ab9",
+        "sha256": "1f3gw512396v5lljkn9czsln8qciccg7mm6bvv5qxggf8ih6vgya",
+        "type": "tarball",
+        "url": "https://github.com/mapbox/mercantile/archive/dae32795f9da7a9f39d8ea52f2321af008f35ab9.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "pymbtiles": {
         "branch": "master",
         "description": "Python utilities for Mapbox mbtiles files",

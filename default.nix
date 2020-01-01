@@ -75,6 +75,9 @@ in rec {
   mbutil = python3Packages.callPackage ./pkgs/mbutil {
     inherit (sources) mbutil;
   };
+  mercantile = python3Packages.callPackage ./pkgs/mercantile {
+    inherit (sources) mercantile;
+  };
   openorienteering-mapper = libsForQt5.callPackage ./pkgs/openorienteering-mapper {
     inherit (sources) mapper;
   };
