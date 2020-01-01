@@ -101,6 +101,11 @@ in rec {
   supload = callPackage ./pkgs/supload {
     inherit (sources) supload;
   };
+  tpkutils = python3Packages.callPackage ./pkgs/tpkutils {
+    inherit mercantile;
+    inherit pymbtiles;
+    inherit (sources) tpkutils;
+  };
   ueberzug = python3Packages.callPackage ./pkgs/ueberzug {
     inherit (sources) ueberzug;
   };
