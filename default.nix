@@ -84,7 +84,7 @@ in rec {
   pymbtiles = python3Packages.callPackage ./pkgs/pymbtiles {
     inherit (sources) pymbtiles;
   };
-  qmapshack-maps = callPackage ./pkgs/qmapshack-maps { };
+  qmapshack-onlinemaps = callPackage ./pkgs/qmapshack-onlinemaps { };
   redict = libsForQt5.callPackage ./pkgs/redict {
     inherit (sources) redict;
   };
