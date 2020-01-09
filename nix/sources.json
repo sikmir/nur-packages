@@ -47,6 +47,18 @@
         "url": "https://github.com/ericfischer/datamaps/archive/76e620adabbedabd6866b23b30c145b53bae751e.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "docker-reg-tool": {
+        "branch": "master",
+        "description": "Docker registry cli tool, primarily for deleting images.",
+        "homepage": "https://github.com/byrnedo/docker-reg-tool",
+        "owner": "byrnedo",
+        "repo": "docker-reg-tool",
+        "rev": "c5e7ff63fa476cac1eed717d0aef238beb50c21c",
+        "sha256": "02ilwyanfgcsncnhwyy1y6l4bc6phcx610xckb7rnklkplw4c04m",
+        "type": "tarball",
+        "url": "https://github.com/byrnedo/docker-reg-tool/archive/c5e7ff63fa476cac1eed717d0aef238beb50c21c.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "google-translate-for-goldendict": {
         "branch": "master",
         "description": "Add Google translate to GoldenDict",
