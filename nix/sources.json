@@ -59,6 +59,18 @@
         "url": "https://github.com/byrnedo/docker-reg-tool/archive/c5e7ff63fa476cac1eed717d0aef238beb50c21c.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "embox": {
+        "branch": "master",
+        "description": "Modular and configurable OS for embedded applications",
+        "homepage": "http://embox.github.io",
+        "owner": "embox",
+        "repo": "embox",
+        "rev": "6f8a4207fb9649b2572b8c23c056fc776f2e4492",
+        "sha256": "1fwp3wk9hn3ra0ls7z4bxzrpmdrcvidlcaiv5xx766397hdk12r0",
+        "type": "tarball",
+        "url": "https://github.com/embox/embox/archive/6f8a4207fb9649b2572b8c23c056fc776f2e4492.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "google-translate-for-goldendict": {
         "branch": "master",
         "description": "Add Google translate to GoldenDict",
