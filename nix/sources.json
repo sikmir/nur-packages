@@ -65,10 +65,10 @@
         "homepage": "http://embox.github.io",
         "owner": "embox",
         "repo": "embox",
-        "rev": "6f8a4207fb9649b2572b8c23c056fc776f2e4492",
-        "sha256": "1fwp3wk9hn3ra0ls7z4bxzrpmdrcvidlcaiv5xx766397hdk12r0",
+        "rev": "f78bb141bb36124e9738110f14de2f55e7bd0ab6",
+        "sha256": "10knbp9fvqsg7vy53cqi450ikn76pmdarx09qvwakgkpjj6v30zm",
         "type": "tarball",
-        "url": "https://github.com/embox/embox/archive/6f8a4207fb9649b2572b8c23c056fc776f2e4492.tar.gz",
+        "url": "https://github.com/embox/embox/archive/f78bb141bb36124e9738110f14de2f55e7bd0ab6.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "google-translate-for-goldendict": {
