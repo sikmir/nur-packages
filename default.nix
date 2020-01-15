@@ -77,6 +77,9 @@ in rec {
     inherit (sources) imgp;
   };
   ish = callPackage ./pkgs/ish { };
+  libshell = callPackage ./pkgs/libshell {
+    inherit (sources) libshell;
+  };
   mapsoft = callPackage ./pkgs/mapsoft {
     inherit (sources) mapsoft;
   };
