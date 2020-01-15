@@ -43,14 +43,10 @@ in rec {
     inherit (sources) gpx-layer;
   };
   gpxelevations = python3Packages.callPackage ./pkgs/gpxelevations {
-    inherit gpxpy;
     inherit (sources) gpxelevations;
   };
   gpxlab = libsForQt5.callPackage ./pkgs/gpxlab {
     inherit (sources) gpxlab;
-  };
-  gpxpy = python3Packages.callPackage ./pkgs/gpxpy {
-    inherit (sources) gpxpy;
   };
   gpxsee = libsForQt5.callPackage ./pkgs/gpxsee {
     inherit (sources) gpxsee;
