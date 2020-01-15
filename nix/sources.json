@@ -275,6 +275,18 @@
         "url": "https://github.com/mapbox/mercantile/archive/dae32795f9da7a9f39d8ea52f2321af008f35ab9.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "openmtbmap_openvelomap_linux": {
+        "branch": "master",
+        "description": "Linux script to extract and compile garmin *.img map files from openmtbmap.org or openvelomap.org downloads",
+        "homepage": "https://github.com/btittelbach/openmtbmap_openvelomap_linux",
+        "owner": "btittelbach",
+        "repo": "openmtbmap_openvelomap_linux",
+        "rev": "6d00e273d7391fae72fb7fd21859483db3e26c1a",
+        "sha256": "17az6k4z71k85ibcabka6yig6bnpk6fknmgx9ilk1x74rifaz06s",
+        "type": "tarball",
+        "url": "https://github.com/btittelbach/openmtbmap_openvelomap_linux/archive/6d00e273d7391fae72fb7fd21859483db3e26c1a.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "pymbtiles": {
         "branch": "master",
         "description": "Python utilities for Mapbox mbtiles files",
