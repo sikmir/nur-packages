@@ -81,6 +81,7 @@ in rec {
     inherit (sources) libshell;
   };
   mapsoft = callPackage ./pkgs/mapsoft {
+    inherit libshell;
     inherit (sources) mapsoft;
   };
   mbtileserver = callPackage ./pkgs/mbtileserver {
