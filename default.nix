@@ -92,6 +92,7 @@ in rec {
   openorienteering-mapper = libsForQt5.callPackage ./pkgs/openorienteering-mapper {
     inherit (sources) mapper;
   };
+  ptunnel =  callPackage ./pkgs/ptunnel { };
   pymbtiles = python3Packages.callPackage ./pkgs/pymbtiles {
     inherit (sources) pymbtiles;
   };
