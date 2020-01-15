@@ -125,10 +125,10 @@
         "homepage": "https://www.gpxsee.org",
         "owner": "tumic0",
         "repo": "GPXSee",
-        "rev": "a89ef11d733337a6263aa7e9f5ada7c2e9dcbd5e",
-        "sha256": "10a917y26l1iz0k8njdb4cvyly6qr0hv5pa5f6dgch01p85c52da",
+        "rev": "42b4216d9c43ff22146bfa305da766a3d330b2f9",
+        "sha256": "14pzcyy8kbnmr21yzml1hp7qmc055gyf48s27ff0jndd6f2dmxiq",
         "type": "tarball",
-        "url": "https://github.com/tumic0/GPXSee/archive/a89ef11d733337a6263aa7e9f5ada7c2e9dcbd5e.tar.gz",
+        "url": "https://github.com/tumic0/GPXSee/archive/42b4216d9c43ff22146bfa305da766a3d330b2f9.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "gpxsee-maps": {
