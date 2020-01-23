@@ -125,10 +125,10 @@
         "homepage": "https://www.gpxsee.org",
         "owner": "tumic0",
         "repo": "GPXSee",
-        "rev": "42b4216d9c43ff22146bfa305da766a3d330b2f9",
-        "sha256": "14pzcyy8kbnmr21yzml1hp7qmc055gyf48s27ff0jndd6f2dmxiq",
+        "rev": "2ff219511667d11b319877d0469954e2859a61ad",
+        "sha256": "0nwz0nafcm8bb9pc9cwx2fjl7kz9kr37hzkqm1hiynf14nld83in",
         "type": "tarball",
-        "url": "https://github.com/tumic0/GPXSee/archive/42b4216d9c43ff22146bfa305da766a3d330b2f9.tar.gz",
+        "url": "https://github.com/tumic0/GPXSee/archive/2ff219511667d11b319877d0469954e2859a61ad.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "gpxsee-maps": {
@@ -209,10 +209,10 @@
         "homepage": "https://www.openorienteering.org/apps/mapper/",
         "owner": "OpenOrienteering",
         "repo": "mapper",
-        "rev": "b4466b076612314fb4ec2fa724489ea169a3d765",
-        "sha256": "1kp8pf7lcs1nya1bj28jpg6lb6xwh4m31cqp8m8fzkvgvk1ppf1s",
+        "rev": "43c0cb2b056a0f5a634e417fd0c2ccf8fb043386",
+        "sha256": "04jamq4an8abi3gfkd948kpgh6nln8zwahadsziwj8nw4giam06s",
         "type": "tarball",
-        "url": "https://github.com/OpenOrienteering/mapper/archive/b4466b076612314fb4ec2fa724489ea169a3d765.tar.gz",
+        "url": "https://github.com/OpenOrienteering/mapper/archive/43c0cb2b056a0f5a634e417fd0c2ccf8fb043386.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "mapsoft": {
