@@ -221,10 +221,10 @@
         "homepage": "http://slazav.mccme.ru/prog/mapsoft.htm",
         "owner": "ushakov",
         "repo": "mapsoft",
-        "rev": "23bd02a05ecf86280acbc2f836803699fa6b13b9",
-        "sha256": "0rq71l9ma82h8rabg1frcxmbpvxqsqnxfixphqmdjybrhxmq2921",
+        "rev": "904e2da8a55e8426a56de7e41b06cb92e1656005",
+        "sha256": "1hs5nlb6jrvfjvwi34wzxqrm8bix365q7f169wix1nw0ngfcpjw3",
         "type": "tarball",
-        "url": "https://github.com/ushakov/mapsoft/archive/23bd02a05ecf86280acbc2f836803699fa6b13b9.tar.gz",
+        "url": "https://github.com/ushakov/mapsoft/archive/904e2da8a55e8426a56de7e41b06cb92e1656005.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "mbtileserver": {
