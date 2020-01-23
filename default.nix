@@ -21,6 +21,7 @@ in rec {
     inherit ueberzug;
     inherit (sources) cfiles;
   };
+  click = python3Packages.callPackage ./pkgs/click { };
   csvquote = callPackage ./pkgs/csvquote {
     inherit (sources) csvquote;
   };
