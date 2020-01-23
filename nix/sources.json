@@ -167,18 +167,6 @@
         "url": "https://github.com/OPHoperHPO/GT-bash-client/archive/f8959489d93de963721985b2b9501ed0bc8ce3e8.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
-    "imgp": {
-        "branch": "master",
-        "description": ":camera_flash: High-performance CLI batch image resizer & rotator",
-        "homepage": "https://github.com/jarun/imgp",
-        "owner": "jarun",
-        "repo": "imgp",
-        "rev": "9a50724cbc97a282ed79476398ab6ff3f6f7339e",
-        "sha256": "13r4fn3dd0nyidfhrr7zzpls5ifbyqdwxhyvpkqr8ahchws7wfc6",
-        "type": "tarball",
-        "url": "https://github.com/jarun/imgp/archive/9a50724cbc97a282ed79476398ab6ff3f6f7339e.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
     "libshell": {
         "branch": "master",
         "description": "A library of shell functions",

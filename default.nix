@@ -69,9 +69,6 @@ in rec {
   gt4gd = python3Packages.callPackage ./pkgs/gt4gd {
     inherit (sources) google-translate-for-goldendict;
   };
-  imgp = python3Packages.callPackage ./pkgs/imgp {
-    inherit (sources) imgp;
-  };
   ish = callPackage ./pkgs/ish { };
   libshell = callPackage ./pkgs/libshell {
     inherit (sources) libshell;
