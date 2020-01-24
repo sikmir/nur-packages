@@ -34,6 +34,10 @@ in rec {
   docker-reg-tool = callPackage ./pkgs/docker-reg-tool {
     inherit (sources) docker-reg-tool;
   };
+  elevation = python3Packages.callPackage ./pkgs/elevation {
+    inherit click;
+    inherit (sources) elevation;
+  };
   embox = callPackage ./pkgs/embox {
     inherit (sources) embox;
   };

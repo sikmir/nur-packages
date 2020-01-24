@@ -59,6 +59,18 @@
         "url": "https://github.com/byrnedo/docker-reg-tool/archive/c5e7ff63fa476cac1eed717d0aef238beb50c21c.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "elevation": {
+        "branch": "master",
+        "description": "Python script to download global terrain digital elevation models, SRTM 30m DEM and SRTM 90m DEM.",
+        "homepage": "http://elevation.bopen.eu",
+        "owner": "bopen",
+        "repo": "elevation",
+        "rev": "d225fc388e2ab263f3b7657986349262a2ba1e4d",
+        "sha256": "08zywj3napl6sqdhm18q60riij4fr60slm3fql9917bxs4j3n17y",
+        "type": "tarball",
+        "url": "https://github.com/bopen/elevation/archive/d225fc388e2ab263f3b7657986349262a2ba1e4d.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "embox": {
         "branch": "master",
         "description": "Modular and configurable OS for embedded applications",
