@@ -74,6 +74,7 @@ in rec {
   gt4gd = python3Packages.callPackage ./pkgs/gt4gd {
     inherit (sources) google-translate-for-goldendict;
   };
+  hiblovgpsmap = callPackage ./pkgs/hiblovgpsmap { };
   ish = callPackage ./pkgs/ish { };
   libshell = callPackage ./pkgs/libshell {
     inherit (sources) libshell;
