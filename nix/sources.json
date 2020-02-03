@@ -191,18 +191,6 @@
         "url": "https://github.com/legionus/libshell/archive/b05a238290160d67c4253208b9c9523643c7471a.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
-    "lsd2dsl": {
-        "branch": "master",
-        "description": "Lingvo dictionaries decompiler",
-        "homepage": "https://rcebits.com/lsd2dsl/index.html",
-        "owner": "nongeneric",
-        "repo": "lsd2dsl",
-        "rev": "9700272c49ccf2658ab396d49b9098d685838f08",
-        "sha256": "0hs51ymh4pbmsz53ahrm7zkinxqlghbqyvavymkn59wflpm2hsxy",
-        "type": "tarball",
-        "url": "https://github.com/nongeneric/lsd2dsl/archive/9700272c49ccf2658ab396d49b9098d685838f08.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
     "lsdreader": {
         "branch": "master",
         "description": "decompile Lingvo LSD dictionary to DSL",

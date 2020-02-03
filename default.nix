@@ -65,9 +65,6 @@ in rec {
   gt-bash-client = callPackage ./pkgs/tools/gt-bash-client {
     inherit (sources) gt-bash-client;
   };
-  lsd2dsl = libsForQt5.callPackage ./pkgs/tools/lsd2dsl {
-    inherit (sources) lsd2dsl;
-  };
   lsdreader = python3Packages.callPackage ./pkgs/tools/lsdreader {
     inherit (sources) lsdreader;
   };
