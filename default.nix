@@ -44,7 +44,7 @@ in rec {
   gmaptool = callPackage ./pkgs/tools/gmaptool { };
   goldendict-dark-theme =
     callPackage ./pkgs/data/themes/goldendict-themes/dark-theme.nix { };
-  gpx-layer = perlPackages.callPackage ./pkgs/gpx-layer {
+  gpx-layer = perlPackages.callPackage ./pkgs/tools/gpx-layer {
     inherit (sources) gpx-layer;
   };
   gpxelevations = python3Packages.callPackage ./pkgs/development/python-modules/gpxelevations {
