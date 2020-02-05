@@ -114,6 +114,10 @@ in rec {
     else callPackage ./pkgs/tools/stardict-tools {
       inherit (sources) stardict-3;
     };
+  supermercado = python3Packages.callPackage ./pkgs/tools/supermercado {
+    inherit mercantile;
+    inherit (sources) supermercado;
+  };
   supload = callPackage ./pkgs/tools/supload {
     inherit (sources) supload;
   };

@@ -311,6 +311,18 @@
         "url": "https://github.com/huzheng001/stardict-3/archive/8c5c26996dca52d6bda0aedb5da0381db930a733.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "supermercado": {
+        "branch": "master",
+        "description": "Supercharger for mercantile",
+        "homepage": "https://github.com/mapbox/supermercado",
+        "owner": "mapbox",
+        "repo": "supermercado",
+        "rev": "a3f3e4b0a5b4694aabc6245f90bd8a93db8c90a4",
+        "sha256": "0sam1jg244kp347bnq0vkl1jqlax7n7nxj22x87bm355rgpfbgij",
+        "type": "tarball",
+        "url": "https://github.com/mapbox/supermercado/archive/a3f3e4b0a5b4694aabc6245f90bd8a93db8c90a4.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "supload": {
         "branch": "master",
         "description": "Bash script for upload file to cloud storage based on OpenStack Swift API.",
