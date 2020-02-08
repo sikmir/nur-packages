@@ -97,6 +97,9 @@ in rec {
     inherit (sources) mapper;
   };
   ptunnel =  callPackage ./pkgs/tools/networking/ptunnel { };
+  pyephem = python3Packages.callPackage ./pkgs/development/python-modules/pyephem {
+    inherit (sources) pyephem;
+  };
   pymbtiles = python3Packages.callPackage ./pkgs/development/python-modules/pymbtiles {
     inherit (sources) pymbtiles;
   };

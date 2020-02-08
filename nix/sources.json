@@ -275,6 +275,18 @@
         "url": "https://github.com/btittelbach/openmtbmap_openvelomap_linux/archive/6d00e273d7391fae72fb7fd21859483db3e26c1a.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "pyephem": {
+        "branch": "master",
+        "description": "Scientific-grade astronomy routines for Python",
+        "homepage": "https://rhodesmill.org/pyephem",
+        "owner": "brandon-rhodes",
+        "repo": "pyephem",
+        "rev": "db3e617e73d814efd994a259a5df9addac721774",
+        "sha256": "100lic8qkj1xnbc64zv378azjap57zvlkqw2kxdncp1xdcbiz7hq",
+        "type": "tarball",
+        "url": "https://github.com/brandon-rhodes/pyephem/archive/db3e617e73d814efd994a259a5df9addac721774.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "pymbtiles": {
         "branch": "master",
         "description": "Python utilities for Mapbox mbtiles files",
