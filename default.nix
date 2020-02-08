@@ -21,6 +21,9 @@ in rec {
     inherit ueberzug;
     inherit (sources) cfiles;
   };
+  cheetah3 = python3Packages.callPackage ./pkgs/development/python-modules/cheetah3 {
+    inherit (sources) cheetah3;
+  };
   click = python3Packages.callPackage ./pkgs/development/python-modules/click { };
   csvquote = callPackage ./pkgs/tools/text/csvquote {
     inherit (sources) csvquote;

@@ -11,6 +11,18 @@
         "url": "https://github.com/mananapr/cfiles/archive/ee3f001225764cf38161bafd463c30cf64249de4.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "cheetah3": {
+        "branch": "master",
+        "description": "Cheetah3 is a free (MIT) and open source template engine for Python.",
+        "homepage": "https://cheetahtemplate.org/",
+        "owner": "CheetahTemplate3",
+        "repo": "cheetah3",
+        "rev": "44ebf7f59a749322fcc397b21611ad487193e697",
+        "sha256": "1962imkj6w54h5c46jnxx79lpc7dw5a731p38j8z4630hwzli1dw",
+        "type": "tarball",
+        "url": "https://github.com/CheetahTemplate3/cheetah3/archive/44ebf7f59a749322fcc397b21611ad487193e697.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "csvquote": {
         "branch": "master",
         "description": "Enables common unix utlities like cut, awk, wc, head to work correctly with csv data containing delimiters and newlines",
