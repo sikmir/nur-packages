@@ -1,6 +1,7 @@
 {
     "cfiles": {
         "branch": "master",
+        "builtin": false,
         "description": "A ncurses file manager written in C with vim like keybindings",
         "homepage": "https://github.com/mananapr/cfiles",
         "owner": "mananapr",
@@ -13,6 +14,7 @@
     },
     "cheetah3": {
         "branch": "master",
+        "builtin": false,
         "description": "Cheetah3 is a free (MIT) and open source template engine for Python.",
         "homepage": "https://cheetahtemplate.org/",
         "owner": "CheetahTemplate3",
@@ -25,6 +27,7 @@
     },
     "csvquote": {
         "branch": "master",
+        "builtin": false,
         "description": "Enables common unix utlities like cut, awk, wc, head to work correctly with csv data containing delimiters and newlines",
         "homepage": "https://github.com/dbro/csvquote",
         "owner": "dbro",
@@ -37,6 +40,7 @@
     },
     "csvtools": {
         "branch": "master",
+        "builtin": false,
         "description": "GNU-alike tools for parsing RFC 4180 CSVs at high speed.",
         "homepage": "https://github.com/DavyLandman/csvtools",
         "owner": "DavyLandman",
@@ -49,6 +53,7 @@
     },
     "datamaps": {
         "branch": "master",
+        "builtin": false,
         "description": "Indexes points and lines and generates map tiles to display them",
         "homepage": "https://github.com/ericfischer/datamaps",
         "owner": "ericfischer",
@@ -61,6 +66,7 @@
     },
     "docker-reg-tool": {
         "branch": "master",
+        "builtin": false,
         "description": "Docker registry cli tool, primarily for deleting images.",
         "homepage": "https://github.com/byrnedo/docker-reg-tool",
         "owner": "byrnedo",
@@ -73,6 +79,7 @@
     },
     "elevation": {
         "branch": "master",
+        "builtin": false,
         "description": "Python script to download global terrain digital elevation models, SRTM 30m DEM and SRTM 90m DEM.",
         "homepage": "http://elevation.bopen.eu",
         "owner": "bopen",
@@ -85,6 +92,7 @@
     },
     "embox": {
         "branch": "master",
+        "builtin": false,
         "description": "Modular and configurable OS for embedded applications",
         "homepage": "http://embox.github.io",
         "owner": "embox",
@@ -97,6 +105,7 @@
     },
     "google-translate-for-goldendict": {
         "branch": "master",
+        "builtin": false,
         "description": "Add Google translate to GoldenDict",
         "homepage": "https://github.com/xinebf/google-translate-for-goldendict",
         "owner": "xinebf",
@@ -109,6 +118,7 @@
     },
     "gpx-layer": {
         "branch": "master",
+        "builtin": false,
         "description": "Tools to turn GPX files into a GPS map tracing layer",
         "homepage": "https://github.com/ericfischer/gpx-layer",
         "owner": "ericfischer",
@@ -121,6 +131,7 @@
     },
     "gpxelevations": {
         "branch": "master",
+        "builtin": false,
         "description": "Geo elevation data parser for \"The Shuttle Radar Topography Mission\" data",
         "homepage": "https://github.com/tkrajina/srtm.py",
         "owner": "tkrajina",
@@ -133,6 +144,7 @@
     },
     "gpxlab": {
         "branch": "master",
+        "builtin": false,
         "description": "Program to show and manipulate GPS tracks",
         "homepage": "https://github.com/BourgeoisLab/GPXLab",
         "owner": "BourgeoisLab",
@@ -145,6 +157,7 @@
     },
     "gpxsee": {
         "branch": "master",
+        "builtin": false,
         "description": "GPS log file viewer and analyzer with support for GPX, TCX, KML, FIT, IGC, NMEA, SLF, LOC, GeoJSON and OziExplorer files.",
         "homepage": "https://www.gpxsee.org",
         "owner": "tumic0",
@@ -157,6 +170,7 @@
     },
     "gpxsee-maps": {
         "branch": "master",
+        "builtin": false,
         "description": "GPXSee maps",
         "homepage": "http://www.gpxsee.org",
         "owner": "tumic0",
@@ -169,6 +183,7 @@
     },
     "gpxtools": {
         "branch": "master",
+        "builtin": false,
         "description": "A collection of c++ tools for using GPX files ",
         "homepage": "https://notabug.org/irdvo/gpxtools",
         "owner": "irdvo",
@@ -181,6 +196,7 @@
     },
     "gt-bash-client": {
         "branch": "master",
+        "builtin": false,
         "description": "Get translated text from your terminal! Console Google Translate Script (bash+curl+sed)",
         "homepage": "https://ophoperhpo.github.io/GT-bash-client/",
         "owner": "OPHoperHPO",
@@ -193,6 +209,7 @@
     },
     "libshell": {
         "branch": "master",
+        "builtin": false,
         "description": "A library of shell functions",
         "homepage": "https://github.com/legionus/libshell",
         "owner": "legionus",
@@ -205,6 +222,7 @@
     },
     "lsdreader": {
         "branch": "master",
+        "builtin": false,
         "description": "decompile Lingvo LSD dictionary to DSL",
         "homepage": "https://github.com/sv99/lsdreader",
         "owner": "sv99",
@@ -217,6 +235,7 @@
     },
     "mapper": {
         "branch": "master",
+        "builtin": false,
         "description": "OpenOrienteering Mapper is a software for creating maps for the orienteering sport.",
         "homepage": "https://www.openorienteering.org/apps/mapper/",
         "owner": "OpenOrienteering",
@@ -229,6 +248,7 @@
     },
     "mapsoft": {
         "branch": "master",
+        "builtin": false,
         "description": "Mapping software for linux",
         "homepage": "http://slazav.mccme.ru/prog/mapsoft.htm",
         "owner": "ushakov",
@@ -241,6 +261,7 @@
     },
     "mbtileserver": {
         "branch": "master",
+        "builtin": false,
         "description": "Basic Go server for mbtiles",
         "homepage": "https://github.com/consbio/mbtileserver",
         "owner": "consbio",
@@ -253,6 +274,7 @@
     },
     "mbutil": {
         "branch": "master",
+        "builtin": false,
         "description": "Importer and Exporter of MBTiles",
         "homepage": "http://mapbox.com/developers/",
         "owner": "mapbox",
@@ -265,6 +287,7 @@
     },
     "mercantile": {
         "branch": "master",
+        "builtin": false,
         "description": "Spherical mercator tile and coordinate utilities",
         "homepage": "https://github.com/mapbox/mercantile",
         "owner": "mapbox",
@@ -277,6 +300,7 @@
     },
     "openmtbmap_openvelomap_linux": {
         "branch": "master",
+        "builtin": false,
         "description": "Linux script to extract and compile garmin *.img map files from openmtbmap.org or openvelomap.org downloads",
         "homepage": "https://github.com/btittelbach/openmtbmap_openvelomap_linux",
         "owner": "btittelbach",
@@ -289,6 +313,7 @@
     },
     "pyephem": {
         "branch": "master",
+        "builtin": false,
         "description": "Scientific-grade astronomy routines for Python",
         "homepage": "https://rhodesmill.org/pyephem",
         "owner": "brandon-rhodes",
@@ -301,6 +326,7 @@
     },
     "pymbtiles": {
         "branch": "master",
+        "builtin": false,
         "description": "Python utilities for Mapbox mbtiles files",
         "homepage": "https://github.com/consbio/pymbtiles",
         "owner": "consbio",
@@ -313,6 +339,7 @@
     },
     "redict": {
         "branch": "master",
+        "builtin": false,
         "description": "A dictionary for Linux, based on C++/Qt development.",
         "homepage": "https://github.com/rekols/redict",
         "owner": "rekols",
@@ -325,6 +352,7 @@
     },
     "stardict-3": {
         "branch": "master",
+        "builtin": false,
         "description": "Automatically exported from code.google.com/p/stardict-3",
         "homepage": "https://github.com/huzheng001/stardict-3",
         "owner": "huzheng001",
@@ -337,6 +365,7 @@
     },
     "supermercado": {
         "branch": "master",
+        "builtin": false,
         "description": "Supercharger for mercantile",
         "homepage": "https://github.com/mapbox/supermercado",
         "owner": "mapbox",
@@ -349,6 +378,7 @@
     },
     "supload": {
         "branch": "master",
+        "builtin": false,
         "description": "Bash script for upload file to cloud storage based on OpenStack Swift API.",
         "homepage": "https://github.com/selectel/supload",
         "owner": "selectel",
@@ -361,6 +391,7 @@
     },
     "tpkutils": {
         "branch": "master",
+        "builtin": false,
         "description": "ArcGIS Tile Package Utilities",
         "homepage": "https://github.com/consbio/tpkutils",
         "owner": "consbio",
@@ -373,6 +404,7 @@
     },
     "ueberzug": {
         "branch": "master",
+        "builtin": false,
         "description": "ueberzug is an alternative for w3mimgdisplay",
         "homepage": "https://github.com/seebye/ueberzug",
         "owner": "seebye",
