@@ -10,15 +10,16 @@
 
 with pkgs;
 
-let sources = import ./nix/sources.nix;
-in rec {
+let
+  sources = import ./nix/sources.nix;
+
+in stdenv.lib.makeScope pkgs.newScope (self: with self; {
   # The `lib`, `modules`, and `overlay` names are special
   lib = import ./lib { inherit pkgs; }; # functions
   modules = import ./modules; # NixOS modules
   overlays = import ./overlays; # nixpkgs overlays
 
   cfiles = callPackage ./pkgs/tools/cfiles {
-    inherit ueberzug;
     inherit (sources) cfiles;
   };
   cheetah3 = python3Packages.callPackage ./pkgs/development/python-modules/cheetah3 {
@@ -38,7 +39,6 @@ in rec {
     inherit (sources) docker-reg-tool;
   };
   elevation = python3Packages.callPackage ./pkgs/tools/elevation {
-    inherit click;
     inherit (sources) elevation;
   };
   embox = callPackage ./pkgs/embox {
@@ -80,7 +80,6 @@ in rec {
     inherit (sources) libshell;
   };
   mapsoft = callPackage ./pkgs/applications/mapsoft {
-    inherit libshell;
     inherit (sources) mapsoft;
   };
   mbtileserver = callPackage ./pkgs/servers/mbtileserver {
@@ -93,7 +92,6 @@ in rec {
     inherit (sources) mercantile;
   };
   openmtbmap_openvelomap_linux = callPackage ./pkgs/tools/openmtbmap_openvelomap_linux {
-    inherit gmaptool;
     inherit (sources) openmtbmap_openvelomap_linux;
   };
   openorienteering-mapper = libsForQt5.callPackage ./pkgs/applications/openorienteering-mapper {
@@ -121,18 +119,15 @@ in rec {
       inherit (sources) stardict-3;
     };
   supermercado = python3Packages.callPackage ./pkgs/tools/supermercado {
-    inherit mercantile;
     inherit (sources) supermercado;
   };
   supload = callPackage ./pkgs/tools/supload {
     inherit (sources) supload;
   };
   tpkutils = python3Packages.callPackage ./pkgs/tools/tpkutils {
-    inherit mercantile;
-    inherit pymbtiles;
     inherit (sources) tpkutils;
   };
   ueberzug = python3Packages.callPackage ./pkgs/tools/ueberzug {
     inherit (sources) ueberzug;
   };
-}
+})
