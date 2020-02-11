@@ -127,7 +127,4 @@ in stdenv.lib.makeScope pkgs.newScope (self: with self; {
   tpkutils = python3Packages.callPackage ./pkgs/tools/tpkutils {
     inherit (sources) tpkutils;
   };
-  ueberzug = python3Packages.callPackage ./pkgs/tools/ueberzug {
-    inherit (sources) ueberzug;
-  };
 })
