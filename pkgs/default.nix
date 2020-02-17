@@ -50,9 +50,6 @@ lib.makeScope newScope (self: with self; {
   libshell = callPackage ./development/libraries/libshell { };
   mapsoft = callPackage ./applications/mapsoft { };
   mbtileserver = callPackage ./servers/mbtileserver { };
-  mbutil = python3Packages.callPackage ./tools/mbutil {
-    inherit sources;
-  };
   mercantile = python3Packages.callPackage ./development/python-modules/mercantile {
     inherit sources;
   };
