@@ -8,6 +8,7 @@ lib.makeScope newScope (self: with self; {
   inherit sources;
 
   cfiles = callPackage ./tools/cfiles { };
+  cgpsmapper = callPackage ./tools/geo/cgpsmapper { };
   cheetah3 = python3Packages.callPackage ./development/python-modules/cheetah3 {
     inherit sources;
   };
