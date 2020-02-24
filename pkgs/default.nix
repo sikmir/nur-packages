@@ -1,7 +1,7 @@
 { pkgs, sources }:
 
 let
-  inherit (pkgs) lib newScope recurseIntoAttrs perlPackages python3Packages libsForQt5;
+  inherit (pkgs) lib newScope recurseIntoAttrs python3Packages libsForQt5;
 
 in
 lib.makeScope newScope (self: with self; {
@@ -90,4 +90,6 @@ lib.makeScope newScope (self: with self; {
     inherit sources mercantile pymbtiles;
   };
   webster = callPackage ./data/dicts/webster { };
+
+  perlPackages = (callPackage ./perl-packages.nix { }) // pkgs.perlPackages;
 })
