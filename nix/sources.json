@@ -298,6 +298,14 @@
         "url": "https://github.com/ushakov/mapsoft/archive/904e2da8a55e8426a56de7e41b06cb92e1656005.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "maptourist": {
+        "region": "szfo",
+        "sha256": "0nxmgngsid2srgvp7ikzi7fmfck8j0jw9yyflj87747rwlzpjq0w",
+        "type": "file",
+        "url": "https://maptourist.org/osm-garmin/archive/OSM-MapTourist-szfo-RU_2020-02-24.zip",
+        "url_template": "https://maptourist.org/osm-garmin/archive/OSM-MapTourist-<region>-RU_<version>.zip",
+        "version": "2020-02-24"
+    },
     "mbtileserver": {
         "branch": "master",
         "builtin": false,
