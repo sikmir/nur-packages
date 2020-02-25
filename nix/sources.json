@@ -299,6 +299,7 @@
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "maptourist": {
+        "builtin": false,
         "description": "Ежедневная сборка карт из данных OpenStreetMap для навигационных приборов и приложений Garmin",
         "homepage": "https://maptourist.org",
         "region": "szfo",
@@ -349,6 +350,7 @@
     },
     "osm2mp": {
         "branch": "master",
+        "builtin": false,
         "description": "Convert Openstreetmap data to MP format",
         "homepage": "https://github.com/liosha/osm2mp",
         "owner": "liosha",
