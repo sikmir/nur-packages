@@ -185,7 +185,7 @@
         "branch": "master",
         "builtin": false,
         "description": "GPXSee maps",
-        "homepage": "http://www.gpxsee.org",
+        "homepage": "https://tumic0.github.io/GPXSee-maps",
         "owner": "tumic0",
         "repo": "GPXSee-maps",
         "rev": "00d9a58fe81be1ee7b439c6cf568ff2843fcf594",
@@ -299,6 +299,8 @@
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "maptourist": {
+        "description": "Ежедневная сборка карт из данных OpenStreetMap для навигационных приборов и приложений Garmin",
+        "homepage": "https://maptourist.org",
         "region": "szfo",
         "sha256": "0nxmgngsid2srgvp7ikzi7fmfck8j0jw9yyflj87747rwlzpjq0w",
         "type": "file",
