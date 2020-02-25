@@ -95,5 +95,9 @@ lib.makeScope newScope (self: with self; {
   };
   webster = callPackage ./data/dicts/webster { };
 
-  perlPackages = (callPackage ./perl-packages.nix { }) // pkgs.perlPackages;
+  perlPackages = (callPackage ./perl-packages.nix {
+  }) // pkgs.perlPackages // {
+    recurseForDerivations = false;
+  };
+  inherit (perlPackages) MatchSimple SubInfix MathPolygon MathPolygonTree MathGeometryPlanarGPCPolygonXS TreeR GeoOpenstreetmapParser;
 })
