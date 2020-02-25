@@ -345,6 +345,18 @@
         "url": "https://github.com/btittelbach/openmtbmap_openvelomap_linux/archive/6d00e273d7391fae72fb7fd21859483db3e26c1a.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "osm2mp": {
+        "branch": "master",
+        "description": "Convert Openstreetmap data to MP format",
+        "homepage": "https://github.com/liosha/osm2mp",
+        "owner": "liosha",
+        "repo": "osm2mp",
+        "rev": "748f93792ead174ad0e94a183a173ef3fcacf200",
+        "sha256": "0k525fzlcxih51hxvy24fhc12z4i0jvvd4lrfrlhjyhbx8x486v3",
+        "type": "tarball",
+        "url": "https://github.com/liosha/osm2mp/archive/748f93792ead174ad0e94a183a173ef3fcacf200.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "pyephem": {
         "branch": "master",
         "builtin": false,

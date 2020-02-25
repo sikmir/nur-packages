@@ -61,6 +61,10 @@ lib.makeScope newScope (self: with self; {
   openorienteering-mapper = libsForQt5.callPackage ./applications/openorienteering-mapper {
     inherit sources;
   };
+  osm2mp = perlPackages.callPackage ./tools/geo/osm2mp {
+    inherit sources;
+    inherit (perlPackages) GeoOpenstreetmapParser MatchSimple MathPolygon MathPolygonTree TreeR;
+  };
   ptunnel = callPackage ./tools/networking/ptunnel { };
   pyephem = python3Packages.callPackage ./development/python-modules/pyephem {
     inherit sources;
