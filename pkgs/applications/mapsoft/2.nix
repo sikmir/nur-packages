@@ -49,6 +49,8 @@ stdenv.mkDerivation rec {
 
   dontConfigure = true;
 
+  preBuild = "export SKIP_IMG_DIFFS=1";
+
   makeFlags = [ "prefix=${placeholder "out"}" ];
 
   meta = with stdenv.lib; {
