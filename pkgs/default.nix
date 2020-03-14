@@ -59,6 +59,9 @@ lib.makeScope newScope (self: with self; {
   mercantile = python3Packages.callPackage ./development/python-modules/mercantile {
     inherit sources;
   };
+  morse-talk = python3Packages.callPackage ./tools/morse-talk {
+    inherit sources;
+  };
   openmtbmap_openvelomap_linux = callPackage ./tools/geo/openmtbmap_openvelomap_linux { };
   openorienteering-mapper = libsForQt5.callPackage ./applications/openorienteering-mapper {
     inherit sources;

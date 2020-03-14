@@ -335,6 +335,18 @@
         "url": "https://github.com/mapbox/mercantile/archive/dae32795f9da7a9f39d8ea52f2321af008f35ab9.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "morse-talk": {
+        "branch": "master",
+        "description": "A Python library written for Morse Code",
+        "homepage": "https://github.com/morse-talk/morse-talk",
+        "owner": "morse-talk",
+        "repo": "morse-talk",
+        "rev": "71e09ace0aa554d28cada5ee658e43758305b8fa",
+        "sha256": "0jnpv73q4s7x2zhpvnvxhv3bw6asnrqfr1pjr4hzsbpl7h8h5x3y",
+        "type": "tarball",
+        "url": "https://github.com/morse-talk/morse-talk/archive/71e09ace0aa554d28cada5ee658e43758305b8fa.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "openmtbmap_openvelomap_linux": {
         "branch": "master",
         "builtin": false,
