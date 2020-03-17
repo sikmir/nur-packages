@@ -15,11 +15,13 @@ stdenv.mkDerivation rec {
   };
 
   patches = [
-    (substituteAll {
-      src = ./0002-fix-build.patch;
-      db = db.dev;
-      giflib = giflib;
-    })
+    (
+      substituteAll {
+        src = ./0002-fix-build.patch;
+        db = db.dev;
+        giflib = giflib;
+      }
+    )
   ];
 
   postPatch = ''
