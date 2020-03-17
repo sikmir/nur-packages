@@ -1,16 +1,33 @@
-{ stdenv, fetchFromGitHub, substituteAll, db, giflib, gsettings-desktop-schemas
-, gtkmm3, jansson, libjpeg, libpng, libtiff, libxml2, libzip
-, perlPackages, pkgconfig, proj, shapelib, unzip }:
+{ stdenv
+, fetchFromGitHub
+, substituteAll
+, db
+, giflib
+, gsettings-desktop-schemas
+, gtkmm3
+, jansson
+, libjpeg
+, libpng
+, librsvg
+, libtiff
+, libxml2
+, libzip
+, perlPackages
+, pkgconfig
+, proj
+, shapelib
+, unzip
+}:
 
 stdenv.mkDerivation rec {
   pname = "mapsoft2";
-  version = "2020-03-02";
+  version = "2020-03-03";
 
   src = fetchFromGitHub {
     owner = "slazav";
     repo = pname;
-    rev = "3c4e27fc6c48be158656f31cf9cbb32cd5246ab3";
-    sha256 = "1fb4r7nqj5z40s2pzl0i3p1gxcwxs3cca83i95a78n8gvjwkv9vm";
+    rev = "9f0d05ae32513e6eba7bd517d804b12633480794";
+    sha256 = "055bv2qxzg0vhzvjc459gkrvrcxkigm82s3k0xz1mx8mh6akpgnx";
     fetchSubmodules = true;
   };
 
@@ -44,6 +61,7 @@ stdenv.mkDerivation rec {
     jansson
     libjpeg
     libpng
+    librsvg
     libtiff
     libxml2
     libzip
