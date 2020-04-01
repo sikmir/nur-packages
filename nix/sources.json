@@ -175,10 +175,10 @@
         "homepage": "https://www.gpxsee.org",
         "owner": "tumic0",
         "repo": "GPXSee",
-        "rev": "c9244c0684b591ea8417b37b20c0ded5bf0190a7",
-        "sha256": "1faraj708r9g9w7p81dgpll6c8f1zgfjx6ajm6n0myb9sgixax6j",
+        "rev": "a56c02953f0baf973808dce4e60742c97e96a202",
+        "sha256": "1j6hk4qhl4ds15c8g5axnx0wkcvsmwdq6hxgw2azr25lk805rlbw",
         "type": "tarball",
-        "url": "https://github.com/tumic0/GPXSee/archive/c9244c0684b591ea8417b37b20c0ded5bf0190a7.tar.gz",
+        "url": "https://github.com/tumic0/GPXSee/archive/a56c02953f0baf973808dce4e60742c97e96a202.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "gpxsee-maps": {
@@ -188,10 +188,10 @@
         "homepage": "https://tumic0.github.io/GPXSee-maps",
         "owner": "tumic0",
         "repo": "GPXSee-maps",
-        "rev": "a0448a4488dbe8cc700eb24eb4632e94e7cf0d2e",
-        "sha256": "1ask34zrlr0sd0qjzads1l9ggqm2zfxfpksp0awax1fp6dllnkqc",
+        "rev": "8c29b66ac823db87606d8640c32d3f9b7b543efd",
+        "sha256": "12lbksjr4ffxr1mx3fa10fijg9y3mby1adpw5hgpwk640dgk46rs",
         "type": "tarball",
-        "url": "https://github.com/tumic0/GPXSee-maps/archive/a0448a4488dbe8cc700eb24eb4632e94e7cf0d2e.tar.gz",
+        "url": "https://github.com/tumic0/GPXSee-maps/archive/8c29b66ac823db87606d8640c32d3f9b7b543efd.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "gpxtools": {
@@ -279,10 +279,10 @@
         "homepage": "https://www.openorienteering.org/apps/mapper/",
         "owner": "OpenOrienteering",
         "repo": "mapper",
-        "rev": "8630642836ca0c22b5e4f67fb774094821899eb0",
-        "sha256": "1wjb9qqwadakzhwpg5xqk4g0np195svvlfn5ynky9h53gv985yp1",
+        "rev": "ed58c13897e576695fe0857e871e5b3a9ca9cfa5",
+        "sha256": "1h5jv99n7qjf2cgdxrb3p64v2sgzyndrsv49q272lly9wx9g61c4",
         "type": "tarball",
-        "url": "https://github.com/OpenOrienteering/mapper/archive/8630642836ca0c22b5e4f67fb774094821899eb0.tar.gz",
+        "url": "https://github.com/OpenOrienteering/mapper/archive/ed58c13897e576695fe0857e871e5b3a9ca9cfa5.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "mapsoft": {
@@ -303,11 +303,11 @@
         "description": "Ежедневная сборка карт из данных OpenStreetMap для навигационных приборов и приложений Garmin",
         "homepage": "https://maptourist.org",
         "region": "szfo",
-        "sha256": "1gp2dmm41il5754mkdrm3ckm0vi2zf00m9j70x36mnsi65ayaln0",
+        "sha256": "1mclfv7nckcmzhyfpnsdplvm48lkdz2lx3vqfkgwqv1h3kpbzjcz",
         "type": "file",
-        "url": "https://maptourist.org/osm-garmin/archive/OSM-MapTourist-szfo-RU_2020-03-28.zip",
+        "url": "https://maptourist.org/osm-garmin/archive/OSM-MapTourist-szfo-RU_2020-03-31.zip",
         "url_template": "https://maptourist.org/osm-garmin/archive/OSM-MapTourist-<region>-RU_<version>.zip",
-        "version": "2020-03-28"
+        "version": "2020-03-31"
     },
     "mbtileserver": {
         "branch": "master",
