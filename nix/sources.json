@@ -103,6 +103,30 @@
         "url": "https://github.com/embox/embox/archive/ad5ed2947ae7ad68e6b0b0400c1a12d1a5114fa2.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "geofabrik-estonia": {
+        "builtin": false,
+        "sha256": "1ivrsnjax92azf3n94xm7shjpfp36m8rfni728v4idw1zjlklgz1",
+        "type": "file",
+        "url": "https://download.geofabrik.de/europe/estonia-200402.osm.pbf",
+        "url_template": "https://download.geofabrik.de/europe/estonia-<version>.osm.pbf",
+        "version": "200402"
+    },
+    "geofabrik-finland": {
+        "builtin": false,
+        "sha256": "0mi5dl154xgpx5x4n1xr7f5q3wv5kc0ggz6gskmd8rvinzwwfasq",
+        "type": "file",
+        "url": "https://download.geofabrik.de/europe/finland-200402.osm.pbf",
+        "url_template": "https://download.geofabrik.de/europe/finland-<version>.osm.pbf",
+        "version": "200402"
+    },
+    "geofabrik-russia-nwfd": {
+        "builtin": false,
+        "sha256": "0f6qmh91rddwv4p53j95hrvdxvk8964kc7358y56gacph7c7h8z9",
+        "type": "file",
+        "url": "https://download.geofabrik.de/russia/northwestern-fed-district-200402.osm.pbf",
+        "url_template": "https://download.geofabrik.de/russia/northwestern-fed-district-<version>.osm.pbf",
+        "version": "200402"
+    },
     "gimgtools": {
         "branch": "master",
         "builtin": false,

@@ -77,6 +77,7 @@ lib.makeScope newScope (
       inherit sources;
     };
     qmapshack-onlinemaps = callPackage ./data/maps/qmapshack-onlinemaps {};
+    qmapshack-routinodb = callPackage ./data/maps/qmapshack-routinodb {};
     redict = libsForQt5.callPackage ./applications/redict {
       inherit sources;
     };
