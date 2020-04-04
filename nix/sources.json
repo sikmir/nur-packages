@@ -212,10 +212,10 @@
         "homepage": "https://tumic0.github.io/GPXSee-maps",
         "owner": "tumic0",
         "repo": "GPXSee-maps",
-        "rev": "8c29b66ac823db87606d8640c32d3f9b7b543efd",
-        "sha256": "12lbksjr4ffxr1mx3fa10fijg9y3mby1adpw5hgpwk640dgk46rs",
+        "rev": "1d63d4f0e8301e6f9f1d552c19632b35ea20434a",
+        "sha256": "0ar1xl33s9k14mclg905daj8vsgxq68i03k43v8w812lfqxp7cx4",
         "type": "tarball",
-        "url": "https://github.com/tumic0/GPXSee-maps/archive/8c29b66ac823db87606d8640c32d3f9b7b543efd.tar.gz",
+        "url": "https://github.com/tumic0/GPXSee-maps/archive/1d63d4f0e8301e6f9f1d552c19632b35ea20434a.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "gpxtools": {
@@ -303,10 +303,10 @@
         "homepage": "https://www.openorienteering.org/apps/mapper/",
         "owner": "OpenOrienteering",
         "repo": "mapper",
-        "rev": "ed58c13897e576695fe0857e871e5b3a9ca9cfa5",
-        "sha256": "1h5jv99n7qjf2cgdxrb3p64v2sgzyndrsv49q272lly9wx9g61c4",
+        "rev": "e8ff8d94a6f57771eec6b63326fe7eda6f43a775",
+        "sha256": "165wjk2nm69h4ghq6xqn2w3pyiixgrxmn4mvixy5nvwnhjsi1ckq",
         "type": "tarball",
-        "url": "https://github.com/OpenOrienteering/mapper/archive/ed58c13897e576695fe0857e871e5b3a9ca9cfa5.tar.gz",
+        "url": "https://github.com/OpenOrienteering/mapper/archive/e8ff8d94a6f57771eec6b63326fe7eda6f43a775.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "mapsoft": {
@@ -327,11 +327,11 @@
         "description": "Ежедневная сборка карт из данных OpenStreetMap для навигационных приборов и приложений Garmin",
         "homepage": "https://maptourist.org",
         "region": "szfo",
-        "sha256": "1mclfv7nckcmzhyfpnsdplvm48lkdz2lx3vqfkgwqv1h3kpbzjcz",
+        "sha256": "0r25rh9l5g248jwjd2kjx3zcs1v51lwmz0jzydwnng94sxr7ya7f",
         "type": "file",
-        "url": "https://maptourist.org/osm-garmin/archive/OSM-MapTourist-szfo-RU_2020-03-31.zip",
+        "url": "https://maptourist.org/osm-garmin/archive/OSM-MapTourist-szfo-RU_2020-04-03.zip",
         "url_template": "https://maptourist.org/osm-garmin/archive/OSM-MapTourist-<region>-RU_<version>.zip",
-        "version": "2020-03-31"
+        "version": "2020-04-03"
     },
     "mbtileserver": {
         "branch": "master",

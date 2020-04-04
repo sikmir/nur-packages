@@ -21,13 +21,13 @@
 
 stdenv.mkDerivation rec {
   pname = "mapsoft2";
-  version = "2020-03-20";
+  version = "2020-04-04";
 
   src = fetchFromGitHub {
     owner = "slazav";
     repo = pname;
-    rev = "44ba9ac966ebf5b8f3cc21c4333b431a3ca9708a";
-    sha256 = "18d3c5ih0rfywkk9nrkiqr689rimyh86gzmbj1q72f1yz5ssc42v";
+    rev = "c5cc594f8508726537c070d9e9655706ee6540e6";
+    sha256 = "0qax2yrbb4506bj1m7ird9rbqjwdd3bvpcwf8mknd448hsbq1c05";
     fetchSubmodules = true;
   };
 
