@@ -361,6 +361,7 @@
     },
     "morse-talk": {
         "branch": "master",
+        "builtin": false,
         "description": "A Python library written for Morse Code",
         "homepage": "https://github.com/morse-talk/morse-talk",
         "owner": "morse-talk",
