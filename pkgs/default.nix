@@ -102,6 +102,7 @@ lib.makeScope newScope (
       inherit sources mercantile pymbtiles;
     };
     webster = callPackage ./data/dicts/webster {};
+    xfractint = callPackage ./tools/xfractint {};
 
     perlPackages = (
       callPackage ./perl-packages.nix {}
