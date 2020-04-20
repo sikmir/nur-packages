@@ -385,6 +385,16 @@
         "url": "https://github.com/morse-talk/morse-talk/archive/71e09ace0aa554d28cada5ee658e43758305b8fa.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "mtk-suomi": {
+        "builtin": false,
+        "description": "Maanmittauslaitoksen peruskartan tasoiset ja näköiset ilmaiset maastokartat",
+        "homepage": "https://kartat.hylly.org/",
+        "sha256": "1nf10nljnnahi7adj2pn1l6kl3ak69prc1jjqmrrnajm53g8c1il",
+        "type": "file",
+        "url": "https://kartat-dl.hylly.org/2020-04-18/mtk_suomi.img",
+        "url_template": "https://kartat-dl.hylly.org/<version>/mtk_suomi.img",
+        "version": "2020-04-18"
+    },
     "openmtbmap_openvelomap_linux": {
         "branch": "master",
         "builtin": false,
