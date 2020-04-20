@@ -32,6 +32,7 @@ lib.makeScope newScope (
     cambridge = callPackage ./data/dicts/cambridge {};
     macmillan = callPackage ./data/dicts/macmillan {};
     webster = callPackage ./data/dicts/webster {};
+    wiktionary = callPackage ./data/dicts/wiktionary {};
 
     gpxsee-maps = callPackage ./data/maps/gpxsee-maps {};
     hiblovgpsmap = callPackage ./data/maps/hiblovgpsmap {};
