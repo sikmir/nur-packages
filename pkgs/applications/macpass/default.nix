@@ -17,11 +17,14 @@ stdenv.mkDerivation rec {
     ${unzip}/bin/unzip $src -d $out/Applications
   '';
 
+  preferLocalBuild = true;
+
   meta = with stdenv.lib; {
     description = "A native OS X KeePass client";
     homepage = "https://macpassapp.org/";
     license = licenses.gpl3;
     maintainers = with maintainers; [ sikmir ];
     platforms = platforms.darwin;
+    skip.ci = true;
   };
 }
