@@ -3,8 +3,6 @@
 mkYarnPackage rec {
   name = "nakarte-${stdenv.lib.substring 0 7 src.rev}";
   src = sources.nakarte;
-  packageJSON = "${src}/package.json";
-  yarnLock = "${src}/yarn.lock";
 
   postPatch =
     if (secretsConfig != null) then
@@ -26,5 +24,6 @@ mkYarnPackage rec {
     license = licenses.mit;
     maintainers = with maintainers; [ sikmir ];
     platforms = platforms.all;
+    skip.ci = true;
   };
 }
