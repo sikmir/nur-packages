@@ -3,6 +3,8 @@
 mkYarnPackage rec {
   name = "nakarte-${stdenv.lib.substring 0 7 src.rev}";
   src = sources.nakarte;
+  packageJSON = "${src}/package.json";
+  yarnLock = "${src}/yarn.lock";
 
   postPatch =
     if (secretsConfig != null) then
