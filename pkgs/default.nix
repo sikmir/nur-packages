@@ -56,6 +56,9 @@ lib.makeScope newScope (
 
     ### DEVELOPMENT / LIBRARIES
 
+    libgarmin = callPackage ./development/libraries/libgarmin {
+      automake = pkgs.automake111x;
+    };
     libshell = callPackage ./development/libraries/libshell {};
 
     ### DEVELOPMENT / PERL MODULES
