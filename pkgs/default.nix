@@ -35,6 +35,7 @@ lib.makeScope newScope (
 
     gpsmap64 = callPackage ./data/firmwares/gpsmap64 {};
 
+    freizeitkarte-osm = callPackage ./data/maps/freizeitkarte-osm {};
     gpxsee-dem = callPackage ./data/maps/gpxsee-dem {};
     gpxsee-maps = callPackage ./data/maps/gpxsee-maps {};
     gpxsee-poi = callPackage ./data/maps/gpxsee-poi {};
