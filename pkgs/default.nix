@@ -17,6 +17,7 @@ lib.makeScope newScope (
     macpass = callPackage ./applications/macpass {};
     mapsoft = callPackage ./applications/mapsoft {};
     mapsoft2 = callPackage ./applications/mapsoft/2.nix {};
+    nnn-plugins = callPackage ./applications/nnn-plugins {};
     openorienteering-mapper = libsForQt5.callPackage ./applications/openorienteering-mapper {
       inherit sources;
     };
