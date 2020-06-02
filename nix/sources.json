@@ -118,27 +118,27 @@
     },
     "geofabrik-estonia": {
         "builtin": false,
-        "sha256": "179ral6av3hvlylfpzsfcw4d7qmlpniclfviq6yxhvxm3jij9hik",
+        "sha256": "139gz7z0d95ill656qlljznlxsmc8fh75mp1c42fij1wgc06263y",
         "type": "file",
-        "url": "https://download.geofabrik.de/europe/estonia-200531.osm.pbf",
+        "url": "https://download.geofabrik.de/europe/estonia-200601.osm.pbf",
         "url_template": "https://download.geofabrik.de/europe/estonia-<version>.osm.pbf",
-        "version": "200531"
+        "version": "200601"
     },
     "geofabrik-finland": {
         "builtin": false,
-        "sha256": "118f6zw40ps30bmhj3aqmbbv300i2j3ipj357ayjnq5kvrgxmmq8",
+        "sha256": "12g2acqy2y7k4kzw1zybhj8b7rfhddfjcid9533ah6nqh431fy5j",
         "type": "file",
-        "url": "https://download.geofabrik.de/europe/finland-200531.osm.pbf",
+        "url": "https://download.geofabrik.de/europe/finland-200601.osm.pbf",
         "url_template": "https://download.geofabrik.de/europe/finland-<version>.osm.pbf",
-        "version": "200531"
+        "version": "200601"
     },
     "geofabrik-russia-nwfd": {
         "builtin": false,
-        "sha256": "1ns03i1g156g6fav8mvrlqjfy1gnic0m4xfsk2ggqxm0fmz7557l",
+        "sha256": "0b4ad920vjx18yy21bq1rz8b028cninbk4m9qdyyxb2hxhjkmpf8",
         "type": "file",
-        "url": "https://download.geofabrik.de/russia/northwestern-fed-district-200531.osm.pbf",
+        "url": "https://download.geofabrik.de/russia/northwestern-fed-district-200601.osm.pbf",
         "url_template": "https://download.geofabrik.de/russia/northwestern-fed-district-<version>.osm.pbf",
-        "version": "200531"
+        "version": "200601"
     },
     "gimgtools": {
         "branch": "master",
@@ -415,12 +415,10 @@
         "homepage": "https://github.com/jarun/nnn",
         "owner": "jarun",
         "repo": "nnn",
-        "rev": "0ebc6db163ea3873fd55fc8adf4236c05060315a",
-        "sha256": "0vyw6z0ssaisdqa0njyl1lg04m3mji0dvb062fnszcvrblycwlw8",
+        "rev": "5dbb511ede3e02e967e97fa1ca9d1755223c46bb",
+        "sha256": "0yvv67p58fd1j2qw2pvl3vcn61awjxmdw8ccjvsc8pqn6r55kd27",
         "type": "tarball",
-        "url": "https://github.com/jarun/nnn/archive/0ebc6db163ea3873fd55fc8adf4236c05060315a.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
+        "url": "https://github.com/jarun/nnn/archive/5dbb511ede3e02e967e97fa1ca9d1755223c46bb.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "openmtbmap_openvelomap_linux": {
