@@ -270,6 +270,19 @@
         "url": "https://github.com/OPHoperHPO/GT-bash-client/archive/28842d0fc5eb0aa86bc80dcdc9ef0df2ea43db38.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "hfst": {
+        "branch": "master",
+        "builtin": false,
+        "description": "Helsinki Finite-State Technology (library and application suite)",
+        "homepage": "https://hfst.github.io",
+        "owner": "hfst",
+        "repo": "hfst",
+        "rev": "265bc37a8fc61726f6665b31b82b0214d9b492e0",
+        "sha256": "0bdmnbwfc1zivw20n4s9ccjmzgfhi2v213dlc9d17fylwlx235fi",
+        "type": "tarball",
+        "url": "https://github.com/hfst/hfst/archive/265bc37a8fc61726f6665b31b82b0214d9b492e0.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "libshell": {
         "branch": "master",
         "builtin": false,
