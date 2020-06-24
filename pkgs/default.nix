@@ -97,6 +97,9 @@ lib.makeScope newScope (
     pyephem = python3Packages.callPackage ./development/python-modules/pyephem {
       inherit sources;
     };
+    python-hfst = python3Packages.callPackage ./development/python-modules/python-hfst {
+      inherit hfst;
+    };
     pymbtiles = python3Packages.callPackage ./development/python-modules/pymbtiles {
       inherit sources;
     };
