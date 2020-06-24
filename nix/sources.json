@@ -385,6 +385,19 @@
         "url": "https://github.com/mapbox/mercantile/archive/9e7b52f6a2019f904b2ceba3f5f9ca6ac8f02b80.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "mikatools": {
+        "branch": "master",
+        "builtin": false,
+        "description": "Mikatools provides fast and easy methods for common Python coding tasks",
+        "homepage": "https://github.com/mikahama/mikatools",
+        "owner": "mikahama",
+        "repo": "mikatools",
+        "rev": "64a21f2af5c22f0f6ea8bb895286f260bcf61d00",
+        "sha256": "17wbddjz2jggqbb10c67lns2ni632ixd1rjfxbgiyja1fckzgx2x",
+        "type": "tarball",
+        "url": "https://github.com/mikahama/mikatools/archive/64a21f2af5c22f0f6ea8bb895286f260bcf61d00.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "morse-talk": {
         "branch": "master",
         "builtin": false,

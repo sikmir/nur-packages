@@ -90,6 +90,9 @@ lib.makeScope newScope (
     mercantile = python3Packages.callPackage ./development/python-modules/mercantile {
       inherit sources;
     };
+    mikatools = python3Packages.callPackage ./development/python-modules/mikatools {
+      inherit sources;
+    };
     pyephem = python3Packages.callPackage ./development/python-modules/pyephem {
       inherit sources;
     };
