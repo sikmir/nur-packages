@@ -1,6 +1,8 @@
 language: nix
 nix: 2.3.6
 
+sudo: yes
+
 env:
   global:
     - CACHIX_CACHE=sikmir
@@ -11,6 +13,10 @@ matrix:
     - env: NIX_CHANNEL=https://nixos.org/channels/nixpkgs-unstable
     - env: NIX_CHANNEL=https://nixos.org/channels/nixos-unstable
     - env: NIX_CHANNEL=https://nixos.org/channels/nixos-20.03
+
+before_install:
+  - sudo mkdir -p /etc/nix
+  - echo "trusted-users = root $USER" | sudo tee -a /etc/nix/nix.conf
 
 install:
   - nix --version
