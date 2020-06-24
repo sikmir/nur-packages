@@ -6,6 +6,7 @@
 , gsettings-desktop-schemas
 , gtkmm3
 , jansson
+, libcurl
 , libjpeg
 , libpng
 , librsvg
@@ -59,6 +60,7 @@ stdenv.mkDerivation rec {
     gsettings-desktop-schemas
     gtkmm3
     jansson
+    libcurl
     libjpeg
     libpng
     librsvg
