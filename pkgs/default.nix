@@ -61,6 +61,9 @@ lib.makeScope newScope (
 
     ### DEVELOPMENT / LIBRARIES
 
+    foma = callPackage ./development/libraries/foma {
+      libtool = if pkgs.stdenv.isDarwin then pkgs.darwin.cctools else null;
+    };
     geographiclib = callPackage ./development/libraries/geographiclib {};
     libgarmin = callPackage ./development/libraries/libgarmin {
       automake = pkgs.automake111x;

@@ -103,6 +103,19 @@
         "url": "https://github.com/embox/embox/archive/ad5ed2947ae7ad68e6b0b0400c1a12d1a5114fa2.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "foma": {
+        "branch": "master",
+        "builtin": false,
+        "description": "xfst-compatible C++ finite-state transducer library",
+        "homepage": "https://github.com/mhulden/foma",
+        "owner": "mhulden",
+        "repo": "foma",
+        "rev": "7c9984b5ffc38a9a17300a8a64e80ce77356aa32",
+        "sha256": "0kqs7q600xad4dxxiy2jr4fhrb36nj0x7jk6yfyl4569msp7zw2r",
+        "type": "tarball",
+        "url": "https://github.com/mhulden/foma/archive/7c9984b5ffc38a9a17300a8a64e80ce77356aa32.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "gef": {
         "branch": "dev",
         "builtin": false,
