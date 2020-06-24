@@ -14,6 +14,14 @@ matrix:
     - env: NIX_CHANNEL=https://nixos.org/channels/nixos-unstable
     - env: NIX_CHANNEL=https://nixos.org/channels/nixos-20.03
 
+cache:
+  directories:
+    - $HOME/nix.store
+
+before_cache:
+  - mkdir -p $HOME/nix.store
+  - nix copy --to file://$HOME/nix.store
+
 before_install:
   - sudo mkdir -p /etc/nix
   - echo "trusted-users = root $USER" | sudo tee -a /etc/nix/nix.conf
