@@ -460,6 +460,19 @@
         "url": "https://github.com/jarun/nnn/archive/235eb296149ff1d16accadc37c52542b7f18ef2d.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "odict": {
+        "branch": "master",
+        "builtin": false,
+        "description": "A blazingly-fast replacement for Apple Dictionaries, Babylon, StarDict, etc.",
+        "homepage": "https://odict.org",
+        "owner": "odict",
+        "repo": "odict",
+        "rev": "0a0a6e6a592ccca3f304fcb4bd4ab7c25e181185",
+        "sha256": "14422lg280rmsbgj1n9r013zbdjk210b9czr8p0pa09d70jx24dw",
+        "type": "tarball",
+        "url": "https://github.com/odict/odict/archive/0a0a6e6a592ccca3f304fcb4bd4ab7c25e181185.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "openmtbmap_openvelomap_linux": {
         "branch": "master",
         "builtin": false,
