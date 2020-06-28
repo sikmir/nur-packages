@@ -134,6 +134,7 @@ lib.makeScope newScope (
     morse-talk = python3Packages.callPackage ./tools/morse-talk {
       inherit sources;
     };
+    musig = callPackage ./tools/audio/musig {};
     ocad2img = perlPackages.callPackage ./tools/geo/ocad2img {
       inherit cgpsmapper ocad2mp;
     };

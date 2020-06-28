@@ -434,6 +434,19 @@
         "url_template": "https://kartat-dl.hylly.org/<version>/mtk_suomi.img",
         "version": "2020-05-30"
     },
+    "musig": {
+        "branch": "master",
+        "builtin": false,
+        "description": "A shazam like tool to store musics fingerprints and retrieve them",
+        "homepage": "https://github.com/sfluor/musig",
+        "owner": "sfluor",
+        "repo": "musig",
+        "rev": "f445fa128b826c1cee527afdcc97e3e1e8433c32",
+        "sha256": "1h201rqn74hcspxjigq50vj4rl526x8s0sx18j5gbswisf84bgql",
+        "type": "tarball",
+        "url": "https://github.com/sfluor/musig/archive/f445fa128b826c1cee527afdcc97e3e1e8433c32.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "nakarte": {
         "branch": "master",
         "builtin": false,
