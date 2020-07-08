@@ -8,7 +8,7 @@ buildPythonPackage {
   propagatedBuildInputs = [ requests clint ];
 
   meta = with lib; {
-    inherit (src) description homepage;
+    inherit (sources.mikatools) description homepage;
     license = licenses.mit;
     maintainers = with maintainers; [ sikmir ];
     platforms = platforms.unix;

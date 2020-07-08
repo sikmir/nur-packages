@@ -52,7 +52,7 @@ stdenv.mkDerivation {
   enableParallelBuilding = true;
 
   meta = with stdenv.lib; {
-    inherit (src) description homepage;
+    inherit (sources.stardict-3) description homepage;
     license = licenses.gpl3;
     maintainers = with maintainers; [ sikmir ];
     platforms = with platforms; linux ++ darwin;

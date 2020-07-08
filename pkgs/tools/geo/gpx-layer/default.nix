@@ -19,7 +19,7 @@ buildPerlPackage {
   '';
 
   meta = with lib; {
-    inherit (src) description homepage;
+    inherit (sources.gpx-layer) description homepage;
     license = licenses.free;
     maintainers = with maintainers; [ sikmir ];
     platforms = platforms.unix;

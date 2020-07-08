@@ -8,7 +8,7 @@ buildPythonPackage {
   doCheck = false;
 
   meta = with lib; {
-    inherit (src) description homepage;
+    inherit (sources.cheetah3) description homepage;
     license = licenses.mit;
     maintainers = with maintainers; [ sikmir ];
     platforms = platforms.unix;

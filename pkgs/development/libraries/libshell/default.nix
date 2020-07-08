@@ -34,7 +34,7 @@ stdenv.mkDerivation {
   doCheck = false;
 
   meta = with stdenv.lib; {
-    inherit (src) description homepage;
+    inherit (sources.libshell) description homepage;
     license = licenses.gpl2;
     maintainers = with maintainers; [ sikmir ];
     platforms = platforms.all;

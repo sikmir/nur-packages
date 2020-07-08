@@ -11,7 +11,7 @@ buildPythonApplication {
   checkPhase = "nosetests";
 
   meta = with lib; {
-    inherit (src) description homepage;
+    inherit (sources.morse-talk) description homepage;
     license = licenses.gpl2;
     maintainers = with maintainers; [ sikmir ];
     platforms = platforms.unix;

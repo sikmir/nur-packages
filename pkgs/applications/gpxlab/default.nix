@@ -39,7 +39,7 @@ mkDerivation {
   enableParallelBuilding = true;
 
   meta = with lib; {
-    inherit (src) description homepage;
+    inherit (sources.gpxlab) description homepage;
     license = licenses.gpl3;
     maintainers = with maintainers; [ sikmir ];
     platforms = with platforms; linux ++ darwin;

@@ -40,7 +40,7 @@ buildPythonApplication {
   checkPhase = "pytest";
 
   meta = with lib; {
-    inherit (src) description homepage;
+    inherit (sources.elevation) description homepage;
     license = licenses.asl20;
     maintainers = with maintainers; [ sikmir ];
     platforms = platforms.unix;

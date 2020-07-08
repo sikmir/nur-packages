@@ -8,7 +8,7 @@ buildPythonApplication {
   doCheck = false;
 
   meta = with lib; {
-    inherit (src) description homepage;
+    inherit (sources.lsdreader) description homepage;
     license = licenses.free;
     maintainers = with maintainers; [ sikmir ];
     platforms = platforms.unix;

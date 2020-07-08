@@ -19,7 +19,7 @@ buildPythonApplication {
   '';
 
   meta = with lib; {
-    inherit (src) description homepage;
+    inherit (sources.gt4gd) description homepage;
     license = licenses.gpl3;
     maintainers = with maintainers; [ sikmir ];
     platforms = platforms.unix;

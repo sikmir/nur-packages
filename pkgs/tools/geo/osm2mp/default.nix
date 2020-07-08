@@ -60,7 +60,7 @@ buildPerlPackage {
   '';
 
   meta = with lib; {
-    inherit (src) description homepage;
+    inherit (sources.osm2mp) description homepage;
     license = licenses.gpl2;
     maintainers = with maintainers; [ sikmir ];
     platforms = platforms.unix;

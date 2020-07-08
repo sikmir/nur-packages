@@ -20,7 +20,7 @@ stdenv.mkDerivation {
   makeFlags = [ "prefix=$(out)" ];
 
   meta = with stdenv.lib; {
-    inherit (src) description homepage;
+    inherit (sources.foma) description homepage;
     license = licenses.asl20;
     maintainers = with maintainers; [ sikmir ];
     platforms = platforms.unix;

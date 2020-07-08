@@ -9,7 +9,7 @@ buildPythonPackage {
   checkPhase = "pytest";
 
   meta = with lib; {
-    inherit (src) description homepage;
+    inherit (sources.pymbtiles) description homepage;
     license = licenses.isc;
     maintainers = with maintainers; [ sikmir ];
     platforms = platforms.unix;

@@ -19,7 +19,7 @@ stdenv.mkDerivation {
   '';
 
   meta = with stdenv.lib; {
-    inherit (src) description homepage;
+    inherit (sources.gimgtools) description homepage;
     license = licenses.free;
     maintainers = with maintainers; [ sikmir ];
     platforms = with platforms; linux ++ darwin;

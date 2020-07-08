@@ -49,7 +49,7 @@ stdenv.mkDerivation {
   '';
 
   meta = with stdenv.lib; {
-    inherit (src) description homepage;
+    inherit (sources.gef) description homepage;
     license = licenses.mit;
     platforms = platforms.all;
     maintainers = with maintainers; [ sikmir ];

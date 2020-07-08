@@ -10,7 +10,7 @@ stdenv.mkDerivation {
   '';
 
   meta = with stdenv.lib; {
-    inherit (src) description homepage;
+    inherit (sources.docker-reg-tool) description homepage;
     license = licenses.mit;
     maintainers = with maintainers; [ sikmir ];
     platforms = platforms.all;

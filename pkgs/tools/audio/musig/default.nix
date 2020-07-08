@@ -19,7 +19,7 @@ buildGoModule {
   '';
 
   meta = with lib; {
-    inherit (src) description homepage;
+    inherit (sources.musig) description homepage;
     license = licenses.mit;
     maintainers = with maintainers; [ sikmir ];
     platforms = platforms.unix;

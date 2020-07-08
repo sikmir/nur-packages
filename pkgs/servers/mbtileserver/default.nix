@@ -8,7 +8,7 @@ buildGoModule {
   vendorSha256 = null;
 
   meta = with lib; {
-    inherit (src) description homepage;
+    inherit (sources.mbtileserver) description homepage;
     license = licenses.isc;
     maintainers = with maintainers; [ sikmir ];
     platforms = platforms.unix;
