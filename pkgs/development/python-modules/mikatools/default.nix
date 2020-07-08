@@ -1,8 +1,8 @@
 { lib, buildPythonPackage, requests, clint, sources }:
 
-buildPythonPackage rec {
+buildPythonPackage {
   pname = "mikatools";
-  version = lib.substring 0 7 src.rev;
+  version = lib.substring 0 7 sources.mikatools.rev;
   src = sources.mikatools;
 
   propagatedBuildInputs = [ requests clint ];

@@ -29,9 +29,9 @@
 , getopt
 }:
 
-stdenv.mkDerivation rec {
+stdenv.mkDerivation {
   pname = "mapsoft";
-  version = stdenv.lib.substring 0 7 src.rev;
+  version = stdenv.lib.substring 0 7 sources.mapsoft.rev;
   src = sources.mapsoft;
 
   patches = [ ./0001-fix-build.patch ];

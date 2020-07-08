@@ -1,8 +1,8 @@
 { lib, buildPythonPackage, sources }:
 
-buildPythonPackage rec {
+buildPythonPackage {
   pname = "pyephem";
-  version = lib.substring 0 7 src.rev;
+  version = lib.substring 0 7 sources.pyephem.rev;
   src = sources.pyephem;
 
   meta = with lib; {

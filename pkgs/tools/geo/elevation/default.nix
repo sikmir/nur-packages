@@ -14,9 +14,9 @@
 , sources
 }:
 
-buildPythonApplication rec {
+buildPythonApplication {
   pname = "elevation";
-  version = lib.substring 0 7 src.rev;
+  version = lib.substring 0 7 sources.elevation.rev;
   src = sources.elevation;
 
   propagatedBuildInputs = [ fasteners future appdirs click ];

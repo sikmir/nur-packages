@@ -1,8 +1,8 @@
 { lib, buildPythonApplication, sources }:
 
-buildPythonApplication rec {
+buildPythonApplication {
   pname = "lsdreader";
-  version = lib.substring 0 7 src.rev;
+  version = lib.substring 0 7 sources.lsdreader.rev;
   src = sources.lsdreader;
 
   doCheck = false;

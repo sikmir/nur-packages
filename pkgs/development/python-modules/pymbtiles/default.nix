@@ -1,8 +1,8 @@
 { lib, buildPythonPackage, pytest, sources }:
 
-buildPythonPackage rec {
+buildPythonPackage {
   pname = "pymbtiles";
-  version = lib.substring 0 7 src.rev;
+  version = lib.substring 0 7 sources.pymbtiles.rev;
   src = sources.pymbtiles;
 
   checkInputs = [ pytest ];

@@ -1,8 +1,8 @@
 { lib, buildGoModule, sources }:
 
-buildGoModule rec {
+buildGoModule {
   pname = "mbtileserver";
-  version = lib.substring 0 7 src.rev;
+  version = lib.substring 0 7 sources.mbtileserver.rev;
   src = sources.mbtileserver;
 
   vendorSha256 = null;

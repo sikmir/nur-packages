@@ -1,8 +1,8 @@
 { stdenv, cmake, expat, exiv2, sources }:
 
-stdenv.mkDerivation rec {
+stdenv.mkDerivation {
   pname = "gpxtools";
-  version = stdenv.lib.substring 0 7 src.rev;
+  version = stdenv.lib.substring 0 7 sources.gpxtools.rev;
   src = sources.gpxtools;
 
   nativeBuildInputs = [ cmake ];

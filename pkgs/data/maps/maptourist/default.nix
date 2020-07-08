@@ -1,6 +1,6 @@
 { stdenv, sources, unzip }:
 
-stdenv.mkDerivation rec {
+stdenv.mkDerivation {
   pname = "maptourist";
   version = sources.maptourist.version;
   src = sources.maptourist;

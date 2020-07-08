@@ -8,9 +8,9 @@
 , scdoc
 }:
 
-stdenv.mkDerivation rec {
+stdenv.mkDerivation {
   pname = "libshell";
-  version = stdenv.lib.substring 0 7 src.rev;
+  version = stdenv.lib.substring 0 7 sources.libshell.rev;
   src = sources.libshell;
 
   nativeBuildInputs = [ help2man ];

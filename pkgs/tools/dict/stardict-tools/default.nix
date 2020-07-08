@@ -10,9 +10,9 @@
 , sources
 }:
 
-stdenv.mkDerivation rec {
+stdenv.mkDerivation {
   pname = "stardict-tools";
-  version = stdenv.lib.substring 0 7 src.rev;
+  version = stdenv.lib.substring 0 7 sources.stardict-3.rev;
   src = sources.stardict-3;
 
   nativeBuildInputs = [

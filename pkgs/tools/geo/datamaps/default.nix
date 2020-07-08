@@ -1,8 +1,8 @@
 { stdenv, libpng, pkg-config, sources }:
 
-stdenv.mkDerivation rec {
+stdenv.mkDerivation {
   pname = "datamaps";
-  version = stdenv.lib.substring 0 7 src.rev;
+  version = stdenv.lib.substring 0 7 sources.datamaps.rev;
   src = sources.datamaps;
 
   nativeBuildInputs = [ pkg-config ];

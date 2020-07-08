@@ -1,8 +1,8 @@
 { lib, buildPythonPackage, sources }:
 
-buildPythonPackage rec {
+buildPythonPackage {
   pname = "cheetah3";
-  version = lib.substring 0 7 src.rev;
+  version = lib.substring 0 7 sources.cheetah3.rev;
   src = sources.cheetah3;
 
   doCheck = false;

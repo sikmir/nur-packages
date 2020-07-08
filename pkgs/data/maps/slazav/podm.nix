@@ -1,8 +1,8 @@
 { stdenv, cgpsmapper, gmaptool, imagemagick, mapsoft, netpbm, zip, sources }:
 
-stdenv.mkDerivation rec {
+stdenv.mkDerivation {
   pname = "slazav-podm";
-  version = stdenv.lib.substring 0 7 src.rev;
+  version = stdenv.lib.substring 0 7 sources.map_podm.rev;
   src = sources.map_podm;
 
   patches = [ ./0001-fix-podm.patch ];
@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
   preferLocalBuild = true;
 
   installPhase = ''
-    install -Dm644 podm.img -t "$out/share/gpxsee/maps"
+    install -Dm644 podm.img -t $out/share/gpxsee/maps
   '';
 
   meta = with stdenv.lib; {

@@ -9,9 +9,9 @@
 , sources
 }:
 
-buildPythonApplication rec {
+buildPythonApplication {
   pname = "supermercado";
-  version = lib.substring 0 7 src.rev;
+  version = lib.substring 0 7 sources.supermercado.rev;
   src = sources.supermercado;
 
   patches = [

@@ -166,19 +166,6 @@
         "url": "https://github.com/wuyongzheng/gimgtools/archive/92d015749e105c5fb8eb704ae503a5c7e51af2bd.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
-    "google-translate-for-goldendict": {
-        "branch": "master",
-        "builtin": false,
-        "description": "Add Google translate to GoldenDict",
-        "homepage": "https://github.com/xinebf/google-translate-for-goldendict",
-        "owner": "xinebf",
-        "repo": "google-translate-for-goldendict",
-        "rev": "31a1628136302f6fbedf9468f1dae3521a174731",
-        "sha256": "1w8h2wibwgi7z03fqj0pkh5p0s9czi0ymj2v8ra5xvb2hrdw2g3j",
-        "type": "tarball",
-        "url": "https://github.com/xinebf/google-translate-for-goldendict/archive/31a1628136302f6fbedf9468f1dae3521a174731.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
     "gpx-layer": {
         "branch": "master",
         "builtin": false,
@@ -268,6 +255,19 @@
         "sha256": "0j2xz9va6zhacjasck55yx1sc996iknm17d6x93lrx05kfwp0nvm",
         "type": "tarball",
         "url": "https://github.com/OPHoperHPO/GT-bash-client/archive/215c1ce8b5a99c117e152300e32d0899cd63755c.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "gt4gd": {
+        "branch": "master",
+        "builtin": false,
+        "description": "Add Google translate to GoldenDict",
+        "homepage": "https://github.com/xinebf/google-translate-for-goldendict",
+        "owner": "xinebf",
+        "repo": "google-translate-for-goldendict",
+        "rev": "31a1628136302f6fbedf9468f1dae3521a174731",
+        "sha256": "1w8h2wibwgi7z03fqj0pkh5p0s9czi0ymj2v8ra5xvb2hrdw2g3j",
+        "type": "tarball",
+        "url": "https://github.com/xinebf/google-translate-for-goldendict/archive/31a1628136302f6fbedf9468f1dae3521a174731.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "hfst": {
@@ -486,7 +486,7 @@
         "url": "https://github.com/odict/odict/archive/0a0a6e6a592ccca3f304fcb4bd4ab7c25e181185.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
-    "openmtbmap_openvelomap_linux": {
+    "openmtbmap": {
         "branch": "master",
         "builtin": false,
         "description": "Linux script to extract and compile garmin *.img map files from openmtbmap.org or openvelomap.org downloads",

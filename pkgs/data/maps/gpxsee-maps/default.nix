@@ -4,9 +4,9 @@
 , mapboxApiKey ? ""
 }:
 
-stdenv.mkDerivation rec {
+stdenv.mkDerivation {
   pname = "gpxsee-maps";
-  version = stdenv.lib.substring 0 7 src.rev;
+  version = stdenv.lib.substring 0 7 sources.gpxsee-maps.rev;
   src = sources.gpxsee-maps;
 
   postPatch = ''
@@ -17,8 +17,8 @@ stdenv.mkDerivation rec {
   '';
 
   installPhase = ''
-    install -dm755 "$out/share/gpxsee/maps"
-    cp -r World "$out/share/gpxsee/maps"
+    install -dm755 $out/share/gpxsee/maps
+    cp -r World $out/share/gpxsee/maps
     find $out -name "*.tpl" | xargs rm
   '';
 

@@ -1,8 +1,8 @@
 { lib, buildPythonPackage, click, pytest, hypothesis, sources }:
 
-buildPythonPackage rec {
+buildPythonPackage {
   pname = "mercantile";
-  version = lib.substring 0 7 src.rev;
+  version = lib.substring 0 7 sources.mercantile.rev;
   src = sources.mercantile;
 
   propagatedBuildInputs = [ click ];

@@ -1,8 +1,8 @@
 { stdenv, autoreconfHook, bison, flex, sources }:
 
-stdenv.mkDerivation rec {
+stdenv.mkDerivation {
   pname = "hfst";
-  version = stdenv.lib.substring 0 7 src.rev;
+  version = stdenv.lib.substring 0 7 sources.hfst.rev;
   src = sources.hfst;
 
   nativeBuildInputs = [ autoreconfHook bison flex ];

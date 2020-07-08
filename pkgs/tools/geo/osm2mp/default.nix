@@ -17,9 +17,9 @@
 , YAML
 }:
 
-buildPerlPackage rec {
+buildPerlPackage {
   pname = "osm2mp";
-  version = lib.substring 0 7 src.rev;
+  version = lib.substring 0 7 sources.osm2mp.rev;
   src = sources.osm2mp;
 
   outputs = [ "out" ];

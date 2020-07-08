@@ -6,26 +6,23 @@
 , qttools
 , qttranslations
 , sources
+, substituteAll
 , withI18n ? true
 }:
 
-mkDerivation rec {
+mkDerivation {
   pname = "gpxlab";
-  version = lib.substring 0 7 src.rev;
+  version = lib.substring 0 7 sources.gpxlab.rev;
   src = sources.gpxlab;
 
-  patches = [
+  patches = (substituteAll {
     # See https://github.com/NixOS/nixpkgs/issues/86054
-    ./fix-qttranslations-path.diff
-  ];
+    src = ./fix-qttranslations-path.patch;
+    inherit qttranslations;
+  });
 
   nativeBuildInputs = [ qmake ] ++ (lib.optional withI18n qttools);
   buildInputs = [ qtbase ];
-
-  postPatch = ''
-    substituteInPlace GPXLab/main.cpp \
-      --subst-var-by qttranslations ${qttranslations}
-  '';
 
   preConfigure = lib.optionalString withI18n ''
     lrelease GPXLab/locale/*.ts

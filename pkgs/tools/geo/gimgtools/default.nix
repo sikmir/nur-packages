@@ -1,8 +1,8 @@
 { stdenv, sources, libiconv }:
 
-stdenv.mkDerivation rec {
+stdenv.mkDerivation {
   pname = "gimgtools";
-  version = stdenv.lib.substring 0 7 src.rev;
+  version = stdenv.lib.substring 0 7 sources.gimgtools.rev;
   src = sources.gimgtools;
 
   buildInputs = stdenv.lib.optional stdenv.isDarwin libiconv;
@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
 
   installPhase = ''
     for tool in gimginfo gimgfixcmd gimgxor gimgunlock gimgch gimgextract cmdc; do
-      install -Dm755 $tool $out/bin/$tool
+      install -Dm755 $tool -t $out/bin
     done
   '';
 

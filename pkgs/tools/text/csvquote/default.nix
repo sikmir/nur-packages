@@ -1,15 +1,13 @@
 { stdenv, sources }:
 
-stdenv.mkDerivation rec {
+stdenv.mkDerivation {
   pname = "csvquote";
-  version = stdenv.lib.substring 0 7 src.rev;
+  version = stdenv.lib.substring 0 7 sources.csvquote.rev;
   src = sources.csvquote;
 
   makeFlags = [ "BINDIR=$(out)/bin" ];
 
-  preInstall = ''
-    mkdir -p "$out/bin"
-  '';
+  preInstall = "mkdir -p $out/bin";
 
   meta = with stdenv.lib; {
     inherit (src) description homepage;

@@ -1,10 +1,15 @@
-{ lib, buildPythonApplication, requests, sources
-, withUI ? true, tkinter }:
+{ lib
+, buildPythonApplication
+, requests
+, sources
+, withUI ? true
+, tkinter
+}:
 
-buildPythonApplication rec {
+buildPythonApplication {
   pname = "gt4gd";
-  version = lib.substring 0 7 src.rev;
-  src = sources.google-translate-for-goldendict;
+  version = lib.substring 0 7 sources.gt4gd.rev;
+  src = sources.gt4gd;
 
   propagatedBuildInputs = [ requests ] ++ (lib.optional withUI tkinter);
 

@@ -1,8 +1,8 @@
 { lib, buildPerlPackage, XMLParser, sources }:
 
-buildPerlPackage rec {
+buildPerlPackage {
   pname = "gpx-layer";
-  version = lib.substring 0 7 src.rev;
+  version = lib.substring 0 7 sources.gpx-layer.rev;
   src = sources.gpx-layer;
 
   outputs = [ "out" ];
