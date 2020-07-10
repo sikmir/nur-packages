@@ -51,6 +51,7 @@ mkDerivation {
     # See https://github.com/NixOS/nixpkgs/issues/85306
     "-DLICENSING_PROVIDER:BOOL=OFF"
     "-DMapper_MANUAL_QTHELP:BOOL=OFF"
+    "-DMapper_VERSION_DISPLAY=${version}"
   ] ++ lib.optionals stdenv.isDarwin [
     # Usually enabled on Darwin
     "-DCMAKE_FIND_FRAMEWORK=never"

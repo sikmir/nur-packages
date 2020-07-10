@@ -24,6 +24,10 @@ mkDerivation {
     inherit qttranslations;
   });
 
+  postPatch = ''
+    sed -i "s/\(VERSION = \).*/\1${version}/" GPXLab/GPXLab.pro
+  '';
+
   nativeBuildInputs = [ qmake ] ++ (lib.optional withI18n qttools);
   buildInputs = [ qtbase ];
 
