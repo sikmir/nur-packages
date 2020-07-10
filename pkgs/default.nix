@@ -91,6 +91,9 @@ lib.makeScope newScope (
     gpxelevations = python3Packages.callPackage ./development/python-modules/gpxelevations {
       inherit sources;
     };
+    jsonseq = python3Packages.callPackage ./development/python-modules/jsonseq {
+      inherit sources;
+    };
     mercantile = python3Packages.callPackage ./development/python-modules/mercantile {
       inherit sources;
     };
@@ -162,6 +165,9 @@ lib.makeScope newScope (
       inherit sources mercantile;
     };
     supload = callPackage ./tools/supload { };
+    tilesets-cli = python3Packages.callPackage ./tools/geo/tilesets-cli {
+      inherit sources jsonseq;
+    };
     tpkutils = python3Packages.callPackage ./tools/geo/tpkutils {
       inherit sources mercantile pymbtiles;
     };
