@@ -14,6 +14,7 @@ lib.makeScope newScope (
     gpxsee = libsForQt5.callPackage ./applications/gpxsee {
       inherit sources;
     };
+    keeweb = callPackage ./applications/keeweb { };
     librewolf = callPackage ./applications/librewolf { };
     macpass = callPackage ./applications/macpass { };
     mapsoft = callPackage ./applications/mapsoft { };
