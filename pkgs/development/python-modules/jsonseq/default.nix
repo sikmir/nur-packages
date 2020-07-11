@@ -1,10 +1,10 @@
-{ lib, buildPythonPackage, sources }:
+{ lib, python3Packages, sources }:
 let
   pname = "jsonseq";
   date = lib.substring 0 10 sources.jsonseq.date;
   version = "unstable-" + date;
 in
-buildPythonPackage {
+python3Packages.buildPythonPackage {
   inherit pname version;
   src = sources.jsonseq;
 

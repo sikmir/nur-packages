@@ -1,14 +1,14 @@
-{ lib, buildPythonApplication, boto3, click, cligj, requests, requests-toolbelt, jsonschema, jsonseq, sources }:
+{ lib, python3Packages, jsonseq, sources }:
 let
   pname = "tilesets-cli";
   date = lib.substring 0 10 sources.tilesets-cli.date;
   version = "unstable-" + date;
 in
-buildPythonApplication {
+python3Packages.buildPythonApplication {
   inherit pname version;
   src = sources.tilesets-cli;
 
-  propagatedBuildInputs = [ boto3 click cligj requests requests-toolbelt jsonschema jsonseq ];
+  propagatedBuildInputs = with python3Packages; [ boto3 click cligj requests requests-toolbelt jsonschema jsonseq ];
 
   meta = with lib; {
     inherit (sources.tilesets-cli) description homepage;
