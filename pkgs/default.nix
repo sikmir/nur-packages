@@ -106,6 +106,7 @@ lib.makeScope newScope (
     elevation = callPackage ./tools/geo/elevation {
       click = click-6-7;
     };
+    fx = callPackage ./tools/text/fx { };
     gimgtools = callPackage ./tools/geo/gimgtools { };
     gmaptool = callPackage ./tools/geo/gmaptool { };
     gpx-layer = perlPackages.callPackage ./tools/geo/gpx-layer {
