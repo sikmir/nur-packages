@@ -25,8 +25,7 @@ python3Packages.buildPythonApplication {
 
   propagatedBuildInputs = with python3Packages; [ click-plugins rasterio mercantile numpy ];
 
-  checkInputs = with python3Packages; [ pytest ];
-  checkPhase = "pytest";
+  checkInputs = with python3Packages; [ pytestCheckHook ];
 
   meta = with lib; {
     inherit (sources.supermercado) description homepage;

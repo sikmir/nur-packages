@@ -10,10 +10,9 @@ python3Packages.buildPythonApplication {
 
   propagatedBuildInputs = with python3Packages; [ requests gpxpy ];
 
-  doCheck = false;
-  #checkPhase = ''
-  #  ${python3Packages.python.interpreter} -m unittest test
-  #'';
+  checkPhase = ''
+    HOME=tmp_home ${python3Packages.python.interpreter} -m unittest test
+  '';
 
   meta = with lib; {
     inherit (sources.gpxelevations) description homepage;
