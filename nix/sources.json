@@ -100,15 +100,15 @@
     "embox": {
         "branch": "master",
         "builtin": false,
-        "date": "2020-02-04T15:17:46Z",
+        "date": "2020-07-09T10:51:08Z",
         "description": "Modular and configurable OS for embedded applications",
         "homepage": "http://embox.github.io",
         "owner": "embox",
         "repo": "embox",
-        "rev": "ad5ed2947ae7ad68e6b0b0400c1a12d1a5114fa2",
-        "sha256": "04rmqfrp8mv52q94q3yw4swn7vrl6jnzhly5fwr1977k77z619hn",
+        "rev": "69aab263f8eb45f78aebf6ffccf742a18b82c2b6",
+        "sha256": "1kka57s7qmc6x43lyy1vcmji8qvakbgmakh11y1i623h0r86a3vd",
         "type": "tarball",
-        "url": "https://github.com/embox/embox/archive/ad5ed2947ae7ad68e6b0b0400c1a12d1a5114fa2.tar.gz",
+        "url": "https://github.com/embox/embox/archive/69aab263f8eb45f78aebf6ffccf742a18b82c2b6.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "foma": {

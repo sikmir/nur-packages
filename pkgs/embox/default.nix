@@ -52,6 +52,8 @@ stdenv.mkDerivation {
 
   configurePhase = "make confload-${template}";
 
+  makeFlags = [ "HOSTCC=cc" ];
+
   installPhase = ''
     mkdir -p $out/bin
     substitute ${runScript} $out/bin/run-embox --subst-var out
@@ -67,7 +69,7 @@ stdenv.mkDerivation {
     inherit (sources.embox) description homepage;
     license = licenses.bsd2;
     maintainers = with maintainers; [ sikmir ];
-    platforms = platforms.linux;
+    platforms = with platforms; linux ++ darwin;
     skip.ci = true;
   };
 }
