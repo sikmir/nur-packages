@@ -54,4 +54,8 @@ in
     file = "Eurasia/N45E013.hgt.zip";
     sha256 = "1f802rw7z8s29jjbk0j4gkbyg9jgknrzbg2lalcbvq55hj1j95nb";
   })
+  (fetchSrtm {
+    file = "Africa/N24E035.hgt.zip";
+    sha256 = "1fyrybdm67r17fj5hj2i3nwcpyf2m8v5y9jwlfys7f3qicw692qv";
+  })
 ]
