@@ -100,15 +100,15 @@
     "embox": {
         "branch": "master",
         "builtin": false,
-        "date": "2020-07-17T07:09:44Z",
+        "date": "2020-07-17T19:08:46Z",
         "description": "Modular and configurable OS for embedded applications",
         "homepage": "http://embox.github.io",
         "owner": "embox",
         "repo": "embox",
-        "rev": "05036dbf92ef2ea5b4bc02668a128ad47a97254b",
-        "sha256": "1s9zf37bvvdiddmr9wphb1xwzyyy3050l1x6b2chkg48sl38i43f",
+        "rev": "17ac0652b82f29eb0d71d3dae103c38e5c71fa6a",
+        "sha256": "19pifl5qg3blbh4shj68hmlzry8s49zy1762rp97jn224b18mhiv",
         "type": "tarball",
-        "url": "https://github.com/embox/embox/archive/05036dbf92ef2ea5b4bc02668a128ad47a97254b.tar.gz",
+        "url": "https://github.com/embox/embox/archive/17ac0652b82f29eb0d71d3dae103c38e5c71fa6a.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "foma": {
@@ -128,15 +128,15 @@
     "gef": {
         "branch": "dev",
         "builtin": false,
-        "date": "2020-07-12T06:38:08Z",
+        "date": "2020-07-19T16:35:27Z",
         "description": "GEF - GDB Enhanced Features for exploit devs & reversers",
         "homepage": "http://gef.rtfd.io",
         "owner": "hugsy",
         "repo": "gef",
-        "rev": "afce7a6d29088b2be14017805c6eac51406f694a",
-        "sha256": "0d1hfs6va308ljgvjixilxyc7ya77k8054g20aykpd9y5l1n05qf",
+        "rev": "3c43a8345b866ac51a10e4456285236de28176c3",
+        "sha256": "1pa6llm5vrzf66wi51mvah2435ih46vvf4233j8pdjklf36qbnvh",
         "type": "tarball",
-        "url": "https://github.com/hugsy/gef/archive/afce7a6d29088b2be14017805c6eac51406f694a.tar.gz",
+        "url": "https://github.com/hugsy/gef/archive/3c43a8345b866ac51a10e4456285236de28176c3.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "geofabrik-estonia": {
@@ -389,15 +389,15 @@
     "mapper": {
         "branch": "master",
         "builtin": false,
-        "date": "2020-07-11T13:46:27Z",
+        "date": "2020-07-18T18:51:23Z",
         "description": "OpenOrienteering Mapper is a software for creating maps for the orienteering sport",
         "homepage": "https://www.openorienteering.org/apps/mapper/",
         "owner": "OpenOrienteering",
         "repo": "mapper",
-        "rev": "3a0e7554e45bd827c3468b70e13aef902f5d94a1",
-        "sha256": "18by6c85gj0m4z9a7fh2my3hdl879a4555xhbzhl7cmd94kdy6kx",
+        "rev": "8c31fe5866e5dcb488a8145ca0134a5c2f71ac83",
+        "sha256": "15ggfypgy7w0c6frxj51ww2filr8kr73n8j5lf2l725121rzlcpy",
         "type": "tarball",
-        "url": "https://github.com/OpenOrienteering/mapper/archive/3a0e7554e45bd827c3468b70e13aef902f5d94a1.tar.gz",
+        "url": "https://github.com/OpenOrienteering/mapper/archive/8c31fe5866e5dcb488a8145ca0134a5c2f71ac83.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "mapsoft": {
@@ -419,11 +419,11 @@
         "description": "Ежедневная сборка карт из данных OpenStreetMap для навигационных приборов и приложений Garmin",
         "homepage": "https://maptourist.org",
         "region": "szfo",
-        "sha256": "1kbl8d2ilwqqi0bswpbg5zp9a8i2fi8gj0lggijkab847dy7i4xh",
+        "sha256": "031q5sj02ahdc6l8mayqjvls5ygx2as66cgcib5fxpi636l08fbc",
         "type": "file",
-        "url": "https://maptourist.org/osm-garmin/archive/OSM-MapTourist-szfo-RU_2020-07-16.zip",
+        "url": "https://maptourist.org/osm-garmin/archive/OSM-MapTourist-szfo-RU_2020-07-19.zip",
         "url_template": "https://maptourist.org/osm-garmin/archive/OSM-MapTourist-<region>-RU_<version>.zip",
-        "version": "2020-07-16"
+        "version": "2020-07-19"
     },
     "mbtileserver": {
         "branch": "master",
