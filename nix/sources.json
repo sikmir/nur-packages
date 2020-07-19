@@ -139,6 +139,20 @@
         "url": "https://github.com/hugsy/gef/archive/3c43a8345b866ac51a10e4456285236de28176c3.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "geminid": {
+        "branch": "master",
+        "builtin": false,
+        "date": "2020-07-11T06:32:59Z",
+        "description": "Gemini Server in C",
+        "homepage": "https://github.com/jovoro/geminid",
+        "owner": "jovoro",
+        "repo": "geminid",
+        "rev": "a0b2d654c0d57d7926711e38db7a41bf4a30e416",
+        "sha256": "1l1013hpa2k66hspywy88na7a9wfpbvw48mag60b3w7b3c8lxfjr",
+        "type": "tarball",
+        "url": "https://github.com/jovoro/geminid/archive/a0b2d654c0d57d7926711e38db7a41bf4a30e416.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "geofabrik-estonia": {
         "builtin": false,
         "sha256": "0gkihjaa0fj1p1j9sza0jhf7j46339m87yx50s9iwsqai5gddjgm",

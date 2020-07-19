@@ -149,6 +149,7 @@ lib.makeScope newScope (
 
     ### SERVERS
 
+    geminid = callPackage ./servers/geminid { };
     glauth = callPackage ./servers/glauth { };
     mbtileserver = callPackage ./servers/mbtileserver { };
     nakarte = callPackage ./servers/nakarte { };
