@@ -33,10 +33,10 @@ stdenv.mkDerivation {
 
   installPhase = "install -Dm755 fx-${suffix} $out/bin/fx";
 
-  postFixup = with stdenv; lib.optionalString isLinux ''
+  postFixup = stdenv.lib.optionalString stdenv.isLinux ''
     patchelf \
       --set-interpreter $(cat $NIX_CC/nix-support/dynamic-linker) \
-      --set-rpath "${makeLibraryPath [ stdenv.cc.cc.lib ]}" \
+      --set-rpath "${stdenv.lib.makeLibraryPath [ stdenv.cc.cc.lib ]}" \
       $out/bin/fx
   '';
 
