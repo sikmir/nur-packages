@@ -27,11 +27,15 @@ mkDerivation {
   inherit pname version;
   src = sources.mapper;
 
-  patches = (substituteAll {
-    # See https://github.com/NixOS/nixpkgs/issues/86054
-    src = ./fix-qttranslations-path.patch;
-    inherit qttranslations;
-  });
+  patches = [
+    (substituteAll {
+      # See https://github.com/NixOS/nixpkgs/issues/86054
+      src = ./fix-qttranslations-path.patch;
+      inherit qttranslations;
+    })
+    # See https://github.com/OpenOrienteering/mapper/issues/1042
+    ./add-nakarte-link.patch
+  ];
 
   buildInputs = [
     gdal
