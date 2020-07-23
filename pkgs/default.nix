@@ -23,6 +23,7 @@ lib.makeScope newScope (
     openorienteering-mapper = libsForQt5.callPackage ./applications/openorienteering-mapper {
       inherit sources;
     };
+    openorienteering-mapper-bin = callPackage ./applications/openorienteering-mapper/bin.nix { };
     qmapshack-bin = callPackage ./applications/qmapshack/bin.nix { };
     redict = libsForQt5.callPackage ./applications/redict {
       inherit sources;
