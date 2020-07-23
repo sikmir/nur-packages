@@ -14,9 +14,9 @@ lib.makeScope newScope (
     gpxsee = libsForQt5.callPackage ./applications/gpxsee {
       inherit sources;
     };
-    keeweb = callPackage ./applications/keeweb { };
+    keeweb-bin = callPackage ./applications/keeweb/bin.nix { };
     librewolf = callPackage ./applications/librewolf { };
-    macpass = callPackage ./applications/macpass { };
+    macpass-bin = callPackage ./applications/macpass/bin.nix { };
     mapsoft = callPackage ./applications/mapsoft { };
     mapsoft2 = callPackage ./applications/mapsoft/2.nix { };
     nnn-plugins = callPackage ./applications/nnn-plugins { };
@@ -110,7 +110,7 @@ lib.makeScope newScope (
     elevation = callPackage ./tools/geo/elevation {
       click = click-6-7;
     };
-    fx = callPackage ./tools/text/fx { };
+    fx-bin = callPackage ./tools/text/fx/bin.nix { };
     gimgtools = callPackage ./tools/geo/gimgtools { };
     gmaptool = callPackage ./tools/geo/gmaptool { };
     gpx-layer = perlPackages.callPackage ./tools/geo/gpx-layer {
