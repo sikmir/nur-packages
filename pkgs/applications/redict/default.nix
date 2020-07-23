@@ -48,7 +48,7 @@ mkDerivation {
   meta = with lib; {
     inherit (sources.redict) description homepage;
     license = licenses.gpl3;
-    maintainers = maintainers.sikmir;
+    maintainers = [ maintainers.sikmir ];
     platforms = platforms.unix;
     broken = stdenv.isDarwin;
   };

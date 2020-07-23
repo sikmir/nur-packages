@@ -21,7 +21,7 @@ stdenv.mkDerivation {
   meta = with stdenv.lib; {
     inherit (sources.geminid) description homepage;
     license = licenses.bsd3;
-    maintainers = maintainers.sikmir;
+    maintainers = [ maintainers.sikmir ];
     platforms = platforms.unix;
   };
 }

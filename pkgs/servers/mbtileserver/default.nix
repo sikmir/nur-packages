@@ -13,7 +13,7 @@ buildGoModule {
   meta = with lib; {
     inherit (sources.mbtileserver) description homepage;
     license = licenses.isc;
-    maintainers = maintainers.sikmir;
+    maintainers = [ maintainers.sikmir ];
     platforms = platforms.unix;
   };
 }

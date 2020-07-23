@@ -15,7 +15,7 @@ stdenv.mkDerivation {
   meta = with stdenv.lib; {
     inherit (sources.gpxlib) description homepage;
     license = licenses.lgpl3;
-    maintainers = maintainers.sikmir;
+    maintainers = [ maintainers.sikmir ];
     platforms = platforms.unix;
   };
 }

@@ -25,7 +25,7 @@ stdenv.mkDerivation {
     description = "ICMP Shell";
     homepage = "http://icmpshell.sourceforge.net";
     license = licenses.free;
-    maintainers = maintainers.sikmir;
+    maintainers = [ maintainers.sikmir ];
     platforms = platforms.linux;
     skip.ci = stdenv.isDarwin;
   };

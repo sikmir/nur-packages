@@ -13,7 +13,7 @@ python3Packages.buildPythonApplication {
   meta = with lib; {
     inherit (sources.lsdreader) description homepage;
     license = licenses.free;
-    maintainers = maintainers.sikmir;
+    maintainers = [ maintainers.sikmir ];
     platforms = platforms.unix;
   };
 }

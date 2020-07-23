@@ -16,7 +16,7 @@ stdenv.mkDerivation {
 
   preferLocalBuild = true;
 
-  buildInputs = [ undmg ];
+  nativeBuildInputs = [ undmg ];
 
   installPhase = ''
     mkdir -p $out/Applications/Mapper.app
@@ -26,7 +26,7 @@ stdenv.mkDerivation {
   meta = with stdenv.lib; {
     inherit (sources.mapper) description homepage;
     license = licenses.gpl3;
-    maintainers = maintainers.sikmir;
+    maintainers = [ maintainers.sikmir ];
     platforms = [ "x86_64-darwin" ];
     skip.ci = true;
   };

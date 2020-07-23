@@ -23,7 +23,7 @@ stdenv.mkDerivation {
   meta = with stdenv.lib; {
     inherit (sources.datamaps) description homepage;
     license = licenses.bsd2;
-    maintainers = maintainers.sikmir;
+    maintainers = [ maintainers.sikmir ];
     platforms = platforms.unix;
   };
 }

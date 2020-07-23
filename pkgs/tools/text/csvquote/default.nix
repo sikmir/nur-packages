@@ -15,7 +15,7 @@ stdenv.mkDerivation {
   meta = with stdenv.lib; {
     inherit (sources.csvquote) description homepage;
     license = licenses.mit;
-    maintainers = maintainers.sikmir;
+    maintainers = [ maintainers.sikmir ];
     platforms = platforms.unix;
   };
 }

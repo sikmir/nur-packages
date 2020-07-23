@@ -24,7 +24,7 @@ stdenv.mkDerivation {
   meta = with stdenv.lib; {
     inherit (sources.gimgtools) description homepage;
     license = licenses.free;
-    maintainers = maintainers.sikmir;
+    maintainers = [ maintainers.sikmir ];
     platforms = platforms.unix;
   };
 }

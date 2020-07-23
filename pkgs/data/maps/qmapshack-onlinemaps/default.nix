@@ -19,7 +19,7 @@ stdenv.mkDerivation {
     description = "Onlinekarten einbinden";
     homepage = "http://www.mtb-touring.net/qms/onlinekarten-einbinden/";
     license = licenses.free;
-    maintainers = maintainers.sikmir;
+    maintainers = [ maintainers.sikmir ];
     platforms = platforms.all;
     skip.ci = true;
   };

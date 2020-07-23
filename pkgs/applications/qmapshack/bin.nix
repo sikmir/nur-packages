@@ -25,7 +25,7 @@ stdenv.mkDerivation {
     homepage = "https://github.com/Maproom/qmapshack";
     description = "Consumer grade GIS software";
     license = licenses.gpl3;
-    maintainers = maintainers.sikmir;
+    maintainers = [ maintainers.sikmir ];
     platforms = [ "x86_64-darwin" ];
     skip.ci = true;
   };

@@ -66,7 +66,7 @@ stdenv.mkDerivation {
   meta = with stdenv.lib; {
     inherit (sources.embox) description homepage;
     license = licenses.bsd2;
-    maintainers = maintainers.sikmir;
+    maintainers = [ maintainers.sikmir ];
     platforms = platforms.unix;
     skip.ci = true;
   };
