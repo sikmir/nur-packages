@@ -247,6 +247,20 @@
         "url": "https://github.com/BourgeoisLab/GPXLab/archive/c9e2daf790ce7eb88c3bdcf17b98541d60c40894.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "gpxlib": {
+        "branch": "master",
+        "builtin": false,
+        "date": "2019-11-27T18:32:49Z",
+        "description": "A c++ library for parsing, browsing, changing and writing of GPX files",
+        "homepage": "http://irdvo.nl/gpxlib/",
+        "owner": "irdvo",
+        "repo": "gpxlib",
+        "rev": "9c247c4892156af13a8c32c14121115c8ff934b2",
+        "sha256": "1g5j0bv4l3jh9wxjizx4im5hyl32jm7xrw03ysaxd29dpvwr07y2",
+        "type": "tarball",
+        "url": "https://github.com/irdvo/gpxlib/archive/9c247c4892156af13a8c32c14121115c8ff934b2.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "gpxsee": {
         "branch": "master",
         "builtin": false,

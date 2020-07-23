@@ -70,6 +70,7 @@ lib.makeScope newScope (
       libtool = if pkgs.stdenv.isDarwin then pkgs.darwin.cctools else null;
     };
     geographiclib = callPackage ./development/libraries/geographiclib { };
+    gpxlib = callPackage ./development/libraries/gpxlib { };
     hfst = callPackage ./development/libraries/hfst { };
     libgarmin = callPackage ./development/libraries/libgarmin {
       automake = pkgs.automake111x;
