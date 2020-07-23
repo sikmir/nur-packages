@@ -84,7 +84,7 @@ mkDerivation {
   meta = with lib; {
     inherit (sources.mapper) description homepage;
     license = licenses.gpl3;
-    maintainers = with maintainers; [ sikmir ];
-    platforms = with platforms; linux ++ darwin;
+    maintainers = maintainers.sikmir;
+    platforms = platforms.unix;
   };
 }

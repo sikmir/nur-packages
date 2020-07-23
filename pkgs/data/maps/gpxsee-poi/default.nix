@@ -17,7 +17,7 @@
     meta = with lib; {
       homepage = "https://geocaching.su/";
       description = "Geocaches";
-      maintainers = with maintainers; [ sikmir ];
+      maintainers = maintainers.sikmir;
       license = licenses.free;
       platforms = platforms.all;
       skip.ci = true;
@@ -37,7 +37,7 @@
     meta = with lib; {
       homepage = "http://www.laavu.org/";
       description = "Laavut ja kodat kartalla";
-      maintainers = with maintainers; [ sikmir ];
+      maintainers = maintainers.sikmir;
       license = licenses.free;
       platforms = platforms.all;
       skip.ci = true;
@@ -57,7 +57,7 @@
     meta = with lib; {
       homepage = "http://www.laavu.org/autiotuvat/";
       description = "Autiotuvat kartalla";
-      maintainers = with maintainers; [ sikmir ];
+      maintainers = maintainers.sikmir;
       license = licenses.free;
       platforms = platforms.all;
       skip.ci = true;
@@ -80,7 +80,7 @@
     meta = with lib; {
       homepage = "https://westra.ru/passes/";
       description = "Mountain passes (Westra)";
-      maintainers = with maintainers; [ sikmir ];
+      maintainers = maintainers.sikmir;
       license = licenses.free;
       platforms = platforms.all;
       skip.ci = true;
@@ -105,7 +105,7 @@
     meta = with lib; {
       homepage = "https://strelki.extremum.org/s/p/47p";
       description = "Стрелки-47";
-      maintainers = with maintainers; [ sikmir ];
+      maintainers = maintainers.sikmir;
       license = licenses.free;
       platforms = platforms.all;
       skip.ci = true;
@@ -126,7 +126,7 @@
     meta = with lib; {
       homepage = "http://nashipohody.ru";
       description = "Карта Достопримечательностей";
-      maintainers = with maintainers; [ sikmir ];
+      maintainers = maintainers.sikmir;
       license = licenses.free;
       platforms = platforms.all;
       skip.ci = true;
