@@ -8,6 +8,7 @@ lib.makeScope newScope (
 
     ### APPLICATIONS
 
+    goldendict-bin = callPackage ./applications/goldendict/bin.nix { };
     gpxlab = libsForQt5.callPackage ./applications/gpxlab {
       inherit sources;
     };
