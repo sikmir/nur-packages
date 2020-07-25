@@ -83,7 +83,7 @@ mkDerivation {
 
   meta = with lib; {
     inherit (sources.mapper) description homepage;
-    license = licenses.gpl3;
+    license = licenses.gpl3Plus;
     maintainers = [ maintainers.sikmir ];
     platforms = platforms.unix;
   };
