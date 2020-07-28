@@ -100,15 +100,15 @@
     "embox": {
         "branch": "master",
         "builtin": false,
-        "date": "2020-07-24T11:44:44Z",
+        "date": "2020-07-26T11:16:39Z",
         "description": "Modular and configurable OS for embedded applications",
         "homepage": "http://embox.github.io",
         "owner": "embox",
         "repo": "embox",
-        "rev": "c762f44fd16ad927f7f6198289b5496ffd383b99",
-        "sha256": "0q6dh2m5xl4d5wpdpx15ykgwr6cxd6cl43rdrkc7mxp5l502hywa",
+        "rev": "5c82a8cd7a544c98a2c7c7b699d4edd8b180602d",
+        "sha256": "13l5pvjc7i3wvri111jb5lz4p5f2mi60xfbp8pmz6fpcj5zyc0i3",
         "type": "tarball",
-        "url": "https://github.com/embox/embox/archive/c762f44fd16ad927f7f6198289b5496ffd383b99.tar.gz",
+        "url": "https://github.com/embox/embox/archive/5c82a8cd7a544c98a2c7c7b699d4edd8b180602d.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "foma": {
@@ -222,15 +222,15 @@
     "gpxelevations": {
         "branch": "master",
         "builtin": false,
-        "date": "2020-07-24T19:48:45Z",
+        "date": "2020-07-27T17:15:30Z",
         "description": "Geo elevation data parser for \"The Shuttle Radar Topography Mission\" data",
         "homepage": "https://github.com/tkrajina/srtm.py",
         "owner": "tkrajina",
         "repo": "srtm.py",
-        "rev": "5ae49a6e55f633d3b262bdd1a6fbb5cc1d86126d",
-        "sha256": "1n23sbk6hfbl583yppb7p52kzv9mkndm2sigc75qki52gz8mcd5w",
+        "rev": "65bbc1324ab942192bb817a25af1a85d65a87f46",
+        "sha256": "0ana5ya2q399arh6nzpjshgnpkbii6wzd9vn4x1x8353cpb2v1lj",
         "type": "tarball",
-        "url": "https://github.com/tkrajina/srtm.py/archive/5ae49a6e55f633d3b262bdd1a6fbb5cc1d86126d.tar.gz",
+        "url": "https://github.com/tkrajina/srtm.py/archive/65bbc1324ab942192bb817a25af1a85d65a87f46.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "gpxlab": {
@@ -461,11 +461,11 @@
         "description": "Ежедневная сборка карт из данных OpenStreetMap для навигационных приборов и приложений Garmin",
         "homepage": "https://maptourist.org",
         "region": "szfo",
-        "sha256": "016cwrrjrc69l3ks19ficxp060mwl3rpf0s6p70mm1mrzdkz40ms",
+        "sha256": "1m2lxc92r85z7qblbwb94lax9zjnvddg052vys22hbrr8v3ffk0d",
         "type": "file",
-        "url": "https://maptourist.org/osm-garmin/archive/OSM-MapTourist-szfo-RU_2020-07-22.zip",
+        "url": "https://maptourist.org/osm-garmin/archive/OSM-MapTourist-szfo-RU_2020-07-28.zip",
         "url_template": "https://maptourist.org/osm-garmin/archive/OSM-MapTourist-<region>-RU_<version>.zip",
-        "version": "2020-07-22"
+        "version": "2020-07-28"
     },
     "mbtileserver": {
         "branch": "master",
@@ -555,10 +555,10 @@
         "homepage": "https://nakarte.me",
         "owner": "wladich",
         "repo": "nakarte",
-        "rev": "4c7626b248d1c9e6c247ab9f8d61b38cde48e21d",
-        "sha256": "16csv0ncmmxw6snfwn6q1a469niffy21ys2gysvzjg9zjnqjrf23",
+        "rev": "06c87d2b1021feebf358f7cb2ad87afd7d6a924f",
+        "sha256": "15n5wmb4g9zzkd3mgfck686s0vs10fmq5arhb6iiqnqp5jb26mg2",
         "type": "tarball",
-        "url": "https://github.com/wladich/nakarte/archive/4c7626b248d1c9e6c247ab9f8d61b38cde48e21d.tar.gz",
+        "url": "https://github.com/wladich/nakarte/archive/06c87d2b1021feebf358f7cb2ad87afd7d6a924f.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nnn": {
