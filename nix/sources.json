@@ -729,6 +729,20 @@
         "url": "https://github.com/selectel/supload/archive/70690682867713c68d7c6daa833a1013e79df407.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "taginfo-tools": {
+        "branch": "master",
+        "builtin": false,
+        "date": "2020-07-28T18:52:53Z",
+        "description": "C++ tools used in taginfo processing",
+        "homepage": "https://wiki.openstreetmap.org/wiki/Taginfo",
+        "owner": "taginfo",
+        "repo": "taginfo-tools",
+        "rev": "62c6068e01ded3b121eebd6fb1f99a50c46e5138",
+        "sha256": "0rcckkv3s0cjhmi6g6q3zbg8y72cha5hixsfxa5gg1l7b7w3hf41",
+        "type": "tarball",
+        "url": "https://github.com/taginfo/taginfo-tools/archive/62c6068e01ded3b121eebd6fb1f99a50c46e5138.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "tilesets-cli": {
         "branch": "master",
         "builtin": false,

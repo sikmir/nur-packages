@@ -150,6 +150,7 @@ lib.makeScope newScope (
       else callPackage ./tools/dict/stardict-tools { };
     supermercado = callPackage ./tools/geo/supermercado { };
     supload = callPackage ./tools/supload { };
+    taginfo-tools = callPackage ./tools/geo/taginfo-tools { };
     tilesets-cli = callPackage ./tools/geo/tilesets-cli { };
     tpkutils = callPackage ./tools/geo/tpkutils { };
     xfractint = callPackage ./tools/xfractint { };
