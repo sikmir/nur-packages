@@ -28,6 +28,6 @@ mkYarnPackage {
     license = licenses.mit;
     maintainers = [ maintainers.sikmir ];
     platforms = platforms.all;
-    broken = true; # error while evaluating 'importJSON', only on NUR CI
+    skip.ci = true; # error while evaluating 'importJSON', only on NUR CI
   };
 }
