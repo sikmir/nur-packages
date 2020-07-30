@@ -82,6 +82,7 @@ lib.makeScope newScope (
       automake = pkgs.automake111x;
     };
     libshell = callPackage ./development/libraries/libshell { };
+    microjson = callPackage ./development/libraries/microjson { };
 
     ### DEVELOPMENT / PERL MODULES
 

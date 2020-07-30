@@ -495,6 +495,20 @@
         "url": "https://github.com/mapbox/mercantile/archive/9e7b52f6a2019f904b2ceba3f5f9ca6ac8f02b80.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "microjson": {
+        "branch": "master",
+        "builtin": false,
+        "date": "2020-07-04T11:11:24Z",
+        "description": "Tiny streaming json deserializer",
+        "homepage": "https://github.com/semlanik/microjson",
+        "owner": "semlanik",
+        "repo": "microjson",
+        "rev": "b1b37757a36f19399e38088609bc63312c50137f",
+        "sha256": "0byjiizzsgb742mvqrr513b22idkqsdrvvixyczkh25lkj3aqhga",
+        "type": "tarball",
+        "url": "https://github.com/semlanik/microjson/archive/b1b37757a36f19399e38088609bc63312c50137f.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "mikatools": {
         "branch": "master",
         "builtin": false,
