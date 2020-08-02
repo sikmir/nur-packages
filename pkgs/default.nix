@@ -8,6 +8,7 @@ lib.makeScope newScope (
 
     ### APPLICATIONS
 
+    anki-bin = callPackage ./applications/anki/bin.nix { };
     goldendict-bin = callPackage ./applications/goldendict/bin.nix { };
     gpxlab = libsForQt5.callPackage ./applications/gpxlab {
       inherit sources;
