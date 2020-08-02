@@ -39,8 +39,6 @@ let
   linux = appimageTools.wrapType2 rec {
     inherit name src meta;
 
-    preferLocalBuild = true;
-
     extraInstallCommands = ''
       mv $out/bin/{${name},${pname}}
       install -Dm644 ${appimageContents}/keeweb.desktop -t $out/share/applications
