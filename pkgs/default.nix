@@ -28,7 +28,7 @@ lib.makeScope newScope (
     };
     openorienteering-mapper-bin = callPackage ./applications/openorienteering-mapper/bin.nix { };
     qgis-bin = callPackage ./applications/qgis/bin.nix { };
-    qgis-ltr-bin = qgis.override { releaseType = "ltr"; };
+    qgis-ltr-bin = qgis-bin.override { releaseType = "ltr"; };
     qmapshack-bin = callPackage ./applications/qmapshack/bin.nix { };
     qutebrowser-bin = callPackage ./applications/qutebrowser/bin.nix { };
     redict = libsForQt5.callPackage ./applications/redict {

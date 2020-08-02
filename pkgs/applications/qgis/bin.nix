@@ -15,7 +15,7 @@ stdenv.mkDerivation {
     url = "https://qgis.org/downloads/macos/qgis-macos-${releaseType}.dmg";
     sha256 = {
       pr = "09c62yxaj0nc64djjxvk5irm0604phir4bfk1wclimvxqc9dvxwz";
-      ltr = "09c62yxaj0nc64djjxvk5irm0604phir4bfk1wclimvxqc9dvxw2";
+      ltr = "1bwj98rzsh3mlv330wkhv51hx2iywcw4r4vbn80z4cyc6dd6k274";
     }.${releaseType};
     name = "QGIS-macOS-${version}.dmg";
   };
