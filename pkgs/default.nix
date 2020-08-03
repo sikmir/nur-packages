@@ -162,6 +162,7 @@ lib.makeScope newScope (
     tilesets-cli = callPackage ./tools/geo/tilesets-cli { };
     tpkutils = callPackage ./tools/geo/tpkutils { };
     xfractint = callPackage ./tools/xfractint { };
+    zdict = callPackage ./tools/dict/zdict { };
 
     ### SERVERS
 
