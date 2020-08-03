@@ -156,7 +156,7 @@ lib.makeScope newScope (
       }
       else callPackage ./tools/dict/stardict-tools { };
     supermercado = callPackage ./tools/geo/supermercado { };
-    supload = callPackage ./tools/supload { };
+    supload = callPackage ./tools/misc/supload { };
     taginfo-tools = callPackage ./tools/geo/taginfo-tools { };
     tilesets-cli = callPackage ./tools/geo/tilesets-cli { };
     tpkutils = callPackage ./tools/geo/tpkutils { };
