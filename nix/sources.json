@@ -100,15 +100,15 @@
     "embox": {
         "branch": "master",
         "builtin": false,
-        "date": "2020-08-02T10:45:29Z",
+        "date": "2020-08-03T15:09:53Z",
         "description": "Modular and configurable OS for embedded applications",
         "homepage": "http://embox.github.io",
         "owner": "embox",
         "repo": "embox",
-        "rev": "269b9f3d4f72d046dce26e071a8845452d9d08a1",
-        "sha256": "0gqcsdj2dvd2p3lfqccwfryggxqa7a30igi7w835yhq7nfm0s6b9",
+        "rev": "65778769423d33a510fd9b31e0b46f8658685165",
+        "sha256": "1k0f2xim24hdc8vbc9ip5pjdpi5391ay0k324qh2xmjyh8kcg9zg",
         "type": "tarball",
-        "url": "https://github.com/embox/embox/archive/269b9f3d4f72d046dce26e071a8845452d9d08a1.tar.gz",
+        "url": "https://github.com/embox/embox/archive/65778769423d33a510fd9b31e0b46f8658685165.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "foma": {
@@ -155,27 +155,27 @@
     },
     "geofabrik-estonia": {
         "builtin": false,
-        "sha256": "0jj5b9y8i2l0z59v8n5c6pj7q1sqcnrczhrva69c492aymjwnlar",
+        "sha256": "004jq7amckm6zp8z0hjyi8ap5qdgncn1w7vxz2zjhmfm1myw562g",
         "type": "file",
-        "url": "https://download.geofabrik.de/europe/estonia-200728.osm.pbf",
+        "url": "https://download.geofabrik.de/europe/estonia-200803.osm.pbf",
         "url_template": "https://download.geofabrik.de/europe/estonia-<version>.osm.pbf",
-        "version": "200728"
+        "version": "200803"
     },
     "geofabrik-finland": {
         "builtin": false,
-        "sha256": "0nqkp42pr57hw8qlk4b258lp9lr652ggwdn0hys4m6ci0w93scf2",
+        "sha256": "02dkgvx82x98lsjaf67sna8xfv06ygjj9j6vybj9mj5pjrk6cj86",
         "type": "file",
-        "url": "https://download.geofabrik.de/europe/finland-200728.osm.pbf",
+        "url": "https://download.geofabrik.de/europe/finland-200803.osm.pbf",
         "url_template": "https://download.geofabrik.de/europe/finland-<version>.osm.pbf",
-        "version": "200728"
+        "version": "200803"
     },
     "geofabrik-russia-nwfd": {
         "builtin": false,
-        "sha256": "1551qvxchphkn2jg57ja7a893r97kmpz80r8xaw8yi47rxivld1p",
+        "sha256": "1s03411dyqmbm9lh5svw189q2lidrr0sy95lhbng223654p7j83r",
         "type": "file",
-        "url": "https://download.geofabrik.de/russia/northwestern-fed-district-200728.osm.pbf",
+        "url": "https://download.geofabrik.de/russia/northwestern-fed-district-200803.osm.pbf",
         "url_template": "https://download.geofabrik.de/russia/northwestern-fed-district-<version>.osm.pbf",
-        "version": "200728"
+        "version": "200803"
     },
     "gimgtools": {
         "branch": "master",
@@ -475,11 +475,11 @@
         "description": "Ежедневная сборка карт из данных OpenStreetMap для навигационных приборов и приложений Garmin",
         "homepage": "https://maptourist.org",
         "region": "szfo",
-        "sha256": "1li7gd4bz6bgymkxn3gb5v32isrdavv37fqw4n88fdrw55f6m526",
+        "sha256": "1ds1hxrvp9dqcx5c2n0nnig5arharfcb1mlmg506iwp728cdyscf",
         "type": "file",
-        "url": "https://maptourist.org/osm-garmin/archive/OSM-MapTourist-szfo-RU_2020-07-31.zip",
+        "url": "https://maptourist.org/osm-garmin/archive/OSM-MapTourist-szfo-RU_2020-08-02.zip",
         "url_template": "https://maptourist.org/osm-garmin/archive/OSM-MapTourist-<region>-RU_<version>.zip",
-        "version": "2020-07-31"
+        "version": "2020-08-02"
     },
     "mbtileserver": {
         "branch": "master",
@@ -578,29 +578,29 @@
     "nakarte": {
         "branch": "master",
         "builtin": false,
-        "date": "2020-08-01T13:00:22Z",
+        "date": "2020-08-03T21:44:13Z",
         "description": "Source code of site http://nakarte.me",
         "homepage": "https://nakarte.me",
         "owner": "wladich",
         "repo": "nakarte",
-        "rev": "56467579e3365b61ff7c8480d197044d7f93662e",
-        "sha256": "1fsy0bycbhp1l3jc3kfax3mx3bsh80xi27zdiwkyf1rcbhaygby6",
+        "rev": "427ea29c64bedb190cc63501dfc032557219200e",
+        "sha256": "0g6cindrzxbdbhn5c0a43gwn8r7zbg2zg742nwfqpf48vs436fl3",
         "type": "tarball",
-        "url": "https://github.com/wladich/nakarte/archive/56467579e3365b61ff7c8480d197044d7f93662e.tar.gz",
+        "url": "https://github.com/wladich/nakarte/archive/427ea29c64bedb190cc63501dfc032557219200e.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nnn": {
         "branch": "master",
         "builtin": false,
-        "date": "2020-08-02T13:46:15Z",
+        "date": "2020-08-03T19:12:58Z",
         "description": "n³ The missing terminal file manager for X",
         "homepage": "https://github.com/jarun/nnn",
         "owner": "jarun",
         "repo": "nnn",
-        "rev": "359b6f7a37292f3545da86fa3fb3866683227dfd",
-        "sha256": "0hhbsj6psb1dwash4dfqcbi7zv5wjxjkmzvgs57ffc8hb09gm76z",
+        "rev": "ccfccb7187a82ebe7fce3ca2bbc3eaa94a1b4ccd",
+        "sha256": "0jz2mfwr0v4kb8wpvcbj3xgx27apzgrs8bbl8kdi3c5iq36nbwx7",
         "type": "tarball",
-        "url": "https://github.com/jarun/nnn/archive/359b6f7a37292f3545da86fa3fb3866683227dfd.tar.gz",
+        "url": "https://github.com/jarun/nnn/archive/ccfccb7187a82ebe7fce3ca2bbc3eaa94a1b4ccd.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "odict": {
