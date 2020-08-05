@@ -52,8 +52,8 @@ lib.makeScope newScope (
 
     gpsmap64 = callPackage ./data/firmwares/gpsmap64 { };
 
+    dem = callPackage ./data/maps/dem { };
     freizeitkarte-osm = callPackage ./data/maps/freizeitkarte-osm { };
-    gpxsee-dem = callPackage ./data/maps/gpxsee-dem { };
     gpxsee-maps = callPackage ./data/maps/gpxsee-maps { };
     gpxsee-poi = callPackage ./data/maps/gpxsee-poi { };
     hiblovgpsmap = callPackage ./data/maps/hiblovgpsmap { };
@@ -62,7 +62,6 @@ lib.makeScope newScope (
     opentopomap = callPackage ./data/maps/opentopomap { };
     qmapshack-onlinemaps = callPackage ./data/maps/qmapshack-onlinemaps { };
     qmapshack-routinodb = callPackage ./data/maps/qmapshack-routinodb { };
-    qmapshack-dem = callPackage ./data/maps/qmapshack-dem { };
     slazav-hr = callPackage ./data/maps/slazav/hr.nix { };
     slazav-podm = callPackage ./data/maps/slazav/podm.nix { };
 
