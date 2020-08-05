@@ -61,7 +61,7 @@ lib.makeScope newScope (
     mtk-suomi = callPackage ./data/maps/mtk-suomi { };
     opentopomap = callPackage ./data/maps/opentopomap { };
     qmapshack-onlinemaps = callPackage ./data/maps/qmapshack-onlinemaps { };
-    qmapshack-routinodb = callPackage ./data/maps/qmapshack-routinodb { };
+    routinodb = callPackage ./data/maps/routinodb { };
     slazav-hr = callPackage ./data/maps/slazav/hr.nix { };
     slazav-podm = callPackage ./data/maps/slazav/podm.nix { };
 
