@@ -100,7 +100,7 @@
     "embox": {
         "branch": "master",
         "builtin": false,
-        "date": "2020-08-07T17:14:39Z",
+        "date": "2020-08-24T14:42:26Z",
         "description": "Modular and configurable OS for embedded applications",
         "homepage": "http://embox.github.io",
         "owner": "embox",
@@ -128,7 +128,7 @@
     "gef": {
         "branch": "dev",
         "builtin": false,
-        "date": "2020-07-30T14:57:39Z",
+        "date": "2020-08-26T02:02:11Z",
         "description": "GEF - GDB Enhanced Features for exploit devs & reversers",
         "homepage": "http://gef.rtfd.io",
         "owner": "hugsy",
@@ -347,7 +347,7 @@
     "hfst": {
         "branch": "master",
         "builtin": false,
-        "date": "2020-07-04T20:30:59Z",
+        "date": "2020-08-21T12:43:04Z",
         "description": "Helsinki Finite-State Technology (library and application suite)",
         "homepage": "https://hfst.github.io",
         "owner": "hfst",
@@ -445,7 +445,7 @@
     "mapper": {
         "branch": "master",
         "builtin": false,
-        "date": "2020-08-08T04:17:52Z",
+        "date": "2020-08-24T18:49:38Z",
         "description": "OpenOrienteering Mapper is a software for creating maps for the orienteering sport",
         "homepage": "https://www.openorienteering.org/apps/mapper/",
         "owner": "OpenOrienteering",
@@ -498,7 +498,7 @@
     "mercantile": {
         "branch": "master",
         "builtin": false,
-        "date": "2020-06-16T22:49:21Z",
+        "date": "2020-08-24T14:49:04Z",
         "description": "Spherical mercator tile and coordinate utilities",
         "homepage": "https://github.com/mapbox/mercantile",
         "owner": "mapbox",
@@ -526,7 +526,7 @@
     "mikatools": {
         "branch": "master",
         "builtin": false,
-        "date": "2020-08-07T21:13:37Z",
+        "date": "2020-08-09T16:43:02Z",
         "description": "Mikatools provides fast and easy methods for common Python coding tasks",
         "homepage": "https://github.com/mikahama/mikatools",
         "owner": "mikahama",
@@ -578,7 +578,7 @@
     "nakarte": {
         "branch": "master",
         "builtin": false,
-        "date": "2020-08-08T09:32:38Z",
+        "date": "2020-08-24T08:31:29Z",
         "description": "Source code of site http://nakarte.me",
         "homepage": "https://nakarte.me",
         "owner": "wladich",
@@ -592,7 +592,7 @@
     "nnn": {
         "branch": "master",
         "builtin": false,
-        "date": "2020-08-08T05:12:37Z",
+        "date": "2020-08-23T16:42:12Z",
         "description": "n³ The missing terminal file manager for X",
         "homepage": "https://github.com/jarun/nnn",
         "owner": "jarun",
@@ -648,7 +648,7 @@
     "pg-tileserv": {
         "branch": "master",
         "builtin": false,
-        "date": "2020-06-12T14:56:48Z",
+        "date": "2020-08-24T22:01:02Z",
         "description": "A very thin PostGIS-only tile server in Go. Takes in HTTP tile requests, executes SQL, returns MVT tiles",
         "homepage": "https://github.com/CrunchyData/pg_tileserv",
         "owner": "CrunchyData",
@@ -774,7 +774,7 @@
     "tilesets-cli": {
         "branch": "master",
         "builtin": false,
-        "date": "2020-08-06T22:26:30Z",
+        "date": "2020-08-18T21:27:48Z",
         "description": "CLI for interacting with the Mapbox Tilesets API",
         "homepage": "https://docs.mapbox.com/api/maps/#tilesets",
         "owner": "mapbox",
@@ -788,7 +788,7 @@
     "tpkutils": {
         "branch": "main",
         "builtin": false,
-        "date": "2019-10-31T03:05:49Z",
+        "date": "2020-08-09T17:48:36Z",
         "description": "ArcGIS Tile Package Utilities",
         "homepage": "https://github.com/consbio/tpkutils",
         "owner": "consbio",
@@ -802,7 +802,7 @@
     "zdict": {
         "branch": "master",
         "builtin": false,
-        "date": "2020-08-04T15:34:59Z",
+        "date": "2020-08-20T09:09:22Z",
         "description": "The last online dictionary framework you need",
         "homepage": "https://pypi.org/project/zdict/",
         "owner": "zdict",
