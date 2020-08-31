@@ -302,6 +302,20 @@
         "url": "https://notabug.org/irdvo/gpxtools/archive/919fb5953af8de1e71f61244eb70dd56b670a429.tar.gz",
         "url_template": "https://notabug.org/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "gpxtrackposter": {
+        "branch": "master",
+        "builtin": false,
+        "date": "2020-08-21T10:20:21Z",
+        "description": "Create a visually appealing poster from your GPX tracks",
+        "homepage": "https://github.com/flopp/GpxTrackPoster",
+        "owner": "flopp",
+        "repo": "GpxTrackPoster",
+        "rev": "b1611ce45da8162e112ee75ca788214f891e2ea4",
+        "sha256": "0vxdvay0yz85bak835159zjrhmic1f9iy38r1f8nnss10ryvz0z7",
+        "type": "tarball",
+        "url": "https://github.com/flopp/GpxTrackPoster/archive/b1611ce45da8162e112ee75ca788214f891e2ea4.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "gt-bash-client": {
         "branch": "master",
         "builtin": false,

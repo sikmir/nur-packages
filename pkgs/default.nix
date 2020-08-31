@@ -130,6 +130,7 @@ lib.makeScope newScope (
       inherit sources;
     };
     gpxtools = callPackage ./tools/geo/gpxtools { };
+    gpxtrackposter = callPackage ./tools/geo/gpxtrackposter { };
     gt-bash-client = callPackage ./tools/dict/gt-bash-client { };
     gt4gd = callPackage ./tools/dict/gt4gd { };
     i18n-editor = callPackage ./tools/i18n-editor { jre = pkgs.jdk11; };
