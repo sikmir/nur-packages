@@ -715,6 +715,20 @@
         "url": "https://github.com/rekols/redict/archive/525aac01ed5fc0f74f8393dc5b5b3bb57c9b0c5f.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "s2sphere": {
+        "branch": "master",
+        "builtin": false,
+        "date": "2017-11-16T17:47:11Z",
+        "description": "Python implementation of the S2 geometry library.",
+        "homepage": "http://s2sphere.sidewalklabs.com/",
+        "owner": "sidewalklabs",
+        "repo": "s2sphere",
+        "rev": "d1d067e8c06e5fbaf0cc0158bade947b4a03a438",
+        "sha256": "0jidg5bg6qpiji8j2r8s8abxxs08ldkc7rdplhbnfw6k4axlh4za",
+        "type": "tarball",
+        "url": "https://github.com/sidewalklabs/s2sphere/archive/d1d067e8c06e5fbaf0cc0158bade947b4a03a438.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "stardict-3": {
         "branch": "master",
         "builtin": false,
