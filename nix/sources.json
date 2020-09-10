@@ -69,6 +69,20 @@
         "url": "https://github.com/ericfischer/datamaps/archive/76e620adabbedabd6866b23b30c145b53bae751e.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "dict2rest": {
+        "branch": "master",
+        "builtin": false,
+        "date": "2016-12-05T08:16:58Z",
+        "description": "A simple proxy service providing an HTTP interface to a Dict protocol (RFC 2229) server",
+        "homepage": "https://github.com/felix/go-dict2rest",
+        "owner": "felix",
+        "repo": "go-dict2rest",
+        "rev": "b049991a46a2f619344bd6e915745703864d0134",
+        "sha256": "0d3fbqyyzy1rxpv76phkbfzrx9ianckq30a87k982rchs6qw36xz",
+        "type": "tarball",
+        "url": "https://github.com/felix/go-dict2rest/archive/b049991a46a2f619344bd6e915745703864d0134.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "docker-reg-tool": {
         "branch": "master",
         "builtin": false,
