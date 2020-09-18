@@ -771,6 +771,20 @@
         "url": "https://github.com/tumic0/QtPBFImagePlugin-styles/archive/577bb119641c80e1736815ed70a0b99c942c63e0.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "qvge": {
+        "branch": "master",
+        "builtin": false,
+        "date": "2020-08-21T06:52:43Z",
+        "description": "Qt Visual Graph Editor",
+        "homepage": "https://arsmasiuk.github.io/qvge/",
+        "owner": "ArsMasiuk",
+        "repo": "qvge",
+        "rev": "1fc861f939a7fb28d7159fa9621197a27e8f486c",
+        "sha256": "19cafjf7qwjr8c6kyiaqc48xwb8xf18blbrna11skaby6k4by68n",
+        "type": "tarball",
+        "url": "https://github.com/ArsMasiuk/qvge/archive/1fc861f939a7fb28d7159fa9621197a27e8f486c.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "redict": {
         "branch": "master",
         "builtin": false,

@@ -33,6 +33,7 @@ lib.makeScope newScope (
     qgis-ltr-bin = qgis-bin.override { releaseType = "ltr"; };
     qmapshack-bin = callPackage ./applications/qmapshack/bin.nix { };
     qutebrowser-bin = callPackage ./applications/qutebrowser/bin.nix { };
+    qvge = libsForQt5.callPackage ../applications/qvge { };
     redict = libsForQt5.callPackage ./applications/redict {
       inherit sources;
     };
