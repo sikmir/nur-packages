@@ -167,8 +167,6 @@
         "url": "https://github.com/jovoro/geminid/archive/3f79348aaffebfb2d80252d8cdbaf6ad26fa9121.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
     "geofabrik-estonia": {
         "builtin": false,
         "sha256": "1mcchdm35sqwk06byyvyghy00km4lxkbrkf5zjca9s8smry8za94",
