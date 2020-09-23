@@ -1,6 +1,6 @@
-{ stdenv, fetchurl, lang, version, sha256 }:
+{ stdenvNoCC, fetchurl, lang, version, sha256 }:
 
-stdenv.mkDerivation {
+stdenvNoCC.mkDerivation {
   pname = "wiktionary-${lang}";
   inherit version;
 
@@ -9,13 +9,11 @@ stdenv.mkDerivation {
     inherit sha256;
   };
 
-  installPhase = ''
-    install -Dm644 *.{dict,idx,ifo} -t $out/share/goldendict/dictionaries/wiktionary
-  '';
+  installPhase = "install -Dm644 *.{dict,idx,ifo} -t $out";
 
   preferLocalBuild = true;
 
-  meta = with stdenv.lib; {
+  meta = with stdenvNoCC.lib; {
     description = "Wiktionary dictionaries for StarDict (${lang})";
     homepage = "http://libredict.org/en/info_${lang}.html";
     license = licenses.free;
