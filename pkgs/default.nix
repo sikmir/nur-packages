@@ -175,6 +175,10 @@ lib.makeScope newScope (
     xfractint = callPackage ./tools/xfractint { };
     zdict = callPackage ./tools/dict/zdict { };
 
+    ### GAMES
+
+    ascii-dash = callPackage ./games/ascii-dash { };
+
     ### SERVERS
 
     dict2rest = callPackage ./servers/dict2rest { };
