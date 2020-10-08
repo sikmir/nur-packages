@@ -18,6 +18,7 @@
 , proj
 , shapelib
 , unzip
+, wrapGAppsHook
 }:
 
 stdenv.mkDerivation rec {
@@ -54,6 +55,7 @@ stdenv.mkDerivation rec {
     perlPackages.perl
     pkgconfig
     unzip
+    wrapGAppsHook
   ];
   buildInputs = [
     db
