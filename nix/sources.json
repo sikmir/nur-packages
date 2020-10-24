@@ -551,20 +551,6 @@
         "url_template": "https://maptourist.org/osm-garmin/archive/OSM-MapTourist-<region>-RU_<version>.zip",
         "version": "2020-10-23"
     },
-    "mbtileserver": {
-        "branch": "master",
-        "builtin": false,
-        "date": "2020-05-11T18:18:31Z",
-        "description": "Basic Go server for mbtiles",
-        "homepage": "https://github.com/consbio/mbtileserver",
-        "owner": "consbio",
-        "repo": "mbtileserver",
-        "rev": "ca4a94e0c5a4487c64d271e6d1428a6aefcd094c",
-        "sha256": "1hivsk1z22dy9gjn7r7n229j5ij3yzmd8p8l6baz6z36cfpz8qin",
-        "type": "tarball",
-        "url": "https://github.com/consbio/mbtileserver/archive/ca4a94e0c5a4487c64d271e6d1428a6aefcd094c.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
     "mercantile": {
         "branch": "master",
         "builtin": false,
