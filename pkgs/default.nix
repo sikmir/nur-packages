@@ -1,6 +1,6 @@
 { pkgs, sources }:
 let
-  inherit (pkgs) lib newScope recurseIntoAttrs libsForQt5;
+  inherit (pkgs) lib newScope recurseIntoAttrs libsForQt5 darwin;
 in
 lib.makeScope newScope (
   self: with self; {
@@ -48,6 +48,9 @@ lib.makeScope newScope (
     tdh = callPackage ./applications/gis/tdh { };
     visualgps = libsForQt5.callPackage ./applications/visualgps { };
     wireguard-statusbar = callPackage ./applications/wireguard-statusbar { };
+    yabai = callPackage ./applications/window-managers/yabai {
+      inherit (darwin.apple_sdk.frameworks) Cocoa ScriptingBridge;
+    };
 
     ### BUILD SUPPORT
 
