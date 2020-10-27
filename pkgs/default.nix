@@ -8,6 +8,7 @@ lib.makeScope newScope (
 
     ### APPLICATIONS
 
+    amethyst-bin = callPackage ./applications/window-managers/amethyst/bin.nix { };
     anki-bin = callPackage ./applications/anki/bin.nix { };
     basecamp = callPackage ./applications/gis/basecamp { };
     goldencheetah-bin = callPackage ./applications/goldencheetah/bin.nix { };
