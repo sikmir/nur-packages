@@ -139,6 +139,20 @@
         "url": "https://github.com/mhulden/foma/archive/b44022c7d9d347dc7392aabbf72c82e558767675.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "gdcv": {
+        "branch": "master",
+        "builtin": false,
+        "date": "2020-09-28T19:00:09Z",
+        "description": "GoldenDict console version and emacs dynamic module",
+        "homepage": "https://github.com/konstare/gdcv",
+        "owner": "konstare",
+        "repo": "gdcv",
+        "rev": "39fd2667362710f69c13dd596e112b0391e0a57e",
+        "sha256": "1v9micdr6fml1lbhxndbynghrajix5vgp8qg7b7bdsa2wngzlr16",
+        "type": "tarball",
+        "url": "https://github.com/konstare/gdcv/archive/39fd2667362710f69c13dd596e112b0391e0a57e.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "gef": {
         "branch": "dev",
         "builtin": false,
