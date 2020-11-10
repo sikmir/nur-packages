@@ -71,7 +71,7 @@ lib.makeScope newScope (
     freizeitkarte-osm = callPackage ./data/maps/freizeitkarte-osm { };
     gpxsee-maps = callPackage ./data/maps/gpxsee-maps { };
     gpxsee-poi = callPackage ./data/maps/gpxsee-poi { };
-    hiblovgpsmap = callPackage ./data/maps/hiblovgpsmap { };
+    vlasenko-maps = callPackage ./data/maps/vlasenko-maps { };
     maptourist = callPackage ./data/maps/maptourist { };
     mtk-suomi = callPackage ./data/maps/mtk-suomi { };
     opentopomap = callPackage ./data/maps/opentopomap { };
