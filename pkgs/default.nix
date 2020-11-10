@@ -25,6 +25,7 @@ lib.makeScope newScope (
     klogg = libsForQt5.callPackage ./applications/misc/klogg {
       inherit sources;
     };
+    klogg-bin = callPackage ./applications/misc/klogg/bin.nix { };
     librewolf = callPackage ./applications/networking/librewolf { };
     macpass-bin = callPackage ./applications/macpass/bin.nix { };
     mapsoft = callPackage ./applications/gis/mapsoft { };
