@@ -1,11 +1,9 @@
 { lib, buildGoModule, sources }:
-let
-  pname = "pg_featureserv";
-  date = lib.substring 0 10 sources.pg-featureserv.date;
-  version = "unstable-" + date;
-in
+
 buildGoModule {
-  inherit pname version;
+  pname = "pg_featureserv-unstable";
+  version = lib.substring 0 10 sources.pg-featureserv.date;
+
   src = sources.pg-featureserv;
 
   vendorSha256 = "1jqrkx850ghmpnfjhqky93r8fq7q63m5ivs0lzljzbvn7ya75f2r";

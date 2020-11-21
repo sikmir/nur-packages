@@ -138,6 +138,7 @@ lib.makeScope newScope (
     };
     fx-bin = callPackage ./tools/text/fx/bin.nix { };
     garmin-uploader = callPackage ./tools/misc/garmin-uploader { };
+    gdcv = callPackage ./tools/dict/gdcv { };
     gimgtools = callPackage ./tools/geo/gimgtools { };
     gloggery = callPackage ./tools/misc/gloggery { };
     gmaptool = callPackage ./tools/geo/gmaptool { };
