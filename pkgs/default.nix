@@ -195,7 +195,6 @@ lib.makeScope newScope (
     geminid = callPackage ./servers/geminid { };
     glauth = callPackage ./servers/glauth { };
     nakarte = callPackage ./servers/nakarte { };
-    pg_featureserv = callPackage ./servers/pg_featureserv { };
     quark = callPackage ./servers/quark { };
     shavit = callPackage ./servers/shavit { };
 
