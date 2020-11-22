@@ -127,6 +127,7 @@ lib.makeScope newScope (
     pymbtiles = callPackage ./development/python-modules/pymbtiles { };
     python-hfst = callPackage ./development/python-modules/python-hfst { };
     s2sphere = callPackage ./development/python-modules/s2sphere { };
+    thinplatespline = callPackage ./development/python-modules/thinplatespline { };
 
     ### TOOLS
 

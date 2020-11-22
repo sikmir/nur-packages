@@ -880,6 +880,20 @@
         "url": "https://github.com/LBeaudoux/tatoebatools/archive/da5613145db5080c89ff5a49d13e9d92c0017b2d.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "thinplatespline": {
+        "branch": "master",
+        "builtin": false,
+        "date": "2013-01-23T09:17:04Z",
+        "description": "Python library for thin plate spline calculations",
+        "homepage": "https://github.com/wladich/thinplatespline",
+        "owner": "wladich",
+        "repo": "thinplatespline",
+        "rev": "55fecd22c7160577b925e03169e74bd488a41cf3",
+        "sha256": "0xj00z0glaz4hgijdd47ck3xj4p1hf0n46i48v7ajr6lxlxn4pmp",
+        "type": "tarball",
+        "url": "https://github.com/wladich/thinplatespline/archive/55fecd22c7160577b925e03169e74bd488a41cf3.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "tilesets-cli": {
         "branch": "master",
         "builtin": false,
