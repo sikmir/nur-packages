@@ -120,6 +120,7 @@ lib.makeScope newScope (
     click-6-7 = callPackage ./development/python-modules/click { };
     gpxelevations = callPackage ./development/python-modules/gpxelevations { };
     jsonseq = callPackage ./development/python-modules/jsonseq { };
+    maprec = callPackage ./development/python-modules/maprec { };
     mercantile = callPackage ./development/python-modules/mercantile { };
     mikatools = callPackage ./development/python-modules/mikatools { };
     pyephem = callPackage ./development/python-modules/pyephem { };

@@ -569,6 +569,20 @@
         "url": "https://github.com/OpenOrienteering/mapper/archive/d17d1e46232f1e481be86bc5d9b6ecebcd4fd81b.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "maprec": {
+        "branch": "master",
+        "builtin": false,
+        "date": "2019-10-24T18:36:24Z",
+        "description": null,
+        "homepage": "https://github.com/wladich/maprec",
+        "owner": "wladich",
+        "repo": "maprec",
+        "rev": "20f5177cae7454455b21cd5f7178f5639c02d385",
+        "sha256": "1zy49sbpxjg5dvkvxxxy2fh1vq26q0cnjdszb5zpwnxqmk7c4lpj",
+        "type": "tarball",
+        "url": "https://github.com/wladich/maprec/archive/20f5177cae7454455b21cd5f7178f5639c02d385.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "mapsoft": {
         "branch": "master",
         "builtin": false,
