@@ -123,6 +123,7 @@ lib.makeScope newScope (
     mercantile = callPackage ./development/python-modules/mercantile { };
     mikatools = callPackage ./development/python-modules/mikatools { };
     pyephem = callPackage ./development/python-modules/pyephem { };
+    pyimagequant = callPackage ./development/python-modules/pyimagequant { };
     pymbtiles = callPackage ./development/python-modules/pymbtiles { };
     python-hfst = callPackage ./development/python-modules/python-hfst { };
     s2sphere = callPackage ./development/python-modules/s2sphere { };
