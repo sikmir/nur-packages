@@ -160,6 +160,7 @@ lib.makeScope newScope (
     imgdecode = callPackage ./tools/geo/imgdecode { };
     ish = callPackage ./tools/networking/ish { };
     lsdreader = callPackage ./tools/dict/lsdreader { };
+    map-tiler = callPackage ./tools/geo/map-tiler { };
     morse-talk = callPackage ./tools/morse-talk { };
     musig = callPackage ./tools/audio/musig { };
     ocad2img = perlPackages.callPackage ./tools/geo/ocad2img {

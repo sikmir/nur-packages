@@ -555,6 +555,20 @@
         "url": "https://github.com/slazav/map_podm/archive/8b7994ba4a4bdc9673e982cf1f528cca1653d060.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "map-tiler": {
+        "branch": "master",
+        "builtin": false,
+        "date": "2019-10-24T19:20:49Z",
+        "description": "Raster maps to map tiles",
+        "homepage": "https://github.com/wladich/map-tiler",
+        "owner": "wladich",
+        "repo": "map-tiler",
+        "rev": "1dc5be65e58638f5899cd6cdc2010e00ce5e62d4",
+        "sha256": "0y0ww7qsbgbc7xyh2dfp9xgvjqjah10ms44504023gqvbi9y206v",
+        "type": "tarball",
+        "url": "https://github.com/wladich/map-tiler/archive/1dc5be65e58638f5899cd6cdc2010e00ce5e62d4.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "mapper": {
         "branch": "master",
         "builtin": false,
