@@ -123,6 +123,7 @@ lib.makeScope newScope (
     maprec = callPackage ./development/python-modules/maprec { };
     mercantile = callPackage ./development/python-modules/mercantile { };
     mikatools = callPackage ./development/python-modules/mikatools { };
+    ozi_map = callPackage ./development/python-modules/ozi_map { };
     pyephem = callPackage ./development/python-modules/pyephem { };
     pyimagequant = callPackage ./development/python-modules/pyimagequant { };
     pymbtiles = callPackage ./development/python-modules/pymbtiles { };
