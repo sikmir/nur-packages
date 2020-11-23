@@ -17,7 +17,8 @@ python3Packages.buildPythonPackage rec {
   pythonImportsCheck = [ "imagequant" ];
 
   meta = with lib; {
-    inherit (sources.pyimagequant) description homepage;
+    description = "python bindings for libimagequant (pngquant core)";
+    homepage = "https://github.com/wladich/pyimagequant";
     license = licenses.free;
     maintainers = [ maintainers.sikmir ];
     platforms = platforms.unix;

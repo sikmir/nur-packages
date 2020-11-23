@@ -363,6 +363,7 @@
     "gpxtools": {
         "branch": "master",
         "builtin": false,
+        "date": "2020-05-10T10:24:49Z",
         "description": "A collection of c++ tools for using GPX files",
         "homepage": "https://notabug.org/irdvo/gpxtools",
         "owner": "irdvo",
