@@ -2,9 +2,9 @@
 
 {
   geocachingSu = fetchurl {
-    name = "geocaching_su-2020-10-24";
+    name = "geocaching_su-2020-11-25";
     url = "https://nakarte.me/geocachingSu/geocaching_su2.json";
-    sha256 = "17mc1yisf7dshld75bvr5sir3dylps01a9p0bk5ks9r8dba9q77p";
+    sha256 = "0vxpdh104nsgnqrmi3z13gxlpcckq2fshsk7mbv1qzmnzar9dqaa";
     downloadToTemp = true;
     recursiveHash = true;
     postFetch = ''
@@ -61,9 +61,9 @@
   };
 
   westra = fetchurl {
-    name = "westra-2020-10-12";
+    name = "westra-2020-11-25";
     url = "https://nakarte.me/westraPasses/westra_passes.json";
-    sha256 = "1s8sg3n74kppi8hylpm2w257ahbbsrz8sah2mqzc75d94xsda6jz";
+    sha256 = "0si4cdiiayqlk9cxv6m4a03fwyfj7gf20p14vq8yavg89daamiad";
     downloadToTemp = true;
     recursiveHash = true;
     postFetch = ''
@@ -84,9 +84,9 @@
   };
 
   strelki = fetchurl {
-    name = "strelki-2020-10-12";
+    name = "strelki-2020-11-25";
     url = "https://strelki.extremum.org/s/p/47p";
-    sha256 = "0bdq6xh50rlpcg2bzvbcf98ay814hm4569zjnw3pi7mqy09pydiy";
+    sha256 = "0i1b7pvmxvlbp76nrjaghd0fyv1lj6z8wy8hbvzcjclh1d3fm5xa";
     downloadToTemp = true;
     recursiveHash = true;
     postFetch = ''
