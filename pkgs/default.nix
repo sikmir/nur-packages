@@ -78,6 +78,7 @@ lib.makeScope newScope (
     slazav-hr = callPackage ./data/maps/slazav/hr.nix { };
     slazav-podm = callPackage ./data/maps/slazav/podm.nix { };
     slazav-podm-bin = callPackage ./data/maps/slazav/podm-bin.nix { };
+    usa-osm-topo-routable = callPackage ./data/maps/usa-osm-topo-routable { };
 
     goldendict-arc-dark-theme =
       callPackage ./data/themes/goldendict-themes/arc-dark-theme.nix { };
