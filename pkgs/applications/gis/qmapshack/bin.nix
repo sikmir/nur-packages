@@ -1,7 +1,7 @@
 { stdenv, fetchfromgh, unzip }:
 
 stdenv.mkDerivation rec {
-  pname = "qmapshack";
+  pname = "qmapshack-bin";
   version = "1.15.0";
 
   src = fetchfromgh {

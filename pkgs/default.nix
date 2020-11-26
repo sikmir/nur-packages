@@ -20,7 +20,7 @@ lib.makeScope newScope (
       inherit sources;
     };
     gpxsee-bin = callPackage ./applications/gpxsee/bin.nix { };
-    i18n-editor = callPackage ./applications/i18n-editor { jre = pkgs.jdk11; };
+    i18n-editor-bin = callPackage ./applications/i18n-editor { jre = pkgs.jdk11; };
     iterm2-bin = callPackage ./applications/iterm2/bin.nix { };
     klogg = libsForQt5.callPackage ./applications/misc/klogg {
       inherit sources;
@@ -45,7 +45,7 @@ lib.makeScope newScope (
     sasplanet = callPackage ./applications/gis/sasplanet { };
     tdh = callPackage ./applications/gis/tdh { };
     visualgps = libsForQt5.callPackage ./applications/visualgps { };
-    wireguard-statusbar = callPackage ./applications/wireguard-statusbar { };
+    wireguard-statusbar-bin = callPackage ./applications/wireguard-statusbar { };
     yabai = callPackage ./applications/window-managers/yabai {
       inherit (darwin.apple_sdk.frameworks) Cocoa ScriptingBridge;
     };
