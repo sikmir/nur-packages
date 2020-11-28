@@ -118,6 +118,7 @@ lib.makeScope newScope (
 
     ### DEVELOPMENT / PYTHON MODULES
 
+    bson = callPackage ./development/python-modules/bson { };
     cheetah3 = callPackage ./development/python-modules/cheetah3 { };
     click-6-7 = callPackage ./development/python-modules/click { };
     gpxelevations = callPackage ./development/python-modules/gpxelevations { };

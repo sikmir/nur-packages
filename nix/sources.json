@@ -1,4 +1,18 @@
 {
+    "bson": {
+        "branch": "master",
+        "builtin": false,
+        "date": "2020-05-26T11:13:32Z",
+        "description": "Independent BSON codec for Python that doesn't depend on MongoDB",
+        "homepage": "https://github.com/py-bson/bson",
+        "owner": "py-bson",
+        "repo": "bson",
+        "rev": "a68073661c637051985f3d0c24b8c7828a4c3ff4",
+        "sha256": "0gh0kbblmxnidr9xp05d8nlfjna7461bxx82l82mwwz1a7i7x36d",
+        "type": "tarball",
+        "url": "https://github.com/py-bson/bson/archive/a68073661c637051985f3d0c24b8c7828a4c3ff4.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "cfiles": {
         "branch": "master",
         "builtin": false,
