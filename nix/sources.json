@@ -514,6 +514,20 @@
         "url": "https://github.com/variar/klogg/archive/adb1eafb92bdbf27da53c1579239988b26e6882a.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "lazyscraper": {
+        "branch": "master",
+        "builtin": false,
+        "date": "2020-05-19T11:50:13Z",
+        "description": "Lazy helper tool to make easier scraping with simple tasks",
+        "homepage": "https://github.com/ivbeg/lazyscraper",
+        "owner": "ivbeg",
+        "repo": "lazyscraper",
+        "rev": "2e14bd829311cde19ef32d7f0e11c3c4a3c08e1b",
+        "sha256": "02pix53f5j6g4vv2w7vj93jk6a10wld7kk6ichc04aacwq3ljy42",
+        "type": "tarball",
+        "url": "https://github.com/ivbeg/lazyscraper/archive/2e14bd829311cde19ef32d7f0e11c3c4a3c08e1b.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "libshell": {
         "branch": "master",
         "builtin": false,
