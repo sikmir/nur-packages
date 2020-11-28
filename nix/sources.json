@@ -97,6 +97,20 @@
         "url": "https://github.com/byrnedo/docker-reg-tool/archive/c5e7ff63fa476cac1eed717d0aef238beb50c21c.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "docx2csv": {
+        "branch": "master",
+        "builtin": false,
+        "date": "2020-05-05T21:11:02Z",
+        "description": "Extracts tables from .docx files and saves them as .csv or .xls files",
+        "homepage": "https://github.com/ivbeg/docx2csv",
+        "owner": "ivbeg",
+        "repo": "docx2csv",
+        "rev": "e397b6bd17c73d76b21404ce3422496b8da262db",
+        "sha256": "0n0h9wc8jqaqpi7cdv8692af5mwy9djgmrhwicb2f8917idj0pzf",
+        "type": "tarball",
+        "url": "https://github.com/ivbeg/docx2csv/archive/e397b6bd17c73d76b21404ce3422496b8da262db.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "elevation": {
         "branch": "master",
         "builtin": false,

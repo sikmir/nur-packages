@@ -141,6 +141,7 @@ lib.makeScope newScope (
     csvtools = callPackage ./tools/text/csvtools { };
     datamaps = callPackage ./tools/geo/datamaps { };
     docker-reg-tool = callPackage ./tools/docker-reg-tool { };
+    docx2csv = callPackage ./tools/text/docx2csv { };
     elevation = callPackage ./tools/geo/elevation {
       click = click-6-7;
     };
