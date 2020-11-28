@@ -1,4 +1,18 @@
 {
+    "apibackuper": {
+        "branch": "master",
+        "builtin": false,
+        "date": "2020-11-03T14:35:02Z",
+        "description": "Python library and cmd tool to backup API calls",
+        "homepage": "https://github.com/ruarxive/apibackuper",
+        "owner": "ruarxive",
+        "repo": "apibackuper",
+        "rev": "1ff139f688d59b899ff041ccc282e224110ddc76",
+        "sha256": "01lwd958byqh3ly9f1n4rk8sq3mdjgydsw2il4mvblsmcid7pg84",
+        "type": "tarball",
+        "url": "https://github.com/ruarxive/apibackuper/archive/1ff139f688d59b899ff041ccc282e224110ddc76.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "bson": {
         "branch": "master",
         "builtin": false,
