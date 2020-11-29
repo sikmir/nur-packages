@@ -2,9 +2,9 @@
 
 {
   geocachingSu = fetchurl {
-    name = "geocaching_su-2020-11-25";
+    name = "geocaching_su-2020-11-29";
     url = "https://nakarte.me/geocachingSu/geocaching_su2.json";
-    sha256 = "0vxpdh104nsgnqrmi3z13gxlpcckq2fshsk7mbv1qzmnzar9dqaa";
+    sha256 = "15rmw6ajlnybrm55vrbfg1xg76ya42465nkikhy40bivy98w5zm2";
     downloadToTemp = true;
     recursiveHash = true;
     postFetch = ''
@@ -25,15 +25,15 @@
   };
 
   laavut = fetchurl {
-    name = "laavut-2020-10-18";
-    url = "http://www.laavu.org/lataa.php?paikkakunta=kaikki";
-    sha256 = "0cvsfxlnibx1s9fh6v0kk77n0yg497znyiwj1n4ih77w1q8jxpw0";
+    name = "laavut-2020-11-16";
+    url = "http://laavu.org/lataa.php?paikkakunta=kaikki";
+    sha256 = "11b8ipd6whdiwb1vx6580b9syjgrcf573kr80zpwl5nx1k3rxm95";
     downloadToTemp = true;
     recursiveHash = true;
     postFetch = "install -Dm644 $downloadedFile $out/Laavut-kodat.gpx";
 
     meta = with lib; {
-      homepage = "http://www.laavu.org/";
+      homepage = "http://laavu.org/";
       description = "Laavut ja kodat kartalla";
       maintainers = [ maintainers.sikmir ];
       license = licenses.free;

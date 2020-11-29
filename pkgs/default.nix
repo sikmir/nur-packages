@@ -31,10 +31,10 @@ lib.makeScope newScope (
     mapsoft = callPackage ./applications/gis/mapsoft { };
     mapsoft2 = callPackage ./applications/gis/mapsoft/2.nix { };
     nnn-plugins = callPackage ./applications/nnn-plugins { };
-    openorienteering-mapper = libsForQt5.callPackage ./applications/openorienteering-mapper {
+    openorienteering-mapper = libsForQt5.callPackage ./applications/gis/openorienteering-mapper {
       inherit sources;
     };
-    openorienteering-mapper-bin = callPackage ./applications/openorienteering-mapper/bin.nix { };
+    openorienteering-mapper-bin = callPackage ./applications/gis/openorienteering-mapper/bin.nix { };
     qgis-bin = callPackage ./applications/gis/qgis/bin.nix { };
     qgis-ltr-bin = qgis-bin.override { releaseType = "ltr"; };
     qmapshack-bin = callPackage ./applications/gis/qmapshack/bin.nix { };
