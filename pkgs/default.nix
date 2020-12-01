@@ -58,6 +58,7 @@ lib.makeScope newScope (
 
     ### DATA
 
+    dadako = callPackage ./data/dicts/dadako { };
     freedict = callPackage ./data/dicts/freedict { };
     huzheng = callPackage ./data/dicts/huzheng { };
     it-sanasto = callPackage ./data/dicts/it-sanasto { };
