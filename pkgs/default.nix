@@ -80,6 +80,7 @@ lib.makeScope newScope (
     usa-osm-topo-routable = callPackage ./data/maps/usa-osm-topo-routable { };
 
     gpxsee-poi = callPackage ./data/misc/gpxsee-poi { };
+    osm-extracts = callPackage ./data/misc/osm-extracts { };
     routinodb = callPackage ./data/misc/routinodb { };
 
     goldendict-arc-dark-theme =
