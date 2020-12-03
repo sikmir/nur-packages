@@ -43,7 +43,7 @@ lib.makeScope newScope (
     redict = libsForQt5.callPackage ./applications/redict {
       inherit sources;
     };
-    sasplanet = callPackage ./applications/gis/sasplanet { };
+    sasplanet-bin = callPackage ./applications/gis/sasplanet/bin.nix { };
     tdh = callPackage ./applications/gis/tdh { };
     visualgps = libsForQt5.callPackage ./applications/visualgps { };
     wireguard-statusbar-bin = callPackage ./applications/wireguard-statusbar { };
