@@ -843,6 +843,20 @@
         "url": "https://github.com/wladich/ozi_map/archive/4d6bd3f234960ba90d82e6d58da9c1bf4677eb16.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "py-staticmaps": {
+        "branch": "master",
+        "builtin": false,
+        "date": "2020-11-28T13:45:19Z",
+        "description": "A python module to create static map images with markers, geodesic lines, etc.",
+        "homepage": "https://github.com/flopp/py-staticmaps",
+        "owner": "flopp",
+        "repo": "py-staticmaps",
+        "rev": "cbe706fd266137cdf8a412f6ca54c02e4bc89fa6",
+        "sha256": "0ff5wnrw7pfs80092r2iddacb3vi9a64s7j9im177897s55204fq",
+        "type": "tarball",
+        "url": "https://github.com/flopp/py-staticmaps/archive/cbe706fd266137cdf8a412f6ca54c02e4bc89fa6.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "pyephem": {
         "branch": "master",
         "builtin": false,
