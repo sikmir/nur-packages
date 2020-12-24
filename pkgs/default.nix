@@ -191,6 +191,7 @@ lib.makeScope newScope (
     phyghtmap = callPackage ./tools/geo/phyghtmap { };
     ptunnel = callPackage ./tools/networking/ptunnel { };
     sendmap20 = callPackage ./tools/geo/sendmap20 { };
+    stagit = callPackage ./tools/misc/stagit { };
     stardict-tools =
       # Needed for nixos-19.09
       if pkgs ? libmysql
