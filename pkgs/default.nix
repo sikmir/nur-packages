@@ -190,6 +190,7 @@ lib.makeScope newScope (
     py-staticmaps = callPackage ./tools/geo/py-staticmaps { };
     phyghtmap = callPackage ./tools/geo/phyghtmap { };
     ptunnel = callPackage ./tools/networking/ptunnel { };
+    saait = callPackage ./tools/misc/saait { };
     sendmap20 = callPackage ./tools/geo/sendmap20 { };
     stagit = callPackage ./tools/misc/stagit { };
     stardict-tools =
