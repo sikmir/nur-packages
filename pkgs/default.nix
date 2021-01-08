@@ -28,6 +28,7 @@ lib.makeScope newScope (
     klogg-bin = callPackage ./applications/misc/klogg/bin.nix { };
     librewolf = callPackage ./applications/networking/librewolf { };
     macpass-bin = callPackage ./applications/macpass/bin.nix { };
+    map-stylizer = callPackage ./applications/gis/map-stylizer { };
     maperitive-bin = callPackage ./applications/gis/maperitive/bin.nix { };
     mapsoft = callPackage ./applications/gis/mapsoft { };
     mapsoft2 = callPackage ./applications/gis/mapsoft/2.nix { };
