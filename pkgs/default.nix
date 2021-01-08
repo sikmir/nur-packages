@@ -146,6 +146,7 @@ lib.makeScope newScope (
     ### TOOLS
 
     apibackuper = callPackage ./tools/networking/apibackuper { };
+    blind = callPackage ./tools/video/blind { };
     cfiles = callPackage ./tools/cfiles { };
     cgpsmapper = callPackage ./tools/geo/cgpsmapper { };
     csvquote = callPackage ./tools/text/csvquote { };
