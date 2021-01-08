@@ -160,6 +160,9 @@ lib.makeScope newScope (
     };
     fx-bin = callPackage ./tools/text/fx/bin.nix { };
     garmin-uploader = callPackage ./tools/misc/garmin-uploader { };
+    garminimg = libsForQt5.callPackage ./tools/geo/garminimg {
+      inherit sources;
+    };
     gdcv = callPackage ./tools/dict/gdcv { };
     gimgtools = callPackage ./tools/geo/gimgtools { };
     gloggery = callPackage ./tools/misc/gloggery { };

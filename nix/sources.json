@@ -195,6 +195,20 @@
         "url": "https://github.com/mhulden/foma/archive/b44022c7d9d347dc7392aabbf72c82e558767675.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "garminimg": {
+        "branch": "main",
+        "builtin": false,
+        "date": "2021-01-05T11:21:46Z",
+        "description": "Encode/decode a Garmin IMG file",
+        "homepage": "https://github.com/kiozen/GarminImg",
+        "owner": "kiozen",
+        "repo": "GarminImg",
+        "rev": "049b10a35da548f032e7e1e3ce3e9ae8600fd83e",
+        "sha256": "1d80gxnb6qh3485d46vm0w5vw26b3a6jkbsi52hawwwh68a1knnw",
+        "type": "tarball",
+        "url": "https://github.com/kiozen/GarminImg/archive/049b10a35da548f032e7e1e3ce3e9ae8600fd83e.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "gdcv": {
         "branch": "master",
         "builtin": false,
