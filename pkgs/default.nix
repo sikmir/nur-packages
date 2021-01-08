@@ -195,6 +195,7 @@ lib.makeScope newScope (
       inherit sources;
       inherit (perlPackages) GeoOpenstreetmapParser MatchSimple MathPolygon MathPolygonTree TreeR;
     };
+    osmcoastline = callPackage ./tools/geo/osmcoastline { };
     phyghtmap = callPackage ./tools/geo/phyghtmap { };
     polyvectorization = libsForQt5.callPackage ./tools/graphics/polyvectorization {
       inherit sources;

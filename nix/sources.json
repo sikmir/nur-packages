@@ -871,6 +871,20 @@
         "url": "https://github.com/liosha/osm2mp/archive/748f93792ead174ad0e94a183a173ef3fcacf200.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "osmcoastline": {
+        "branch": "master",
+        "builtin": false,
+        "date": "2021-01-08T14:38:44Z",
+        "description": "Extracts coastline data from OpenStreetMap planet file",
+        "homepage": "https://osmcode.org/osmcoastline/",
+        "owner": "osmcode",
+        "repo": "osmcoastline",
+        "rev": "56371668ebb6261009f35a7411a8fbcc83aabfe0",
+        "sha256": "0q7pmyxdkylydxhwcwnvcig6i96wss825hv9w971455qickravl1",
+        "type": "tarball",
+        "url": "https://github.com/osmcode/osmcoastline/archive/56371668ebb6261009f35a7411a8fbcc83aabfe0.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "ozi-map": {
         "branch": "master",
         "builtin": false,
