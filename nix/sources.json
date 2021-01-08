@@ -843,6 +843,20 @@
         "url": "https://github.com/btittelbach/openmtbmap_openvelomap_linux/archive/de24cd5d4168d8571c544ac42c51883af957a01a.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "osm-area-tools": {
+        "branch": "master",
+        "builtin": false,
+        "date": "2021-01-04T16:32:27Z",
+        "description": "OSM Area Tools",
+        "homepage": "https://osmcode.org/osm-area-tools/",
+        "owner": "osmcode",
+        "repo": "osm-area-tools",
+        "rev": "b96db0ced55f1bb574084620ca34f0a2e9d19b5a",
+        "sha256": "1awb2kj2afdcn29zl3cgrsmld0bwmf3z3f0bn1lhkbvpqzqgxh3c",
+        "type": "tarball",
+        "url": "https://github.com/osmcode/osm-area-tools/archive/b96db0ced55f1bb574084620ca34f0a2e9d19b5a.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "osm2mp": {
         "branch": "master",
         "builtin": false,
