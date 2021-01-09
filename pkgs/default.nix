@@ -181,6 +181,7 @@ lib.makeScope newScope (
     imgdecode = callPackage ./tools/geo/imgdecode { };
     ish = callPackage ./tools/networking/ish { };
     lazyscraper = callPackage ./tools/text/lazyscraper { };
+    lel = callPackage ./tools/graphics/lel { };
     lsdreader = callPackage ./tools/dict/lsdreader { };
     map-tiler = callPackage ./tools/geo/map-tiler { };
     morse-talk = callPackage ./tools/morse-talk { };
