@@ -158,6 +158,7 @@ lib.makeScope newScope (
     elevation = callPackage ./tools/geo/elevation {
       click = click-6-7;
     };
+    farbfeld-utils = callPackage ./tools/graphics/farbfeld-utils { };
     fx-bin = callPackage ./tools/text/fx/bin.nix { };
     garmin-uploader = callPackage ./tools/misc/garmin-uploader { };
     garminimg = libsForQt5.callPackage ./tools/geo/garminimg {
