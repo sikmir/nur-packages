@@ -234,6 +234,7 @@ lib.makeScope newScope (
     elevation_server = callPackage ./servers/elevation_server { };
     geminid = callPackage ./servers/geminid { };
     glauth = callPackage ./servers/glauth { };
+    gmnisrv = callPackage ./servers/gmnisrv { };
     nakarte = callPackage ./servers/nakarte { };
     quark = callPackage ./servers/quark { };
     shavit = callPackage ./servers/shavit { };
