@@ -168,6 +168,7 @@ lib.makeScope newScope (
     gimgtools = callPackage ./tools/geo/gimgtools { };
     gloggery = callPackage ./tools/misc/gloggery { };
     gmaptool = callPackage ./tools/geo/gmaptool { };
+    gmni = callPackage ./tools/networking/gmni { };
     go-staticmaps = callPackage ./tools/geo/go-staticmaps { };
     gpx-layer = perlPackages.callPackage ./tools/geo/gpx-layer {
       inherit sources;
