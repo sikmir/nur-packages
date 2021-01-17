@@ -180,6 +180,7 @@ lib.makeScope newScope (
     gurl = callPackage ./tools/networking/gurl { };
     hurl = callPackage ./tools/networking/hurl { };
     imgdecode = callPackage ./tools/geo/imgdecode { };
+    imscript = callPackage ./tools/graphics/imscript { };
     ish = callPackage ./tools/networking/ish { };
     lazyscraper = callPackage ./tools/text/lazyscraper { };
     lel = callPackage ./tools/graphics/lel { };
