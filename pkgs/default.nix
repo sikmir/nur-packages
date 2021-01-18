@@ -128,6 +128,7 @@ lib.makeScope newScope (
 
     ### DEVELOPMENT / PYTHON MODULES
 
+    cjkwrap = callPackage ./development/python-modules/cjkwrap { };
     bson = callPackage ./development/python-modules/bson { };
     cheetah3 = callPackage ./development/python-modules/cheetah3 { };
     click-6-7 = callPackage ./development/python-modules/click { };
