@@ -707,7 +707,6 @@
         "url_template": "https://maptourist.org/osm-garmin/archive/OSM-MapTourist-<region>-RU_<version>.zip",
         "version": "2021-01-15"
     },
-    },
     "mercantile": {
         "branch": "master",
         "builtin": false,
