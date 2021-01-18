@@ -187,6 +187,7 @@ lib.makeScope newScope (
     lel = callPackage ./tools/graphics/lel { };
     lsdreader = callPackage ./tools/dict/lsdreader { };
     map-tiler = callPackage ./tools/geo/map-tiler { };
+    md2gemini = callPackage ./tools/text/md2gemini { };
     morse-talk = callPackage ./tools/morse-talk { };
     musig = callPackage ./tools/audio/musig { };
     ocad2img = perlPackages.callPackage ./tools/geo/ocad2img {
