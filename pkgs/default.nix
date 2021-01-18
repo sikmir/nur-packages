@@ -173,9 +173,6 @@ lib.makeScope newScope (
     musig = callPackage ./tools/audio/musig { };
     odict = callPackage ./tools/dict/odict { };
     osm-area-tools = callPackage ./tools/geo/osm-area-tools { };
-      inherit sources;
-      inherit (perlPackages) GeoOpenstreetmapParser MatchSimple MathPolygon MathPolygonTree TreeR;
-    };
     osmcoastline = callPackage ./tools/geo/osmcoastline { };
     phyghtmap = callPackage ./tools/geo/phyghtmap { };
     polyvectorization = libsForQt5.callPackage ./tools/graphics/polyvectorization {
