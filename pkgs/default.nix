@@ -256,6 +256,7 @@ lib.makeScope newScope (
     saait = callPackage ./suckless/saait { };
     sbase = callPackage ./suckless/sbase { };
     scroll = callPackage ./suckless/scroll { };
+    sfeed = callPackage ./suckless/sfeed { };
     stagit = callPackage ./suckless/stagit { };
 
     ### MISC
