@@ -233,6 +233,10 @@ lib.makeScope newScope (
     md2gemini = callPackage ./gemini/md2gemini { };
     shavit = callPackage ./gemini/shavit { };
 
+    ### OSM
+
+    sdlmap = callPackage ./osm/sdlmap { };
+
     ### SERVERS
 
     dict2rest = callPackage ./servers/dict2rest { };
