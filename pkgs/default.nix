@@ -27,7 +27,6 @@ lib.makeScope newScope (
     klogg-bin = callPackage ./applications/misc/klogg/bin.nix { };
     librewolf = callPackage ./applications/networking/librewolf { };
     macpass-bin = callPackage ./applications/macpass/bin.nix { };
-    map-stylizer = callPackage ./applications/gis/map-stylizer { };
     maperitive-bin = callPackage ./applications/gis/maperitive/bin.nix { };
     mapsoft = callPackage ./applications/gis/mapsoft { };
     mapsoft2 = callPackage ./applications/gis/mapsoft/2.nix { };
@@ -172,9 +171,6 @@ lib.makeScope newScope (
     morse-talk = callPackage ./tools/morse-talk { };
     musig = callPackage ./tools/audio/musig { };
     odict = callPackage ./tools/dict/odict { };
-    osm-area-tools = callPackage ./tools/geo/osm-area-tools { };
-    osmcoastline = callPackage ./tools/geo/osmcoastline { };
-    phyghtmap = callPackage ./tools/geo/phyghtmap { };
     polyvectorization = libsForQt5.callPackage ./tools/graphics/polyvectorization {
       inherit sources;
     };
@@ -189,7 +185,6 @@ lib.makeScope newScope (
       else callPackage ./tools/dict/stardict-tools { };
     supermercado = callPackage ./tools/geo/supermercado { };
     supload = callPackage ./tools/misc/supload { };
-    taginfo-tools = callPackage ./tools/geo/taginfo-tools { };
     tatoebatools = callPackage ./tools/dict/tatoebatools { };
     tilesets-cli = callPackage ./tools/geo/tilesets-cli { };
     tpkutils = callPackage ./tools/geo/tpkutils { };
@@ -235,7 +230,12 @@ lib.makeScope newScope (
 
     ### OSM
 
+    map-stylizer = callPackage ./osm/map-stylizer { };
+    osm-area-tools = callPackage ./osm/osm-area-tools { };
+    osmcoastline = callPackage ./osm/osmcoastline { };
+    phyghtmap = callPackage ./osm/phyghtmap { };
     sdlmap = callPackage ./osm/sdlmap { };
+    taginfo-tools = callPackage ./osm/taginfo-tools { };
 
     ### SERVERS
 
