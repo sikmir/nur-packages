@@ -170,6 +170,7 @@ lib.makeScope newScope (
     gt-bash-client = callPackage ./dict/gt-bash-client { };
     lsdreader = callPackage ./dict/lsdreader { };
     odict = callPackage ./dict/odict { };
+    opendict = callPackage ./dict/opendict { };
     redict = libsForQt5.callPackage ./dict/redict {
       inherit sources;
     };
