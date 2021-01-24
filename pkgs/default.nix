@@ -222,6 +222,7 @@ lib.makeScope newScope (
 
     ### IMAGES
 
+    docker-mbtileserver = callPackage ./images/mbtileserver { };
     docker-quark = callPackage ./images/quark { };
 
     ### MISC
