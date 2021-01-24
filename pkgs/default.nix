@@ -220,6 +220,10 @@ lib.makeScope newScope (
     md2gemini = callPackage ./gemini/md2gemini { };
     shavit = callPackage ./gemini/shavit { };
 
+    ### IMAGES
+
+    docker-quark = callPackage ./images/quark { };
+
     ### MISC
 
     ascii-dash = callPackage ./misc/ascii-dash { };
