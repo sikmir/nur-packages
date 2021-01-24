@@ -155,7 +155,6 @@ lib.makeScope newScope (
     gpxtrackposter = callPackage ./tools/geo/gpxtrackposter { };
     lazyscraper = callPackage ./tools/text/lazyscraper { };
     map-tiler = callPackage ./tools/geo/map-tiler { };
-    odict = callPackage ./tools/dict/odict { };
     py-staticmaps = callPackage ./tools/geo/py-staticmaps { };
     supermercado = callPackage ./tools/geo/supermercado { };
     tilesets-cli = callPackage ./tools/geo/tilesets-cli { };
