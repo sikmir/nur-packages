@@ -230,6 +230,7 @@ lib.makeScope newScope (
     };
     docker-mbtileserver = callPackage ./images/mbtileserver { };
     docker-quark = callPackage ./images/quark { };
+    docker-wekan = callPackage ./images/wekan { };
 
     ### MISC
 
