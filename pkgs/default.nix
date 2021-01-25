@@ -222,6 +222,12 @@ lib.makeScope newScope (
 
     ### IMAGES
 
+    docker-git = callPackage ./images/git {
+      git = pkgs.gitMinimal.override {
+        perlSupport = false;
+        nlsSupport = false;
+      };
+    };
     docker-mbtileserver = callPackage ./images/mbtileserver { };
     docker-quark = callPackage ./images/quark { };
 
