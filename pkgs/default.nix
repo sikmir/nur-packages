@@ -222,6 +222,7 @@ lib.makeScope newScope (
 
     ### IMAGES
 
+    docker-elevation_server = callPackage ./images/elevation_server { };
     docker-git = callPackage ./images/git {
       git = pkgs.gitMinimal.override {
         perlSupport = false;
