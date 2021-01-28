@@ -226,7 +226,9 @@ lib.makeScope newScope (
         nlsSupport = false;
       };
     };
-    docker-mbtileserver = callPackage ./images/mbtileserver { };
+    docker-mbtileserver = if pkgs ? mbtileserver
+      then callPackage ./images/mbtileserver { }
+      else null;
     docker-quark = callPackage ./images/quark { };
     docker-wekan = callPackage ./images/wekan { };
 
