@@ -1091,6 +1091,20 @@
         "url": "https://github.com/wladich/thinplatespline/archive/55fecd22c7160577b925e03169e74bd488a41cf3.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "tile-stitch": {
+        "branch": "master",
+        "builtin": false,
+        "date": "2019-07-11T00:06:57Z",
+        "description": "Stitch together and crop map tiles for a specified bounding box",
+        "homepage": "https://github.com/ericfischer/tile-stitch",
+        "owner": "ericfischer",
+        "repo": "tile-stitch",
+        "rev": "f14d113c54bb7dcffee05a7608a806b8557139e5",
+        "sha256": "1xq9alsmkz5wpw3cd3xq55046i7c60k5nhx9mssm61ywsvq3yi0h",
+        "type": "tarball",
+        "url": "https://github.com/ericfischer/tile-stitch/archive/f14d113c54bb7dcffee05a7608a806b8557139e5.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "tilesets-cli": {
         "branch": "master",
         "builtin": false,

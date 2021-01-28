@@ -152,6 +152,7 @@ lib.makeScope newScope (
     lazyscraper = callPackage ./tools/text/lazyscraper { };
     py-staticmaps = callPackage ./tools/geo/py-staticmaps { };
     supermercado = callPackage ./tools/geo/supermercado { };
+    tile-stitch = callPackage ./tools/geo/tile-stitch { };
     tilesets-cli = callPackage ./tools/geo/tilesets-cli { };
     tpkutils = callPackage ./tools/geo/tpkutils { };
 
