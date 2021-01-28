@@ -144,6 +144,7 @@ lib.makeScope newScope (
     };
     fx-bin = callPackage ./tools/text/fx/bin.nix { };
     go-staticmaps = callPackage ./tools/geo/go-staticmaps { };
+    gpx-interpolate = callPackage ./tools/geo/gpx-interpolate { };
     gpx-layer = perlPackages.callPackage ./tools/geo/gpx-layer {
       inherit sources;
     };

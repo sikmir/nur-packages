@@ -331,6 +331,20 @@
         "url": "https://github.com/flopp/go-staticmaps/archive/4aa39a44ead69856a813688e09389ddac059de29.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "gpx-interpolate": {
+        "branch": "master",
+        "builtin": false,
+        "date": "2021-01-24T21:39:05Z",
+        "description": "Python script to interpolate GPX files using linear or spline interpolation",
+        "homepage": "https://github.com/remisalmon/gpx_interpolate",
+        "owner": "remisalmon",
+        "repo": "gpx_interpolate",
+        "rev": "24236e45e3d8baa0662c329b735b79a17e84c1bd",
+        "sha256": "0gi8xq7gsmi1a6gbp4d0a0h6ys2jpf0b1fys3ggph5gqf47h9pvc",
+        "type": "tarball",
+        "url": "https://github.com/remisalmon/gpx_interpolate/archive/24236e45e3d8baa0662c329b735b79a17e84c1bd.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "gpx-layer": {
         "branch": "master",
         "builtin": false,
