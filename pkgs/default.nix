@@ -229,7 +229,9 @@ lib.makeScope newScope (
     docker-mbtileserver = if pkgs ? mbtileserver
       then callPackage ./images/mbtileserver { }
       else null;
-    docker-quark = callPackage ./images/quark { };
+    docker-quark = if pkgs.dockerTools ? fakeNss
+      then callPackage ./images/quark { }
+      else null;
     docker-wekan = callPackage ./images/wekan { };
 
     ### MISC
