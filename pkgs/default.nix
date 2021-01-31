@@ -277,5 +277,6 @@ lib.makeScope newScope (
     scroll = callPackage ./suckless/scroll { };
     sfeed = callPackage ./suckless/sfeed { };
     stagit = callPackage ./suckless/stagit { };
+    xprompt = callPackage ./suckless/xprompt { };
   }
 )
