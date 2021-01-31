@@ -1063,20 +1063,6 @@
         "url": "https://github.com/mapbox/supermercado/archive/ecc9f5a36c1c8d13872df5bdcbd01621e5f3ab48.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
-    "supload": {
-        "branch": "master",
-        "builtin": false,
-        "date": "2015-08-04T11:30:01Z",
-        "description": "Bash script for upload file to cloud storage based on OpenStack Swift API",
-        "homepage": "https://github.com/selectel/supload",
-        "owner": "selectel",
-        "repo": "supload",
-        "rev": "70690682867713c68d7c6daa833a1013e79df407",
-        "sha256": "0di1hr9j2wdicj6n2mlf9achfxd05rqwrfnymsnxhhy7sv50n2bm",
-        "type": "tarball",
-        "url": "https://github.com/selectel/supload/archive/70690682867713c68d7c6daa833a1013e79df407.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
     "tatoebatools": {
         "branch": "master",
         "builtin": false,

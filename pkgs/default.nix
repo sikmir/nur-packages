@@ -236,7 +236,6 @@ lib.makeScope newScope (
       inherit sources;
     };
     ptunnel = callPackage ./misc/ptunnel { };
-    supload = callPackage ./misc/supload { };
     taskcoach = callPackage ./misc/taskcoach { };
     xfractint = callPackage ./misc/xfractint { };
 
