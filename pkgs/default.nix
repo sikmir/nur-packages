@@ -214,16 +214,18 @@ lib.makeScope newScope (
 
     ### IMAGES
 
-    docker-elevation_server = callPackage ./images/elevation_server { };
-    docker-git = callPackage ./images/git {
-      git = pkgs.gitMinimal.override {
-        perlSupport = false;
-        nlsSupport = false;
+    dockerImages = {
+      elevation_server = callPackage ./images/elevation_server { };
+      git = callPackage ./images/git {
+        git = pkgs.gitMinimal.override {
+          perlSupport = false;
+          nlsSupport = false;
+        };
       };
+      mbtileserver = callPackage ./images/mbtileserver { };
+      quark = callPackage ./images/quark { };
+      wekan = callPackage ./images/wekan { };
     };
-    docker-mbtileserver = callPackage ./images/mbtileserver { };
-    docker-quark = callPackage ./images/quark { };
-    docker-wekan = callPackage ./images/wekan { };
 
     ### MISC
 
