@@ -208,6 +208,7 @@ lib.makeScope newScope (
     gmnisrv = callPackage ./gemini/gmnisrv { };
     gurl = callPackage ./gemini/gurl { };
     kiln = callPackage ./gemini/kiln { };
+    kineto = callPackage ./gemini/kineto { };
     md2gemini = callPackage ./gemini/md2gemini { };
     shavit = callPackage ./gemini/shavit { };
 
