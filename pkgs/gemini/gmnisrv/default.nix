@@ -1,4 +1,4 @@
-{ stdenv, fetchgit, openssl, pkg-config, scdoc }:
+{ stdenv, fetchgit, mailcap, openssl, pkg-config, scdoc }:
 
 stdenv.mkDerivation {
   pname = "gmnisrv";
@@ -13,6 +13,10 @@ stdenv.mkDerivation {
   nativeBuildInputs = [ pkg-config scdoc ];
 
   buildInputs = [ openssl ];
+
+  configureFlags = [
+    "--with-mimedb=${mailcap}/etc/mime.types"
+  ];
 
   meta = with stdenv.lib; {
     description = "Simple Gemini protocol server";

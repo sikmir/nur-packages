@@ -222,6 +222,7 @@ lib.makeScope newScope (
           nlsSupport = false;
         };
       };
+      gmnisrv = callPackage ./images/gmnisrv { };
       mbtileserver = callPackage ./images/mbtileserver { };
       quark = callPackage ./images/quark { };
       wekan = callPackage ./images/wekan { };
