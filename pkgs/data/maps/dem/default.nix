@@ -1,5 +1,5 @@
-{ stdenvNoCC, lib, fetchurl, unzip
 , withVRT ? true, gdal }:
+{ lib, stdenvNoCC, fetchurl, unzip
 let
   dem1 = builtins.fromJSON (builtins.readFile ./dem1.json);
 in
