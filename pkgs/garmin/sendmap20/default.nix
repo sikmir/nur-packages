@@ -1,4 +1,4 @@
-{ llib, stdenv, fetchwebarchive }:
+{ lib, stdenv, fetchwebarchive }:
 
 stdenv.mkDerivation {
   pname = "sendmap20";
