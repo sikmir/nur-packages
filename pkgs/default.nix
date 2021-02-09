@@ -235,6 +235,7 @@ lib.makeScope newScope (
     ascii-dash = callPackage ./misc/ascii-dash { };
     cfiles = callPackage ./misc/cfiles { };
     docker-reg-tool = callPackage ./misc/docker-reg-tool { };
+    ht = callPackage ./misc/ht { };
     ish = callPackage ./misc/ish { };
     morse-talk = callPackage ./misc/morse-talk { };
     musig = callPackage ./misc/musig { };
