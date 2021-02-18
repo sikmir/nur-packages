@@ -135,6 +135,7 @@ lib.makeScope newScope (
 
     ### TOOLS
 
+    aamath = callPackage ./tools/text/aamath { };
     csvquote = callPackage ./tools/text/csvquote { };
     csvtools = callPackage ./tools/text/csvtools { };
     datamaps = callPackage ./tools/geo/datamaps { };
