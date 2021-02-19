@@ -70,6 +70,7 @@ lib.makeScope newScope (
     gpxsee-maps = callPackage ./data/maps/gpxsee-maps { };
     vlasenko-maps = callPackage ./data/maps/vlasenko-maps { };
     maptourist = callPackage ./data/maps/maptourist { };
+    meridian = callPackage ./data/maps/meridian { };
     mtk-suomi = callPackage ./data/maps/mtk-suomi { };
     opentopomap = callPackage ./data/maps/opentopomap { };
     qmapshack-onlinemaps = callPackage ./data/maps/qmapshack-onlinemaps { };
