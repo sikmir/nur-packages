@@ -232,7 +232,7 @@ lib.makeScope newScope (
     docx2csv = callPackage ./misc/docx2csv { };
     gef = callPackage ./misc/gef { };
     glauth = callPackage ./misc/glauth { };
-    how-to-use-pvs-studio-free = callPackage ./misc/how-to-use-pvs-studio-free.nix { };
+    how-to-use-pvs-studio-free = callPackage ./misc/pvs-studio/how-to-use-pvs-studio-free.nix { };
     ht = callPackage ./misc/ht { };
     ish = callPackage ./misc/ish { };
     lazyscraper = callPackage ./misc/lazyscraper { };
