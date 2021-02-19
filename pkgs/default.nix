@@ -77,6 +77,7 @@ lib.makeScope newScope (
     slazav-hr = callPackage ./data/maps/slazav/hr.nix { };
     slazav-podm = callPackage ./data/maps/slazav/podm.nix { };
     slazav-podm-bin = callPackage ./data/maps/slazav/podm-bin.nix { };
+    uralla = callPackage ./data/maps/uralla { };
     usa-osm-topo-routable = callPackage ./data/maps/usa-osm-topo-routable { };
 
     gadm = callPackage ./data/misc/gadm { };
