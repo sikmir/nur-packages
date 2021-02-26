@@ -9,7 +9,6 @@ lib.makeScope newScope (
     ### APPLICATIONS
 
     amethyst-bin = callPackage ./applications/window-managers/amethyst/bin.nix { };
-    anki-bin = callPackage ./applications/anki/bin.nix { };
     goldencheetah-bin = callPackage ./applications/goldencheetah/bin.nix { };
     gpxlab = libsForQt5.callPackage ./applications/gpxlab {
       inherit sources;
