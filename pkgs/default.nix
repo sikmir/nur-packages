@@ -183,6 +183,7 @@ lib.makeScope newScope (
     ### GEMINI
 
     geminid = callPackage ./gemini/geminid { };
+    gemreader = callPackage ./gemini/gemreader { };
     gloggery = callPackage ./gemini/gloggery { };
     gmi2html = callPackage ./gemini/gmi2html { };
     gmnhg = callPackage ./gemini/gmnhg { };
