@@ -122,9 +122,7 @@ lib.makeScope newScope (
     fx-bin = callPackage ./tools/text/fx/bin.nix { };
     go-staticmaps = callPackage ./tools/geo/go-staticmaps { };
     gpx-interpolate = callPackage ./tools/geo/gpx-interpolate { };
-    gpx-layer = perlPackages.callPackage ./tools/geo/gpx-layer {
-      inherit sources;
-    };
+    gpx-layer = perlPackages.callPackage ./tools/geo/gpx-layer { };
     gpxtools = callPackage ./tools/geo/gpxtools { };
     gpxtrackposter = callPackage ./tools/geo/gpxtrackposter { };
     py-staticmaps = callPackage ./tools/geo/py-staticmaps { };
