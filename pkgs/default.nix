@@ -189,6 +189,7 @@ lib.makeScope newScope (
     kiln = callPackage ./gemini/kiln { };
     kineto = callPackage ./gemini/kineto { };
     md2gemini = callPackage ./gemini/md2gemini { };
+    satellite = callPackage ./gemini/satellite { };
     shavit = callPackage ./gemini/shavit { };
 
     ### GIS
