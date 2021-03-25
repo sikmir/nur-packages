@@ -185,6 +185,7 @@ lib.makeScope newScope (
     gmnhg = callPackage ./gemini/gmnhg { };
     gmni = callPackage ./gemini/gmni { };
     gmnisrv = callPackage ./gemini/gmnisrv { };
+    gssg = callPackage ./gemini/gssg { };
     gurl = callPackage ./gemini/gurl { };
     kiln = callPackage ./gemini/kiln { };
     kineto = callPackage ./gemini/kineto { };
