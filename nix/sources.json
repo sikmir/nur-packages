@@ -636,20 +636,6 @@
         "url": "https://github.com/semlanik/microjson/archive/0d9f50e407cd117e56582faf0d99bfececc1b6ea.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
-    "mikatools": {
-        "branch": "master",
-        "builtin": false,
-        "date": "2020-09-11T21:36:14Z",
-        "description": "Mikatools provides fast and easy methods for common Python coding tasks",
-        "homepage": "https://github.com/mikahama/mikatools",
-        "owner": "mikahama",
-        "repo": "mikatools",
-        "rev": "e2f4d210f88904b5f6d368b638f7bb664b2e0f36",
-        "sha256": "0gpmwrkvn1x8sjq1681flpdma6miipw1vcmc99l15cg80sy3rz2l",
-        "type": "tarball",
-        "url": "https://github.com/mikahama/mikatools/archive/e2f4d210f88904b5f6d368b638f7bb664b2e0f36.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
     "morse-talk": {
         "branch": "master",
         "builtin": false,
