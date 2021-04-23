@@ -11,7 +11,7 @@
 , pcre
 }:
 
-stdenv.mkDerivation {
+stdenv.mkDerivation rec {
   pname = "stardict-tools";
   version = "2021-01-07";
 

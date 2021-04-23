@@ -1,6 +1,6 @@
 { lib, fetchFromGitHub, python3Packages, geotiler }:
 
-python3Packages.buildPythonApplication {
+python3Packages.buildPythonApplication rec {
   pname = "cmpgpx";
   version = "2015-06-05";
 

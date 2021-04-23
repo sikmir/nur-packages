@@ -1,6 +1,6 @@
 { lib, python3Packages, fetchFromGitHub, withCli ? true, checkLang ? false }:
 
-python3Packages.buildPythonApplication {
+python3Packages.buildPythonApplication rec {
   pname = "tatoebatools";
   version = "0.1.1";
 

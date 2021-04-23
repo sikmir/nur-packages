@@ -1,6 +1,6 @@
 { lib, mkDerivation, fetchFromGitHub, cmake, boost165, eigen, opencv2 }:
 
-mkDerivation {
+mkDerivation rec {
   pname = "polyvectorization";
   version = "2019-08-23";
 

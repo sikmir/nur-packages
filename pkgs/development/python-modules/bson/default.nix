@@ -1,6 +1,6 @@
 { lib, python3Packages, fetchFromGitHub }:
 
-python3Packages.buildPythonPackage {
+python3Packages.buildPythonPackage rec {
   pname = "bson";
   version = "0.5.10";
 

@@ -1,6 +1,6 @@
 { lib, mkDerivation, fetchFromGitHub, cmake, gdal, proj }:
 
-mkDerivation {
+mkDerivation rec {
   pname = "garminimg";
   version = "2021-01-07";
 

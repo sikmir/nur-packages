@@ -15,7 +15,7 @@
 , withI18n ? true
 }:
 
-mkDerivation {
+mkDerivation rec {
   pname = "redict";
   version = "2019-06-21";
 
