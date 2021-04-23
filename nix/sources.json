@@ -13,20 +13,6 @@
         "url": "https://github.com/ruarxive/apibackuper/archive/1ff139f688d59b899ff041ccc282e224110ddc76.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
-    "cheetah3": {
-        "branch": "master",
-        "builtin": false,
-        "date": "2021-02-22T10:57:01Z",
-        "description": "Cheetah3 is a free (MIT) and open source template engine for Python",
-        "homepage": "https://cheetahtemplate.org/",
-        "owner": "CheetahTemplate3",
-        "repo": "cheetah3",
-        "rev": "a4e33f0f55ed5909437cbbf262fa99de78a7ad2b",
-        "sha256": "0y7py63fcxk3wk85n87y3kgiq07qyqirbh4r2pd2m1kpyyjzshsc",
-        "type": "tarball",
-        "url": "https://github.com/CheetahTemplate3/cheetah3/archive/a4e33f0f55ed5909437cbbf262fa99de78a7ad2b.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
     "dict2rest": {
         "branch": "master",
         "builtin": false,
