@@ -24,7 +24,7 @@ python3Packages.buildPythonApplication {
 
   meta = with lib; {
     description = "Show the differences between GPX files";
-    homepage = "https://github.com/jonblack/cmpgpx";
+    inherit (src.meta) homepage;
     license = licenses.unlicense;
     maintainers = [ maintainers.sikmir ];
     platforms = platforms.unix;

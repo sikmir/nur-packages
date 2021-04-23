@@ -26,7 +26,7 @@ python3Packages.buildPythonApplication {
 
   meta = with lib; {
     description = "A library for downloading, updating and iterating over data files from Tatoeba";
-    homepage = "https://github.com/LBeaudoux/tatoebatools";
+    inherit (src.meta) homepage;
     license = licenses.mit;
     maintainers = [ maintainers.sikmir ];
     platforms = platforms.unix;

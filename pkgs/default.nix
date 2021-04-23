@@ -153,9 +153,7 @@ lib.makeScope newScope (
     basecamp = callPackage ./garmin/basecamp { };
     cgpsmapper = callPackage ./garmin/cgpsmapper { };
     garmin-uploader = callPackage ./garmin/garmin-uploader { };
-    garminimg = libsForQt5.callPackage ./garmin/garminimg {
-      inherit sources;
-    };
+    garminimg = libsForQt5.callPackage ./garmin/garminimg { };
     gimgtools = callPackage ./garmin/gimgtools { };
     gmaptool = callPackage ./garmin/gmaptool { };
     imgdecode = callPackage ./garmin/imgdecode { };
@@ -237,9 +235,7 @@ lib.makeScope newScope (
     morse-talk = callPackage ./misc/morse-talk { };
     musig = callPackage ./misc/musig { };
     playonmac = callPackage ./misc/playonmac { };
-    polyvectorization = libsForQt5.callPackage ./misc/polyvectorization {
-      inherit sources;
-    };
+    polyvectorization = libsForQt5.callPackage ./misc/polyvectorization { };
     ptunnel = callPackage ./misc/ptunnel { };
     pvs-studio = callPackage ./misc/pvs-studio { };
     reproxy = callPackage ./misc/reproxy { };
