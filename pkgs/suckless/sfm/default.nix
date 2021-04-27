@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchFromGitHub {
     owner = "afify";
-    repo = "sfm";
+    repo = pname;
     rev = "b6063fd0a91a0ee976a09c79cbeb097ba26bfd21";
     hash = "sha256-tRT8snpxXKwOHFT9GoK8xQnu8mQbUfbujyii2paQEaU=";
   };
