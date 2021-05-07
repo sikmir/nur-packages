@@ -1,4 +1,4 @@
-{ lib, fetchurl, python2Packages, libXScrnSaver, makeWrapper }:
+{ lib, stdenv, fetchurl, python2Packages, libXScrnSaver, makeWrapper }:
 
 python2Packages.buildPythonApplication rec {
   pname = "taskcoach";
