@@ -1,6 +1,6 @@
 { lib, stdenv, fetchFromGitHub, gmaptool, mkgmap, p7zip, zsh, substituteAll }:
 
-stdenv.mkDerivation {
+stdenv.mkDerivation rec {
   pname = "openmtbmap";
   version = "2020-06-10";
 
