@@ -1,4 +1,4 @@
-{ lib, mkDerivation, fetchFromGitHub, cmake, boost165, eigen, opencv2 }:
+{ lib, stdenv, mkDerivation, fetchFromGitHub, cmake, boost165, eigen, opencv2 }:
 
 mkDerivation rec {
   pname = "polyvectorization";
