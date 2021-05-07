@@ -23,5 +23,6 @@ python2Packages.buildPythonApplication rec {
     license = licenses.gpl3Plus;
     maintainers = [ maintainers.sikmir ];
     platforms = platforms.linux;
+    skip.ci = stdenv.isDarwin;
   };
 }
