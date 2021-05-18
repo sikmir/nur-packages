@@ -101,6 +101,7 @@ lib.makeScope newScope (
     lru-dict = callPackage ./development/python-modules/lru-dict { };
     mercantile = callPackage ./development/python-modules/mercantile { };
     mikatools = callPackage ./development/python-modules/mikatools { };
+    morecantile = callPackage ./development/python-modules/morecantile { };
     pymbtiles = callPackage ./development/python-modules/pymbtiles { };
     python-hfst = callPackage ./development/python-modules/python-hfst { };
     rasterio = callPackage ./development/python-modules/rasterio { };
