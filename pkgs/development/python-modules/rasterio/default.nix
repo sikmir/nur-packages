@@ -1,9 +1,9 @@
-{ lib, fetchFromGitHub, python3Packages, pythonOlder, gdal }:
+{ lib, fetchFromGitHub, python3Packages, gdal }:
 
 python3Packages.buildPythonPackage rec {
   pname = "rasterio";
   version = "1.2.3";
-  disabled = pythonOlder "3.6";
+  disabled = python3Packages.pythonOlder "3.6";
 
   src = fetchFromGitHub {
     owner = "mapbox";
