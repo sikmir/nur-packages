@@ -9,9 +9,6 @@ lib.makeScope newScope (
     ### APPLICATIONS
 
     goldencheetah-bin = callPackage ./applications/goldencheetah/bin.nix { };
-    gpxlab = libsForQt5.callPackage ./applications/gpxlab {
-      inherit sources;
-    };
     gpxsee-bin = callPackage ./applications/gpxsee/bin.nix { };
     i18n-editor-bin = callPackage ./applications/i18n-editor { jre = pkgs.jdk11; };
     iterm2-bin = callPackage ./applications/iterm2/bin.nix { };

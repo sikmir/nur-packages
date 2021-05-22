@@ -1,18 +1,4 @@
 {
-    "gpxlab": {
-        "branch": "master",
-        "builtin": false,
-        "date": "2020-10-16T17:00:40Z",
-        "description": "Program to show and manipulate GPS tracks",
-        "homepage": "https://github.com/BourgeoisLab/GPXLab",
-        "owner": "BourgeoisLab",
-        "repo": "GPXLab",
-        "rev": "0a2e13756ed1c39f4278b0b3d6cef7f8ac9f6fe7",
-        "sha256": "1z4wdnd65gkzpbn1gqrsl6vs0gvc9pqgnziw19g6bhap41dvxbv0",
-        "type": "tarball",
-        "url": "https://github.com/BourgeoisLab/GPXLab/archive/0a2e13756ed1c39f4278b0b3d6cef7f8ac9f6fe7.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
     "map-hr": {
         "branch": "master",
         "builtin": false,
