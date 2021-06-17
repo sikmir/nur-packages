@@ -194,6 +194,10 @@ lib.makeScope newScope (
     sasplanet-bin = callPackage ./gis/sasplanet/bin.nix { };
     tdh = callPackage ./gis/tdh { };
 
+    ### GPX
+
+    gpx-animator = callPackage ./gpx/gpx-animator { };
+
     ### IMAGES
 
     dockerImages = {
