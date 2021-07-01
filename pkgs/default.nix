@@ -101,7 +101,6 @@ lib.makeScope newScope (
     morecantile = callPackage ./development/python-modules/morecantile { };
     pymbtiles = callPackage ./development/python-modules/pymbtiles { };
     python-hfst = callPackage ./development/python-modules/python-hfst { };
-    rasterio = callPackage ./development/python-modules/rasterio { };
     s2sphere = callPackage ./development/python-modules/s2sphere { };
     wikitextprocessor = callPackage ./development/python-modules/wikitextprocessor { };
 
