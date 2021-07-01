@@ -96,7 +96,6 @@ lib.makeScope newScope (
     gpxelevations = callPackage ./development/python-modules/gpxelevations { };
     jsonseq = callPackage ./development/python-modules/jsonseq { };
     lru-dict = callPackage ./development/python-modules/lru-dict { };
-    mercantile = callPackage ./development/python-modules/mercantile { };
     mikatools = callPackage ./development/python-modules/mikatools { };
     morecantile = callPackage ./development/python-modules/morecantile { };
     pymbtiles = callPackage ./development/python-modules/pymbtiles { };
