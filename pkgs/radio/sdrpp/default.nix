@@ -27,7 +27,7 @@
 , recorder ? true
 }:
 
-stdenv.mkDerivation {
+stdenv.mkDerivation rec {
   pname = "sdrpp";
   version = "2021-07-09";
 
