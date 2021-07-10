@@ -20,6 +20,7 @@ stdenv.mkDerivation rec {
     inherit (src.meta) homepage;
     license = licenses.lgpl21Plus;
     maintainers = [ maintainers.sikmir ];
-    platforms = platforms.unix;
+    platforms = platforms.linux;
+    skip.ci = stdenv.isDarwin;
   };
 }
