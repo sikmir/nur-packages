@@ -1,4 +1,4 @@
-{ lib, fetchFromGitHub, buildGoModule, pkg-config, portaudio }:
+{ stdenv, lib, fetchFromGitHub, buildGoModule, pkg-config, portaudio }:
 
 buildGoModule rec {
   pname = "musig";
