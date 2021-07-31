@@ -93,6 +93,7 @@ lib.makeScope newScope (
     bson = callPackage ./development/python-modules/bson { };
     click-6-7 = callPackage ./development/python-modules/click { };
     contextily = callPackage ./development/python-modules/contextily { };
+    earthpy = callPackage ./development/python-modules/earthpy { };
     geotiler = callPackage ./development/python-modules/geotiler { };
     gpxelevations = callPackage ./development/python-modules/gpxelevations { };
     jsonseq = callPackage ./development/python-modules/jsonseq { };
