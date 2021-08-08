@@ -113,6 +113,7 @@ lib.makeScope newScope (
       click = click-6-7;
     };
     go-staticmaps = callPackage ./tools/geo/go-staticmaps { };
+    mbtiles2osmand = callPackage ./tools/geo/mbtiles2osmand { };
     py-staticmaps = callPackage ./tools/geo/py-staticmaps { };
     render_geojson = callPackage ./tools/geo/render_geojson { };
     supermercado = callPackage ./tools/geo/supermercado { };
