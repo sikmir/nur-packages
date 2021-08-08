@@ -266,6 +266,7 @@ lib.makeScope newScope (
     ozi_map = callPackage ./nakarte/ozi_map { };
     pyimagequant = callPackage ./nakarte/pyimagequant { };
     thinplatespline = callPackage ./nakarte/thinplatespline { };
+    tracks_storage_server = callPackage ./nakarte/tracks_storage_server { };
 
     ### OSM
 
