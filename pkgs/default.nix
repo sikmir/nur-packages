@@ -187,7 +187,9 @@ lib.makeScope newScope (
     kineto = callPackage ./gemini/kineto { };
     satellite = callPackage ./gemini/satellite { };
     shavit = callPackage ./gemini/shavit { };
-    stargazer = callPackage ./gemini/stargazer { };
+    stargazer = callPackage ./gemini/stargazer {
+      inherit (darwin.apple_sdk.frameworks) Security;
+    };
     telescope = callPackage ./gemini/telescope { };
 
     ### GIS

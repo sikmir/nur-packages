@@ -1,4 +1,4 @@
-{ lib, rustPlatform, fetchFromSourcehut, scdoc, installShellFiles }:
+{ lib, stdenv, rustPlatform, fetchFromSourcehut, Security, scdoc, installShellFiles }:
 
 rustPlatform.buildRustPackage rec {
   pname = "stargazer";
@@ -14,6 +14,8 @@ rustPlatform.buildRustPackage rec {
   cargoHash = "sha256-teUElOK28MlvsYCEGp3xCxRvKSoXVE69IioGiF/A1ZI=";
 
   nativeBuildInputs = [ scdoc installShellFiles ];
+
+  buildInputs = lib.optional stdenv.isDarwin Security;
 
   postBuild = ''
     scdoc < doc/stargazer.scd > stargazer.1
