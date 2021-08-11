@@ -187,6 +187,7 @@ lib.makeScope newScope (
     kineto = callPackage ./gemini/kineto { };
     satellite = callPackage ./gemini/satellite { };
     shavit = callPackage ./gemini/shavit { };
+    stargazer = callPackage ./gemini/stargazer { };
     telescope = callPackage ./gemini/telescope { };
 
     ### GIS
