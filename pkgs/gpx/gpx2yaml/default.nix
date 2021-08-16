@@ -7,7 +7,7 @@ stdenv.mkDerivation rec {
   src = fetchgit {
     url = "git://git.sikmir.ru/${pname}";
     rev = "c3fc569023c5b3414bc6711a6a12249435d98af5";
-    sha256 = "sha256-OXzt5sc1s2esKY1YmeGc3zuo9GxMYfYDvovCSt/kIdE=";
+    sha256 = "sha256-kpAi9vuQ5fZreAZpNf2Fz7robQHyHjBDyIKYUC3SAfE=";
   };
 
   installFlags = [ "PREFIX=$(out)" ];
