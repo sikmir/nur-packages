@@ -209,6 +209,7 @@ lib.makeScope newScope (
     gpx-interpolate = callPackage ./gpx/gpx-interpolate { };
     gpx-layer = perlPackages.callPackage ./gpx/gpx-layer { };
     gpx2yaml = callPackage ./gpx/gpx2yaml { };
+    gpxchart = callPackage ./gpx/gpxchart { };
     gpxtools = callPackage ./gpx/gpxtools { };
     gpxtrackposter = callPackage ./gpx/gpxtrackposter { };
 
