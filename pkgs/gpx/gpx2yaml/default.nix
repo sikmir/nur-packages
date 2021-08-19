@@ -2,12 +2,12 @@
 
 stdenv.mkDerivation rec {
   pname = "gpx2yaml";
-  version = "2021-08-16";
+  version = "2021-08-19";
 
   src = fetchgit {
     url = "git://git.sikmir.ru/${pname}";
-    rev = "c3fc569023c5b3414bc6711a6a12249435d98af5";
-    sha256 = "sha256-kpAi9vuQ5fZreAZpNf2Fz7robQHyHjBDyIKYUC3SAfE=";
+    rev = "bc8f175d022d68e7712535a29cc2c08d9c79254e";
+    sha256 = "sha256-82RYdC1tUYwYZELTHOC+Llz+KcdLgyipB9wEWekDRww=";
   };
 
   installFlags = [ "PREFIX=$(out)" ];
