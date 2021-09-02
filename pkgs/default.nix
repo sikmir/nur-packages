@@ -207,6 +207,7 @@ lib.makeScope newScope (
 
     cmpgpx = callPackage ./gpx/cmpgpx { };
     geojson2dm = callPackage ./gpx/geojson2dm { };
+    gps-whatsnew = callPackage ./gpx/gps-whatsnew { };
     gpx-animator = callPackage ./gpx/gpx-animator { };
     gpx-cmd-tools = callPackage ./gpx/gpx-cmd-tools { };
     gpx-interpolate = callPackage ./gpx/gpx-interpolate { };
