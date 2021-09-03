@@ -115,6 +115,7 @@ lib.makeScope newScope (
     mbtiles2osmand = callPackage ./tools/geo/mbtiles2osmand { };
     py-staticmaps = callPackage ./tools/geo/py-staticmaps { };
     render_geojson = callPackage ./tools/geo/render_geojson { };
+    rio-mbtiles = callPackage ./tools/geo/rio-mbtiles { };
     supermercado = callPackage ./tools/geo/supermercado { };
     tile-stitch = callPackage ./tools/geo/tile-stitch { };
     tilesets-cli = callPackage ./tools/geo/tilesets-cli { };
