@@ -77,6 +77,7 @@ lib.makeScope newScope (
     hfst = callPackage ./development/libraries/hfst { };
     libshell = callPackage ./development/libraries/libshell { };
     microjson = callPackage ./development/libraries/microjson { };
+    qt6 = callPackage ./development/libraries/qt-6 { };
 
     ### DEVELOPMENT / PERL MODULES
 
