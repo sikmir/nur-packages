@@ -22,6 +22,7 @@ stdenv.mkDerivation rec {
     homepage = "http://overpass-api.de/";
     license = licenses.agpl3Only;
     maintainers = [ maintainers.sikmir ];
-    platforms = platforms.unix;
+    platforms = platforms.linux;
+    skip.ci = stdenv.isDarwin;
   };
 }
