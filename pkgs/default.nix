@@ -19,7 +19,6 @@ lib.makeScope newScope (
     openorienteering-mapper-bin = callPackage ./applications/gis/openorienteering-mapper/bin.nix { };
     qutebrowser-bin = callPackage ./applications/networking/qutebrowser/bin.nix { };
     synwrite-bin = callPackage ./applications/synwrite/bin.nix { };
-    visualgps = libsForQt5.callPackage ./applications/visualgps { };
     wireguard-statusbar-bin = callPackage ./applications/wireguard-statusbar { };
 
     ### BUILD SUPPORT
@@ -210,6 +209,7 @@ lib.makeScope newScope (
     ### GNSS
 
     rtklib = callPackage ./gnss/rtklib { };
+    visualgps = libsForQt5.callPackage ./gnss/visualgps { };
 
     ### GPX
 
