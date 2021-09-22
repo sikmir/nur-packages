@@ -181,6 +181,7 @@ lib.makeScope newScope (
     gemini-ipfs-gateway = callPackage ./gemini/gemini-ipfs-gateway { };
     geminid = callPackage ./gemini/geminid { };
     gemreader = callPackage ./gemini/gemreader { };
+    gemserv = callPackage ./gemini/gemserv { };
     gloggery = callPackage ./gemini/gloggery { };
     gmi2html = callPackage ./gemini/gmi2html { };
     gmid = callPackage ./gemini/gmid { };
