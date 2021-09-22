@@ -207,6 +207,10 @@ lib.makeScope newScope (
     sasplanet-bin = callPackage ./gis/sasplanet/bin.nix { };
     tdh = callPackage ./gis/tdh { };
 
+    ### GNSS
+
+    rtklib = callPackage ./gnss/rtklib { };
+
     ### GPX
 
     cmpgpx = callPackage ./gpx/cmpgpx { };
