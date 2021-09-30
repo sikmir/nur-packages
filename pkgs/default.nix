@@ -222,6 +222,7 @@ lib.makeScope newScope (
     gpxsee-bin = callPackage ./gpx/gpxsee/bin.nix { };
     gpxtools = callPackage ./gpx/gpxtools { };
     gpxtrackposter = callPackage ./gpx/gpxtrackposter { };
+    trackanimation = callPackage ./gpx/trackanimation { };
 
     ### IMAGES
 
@@ -296,6 +297,7 @@ lib.makeScope newScope (
     overpass-api = callPackage ./osm/overpass-api { };
     phyghtmap = callPackage ./osm/phyghtmap { };
     sdlmap = callPackage ./osm/sdlmap { };
+    smopy = callPackage ./osm/smopy { };
     smrender = callPackage ./osm/smrender { };
     taginfo-tools = callPackage ./osm/taginfo-tools { };
     tilemaker = callPackage ./osm/tilemaker { };
