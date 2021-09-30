@@ -308,6 +308,14 @@ lib.makeScope newScope (
     libad9361 = callPackage ./radio/libad9361 { };
     linrad = callPackage ./radio/linrad { };
     sdrpp = callPackage ./radio/sdrpp { };
+    sigdigger = libsForQt5.callPackage ./radio/sigdigger {
+      inherit sigutils suscan suwidgets;
+    };
+    sigutils = callPackage ./radio/sigutils { };
+    suscan = callPackage ./radio/suscan { };
+    suwidgets = libsForQt5.callPackage ./radio/suwidgets {
+      inherit sigutils;
+    };
 
     ### SUCKLESS
 
