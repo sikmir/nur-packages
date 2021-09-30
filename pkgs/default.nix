@@ -180,6 +180,7 @@ lib.makeScope newScope (
 
     ### GEOSPATIAL
 
+    arcgis2geojson = callPackage ./geospatial/arcgis2geojson { };
     datamaps = callPackage ./geospatial/datamaps { };
     elevation = callPackage ./geospatial/elevation {
       click = click-6-7;
