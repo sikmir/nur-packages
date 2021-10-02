@@ -338,6 +338,7 @@ lib.makeScope newScope (
     sfeed = callPackage ./suckless/sfeed { };
     sfeed_curses = callPackage ./suckless/sfeed_curses { };
     sthkd = callPackage ./suckless/sthkd { };
+    svtm = callPackage ./suckless/svtm { };
     xprompt = callPackage ./suckless/xprompt { };
   }
 )
