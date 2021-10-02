@@ -329,6 +329,7 @@ lib.makeScope newScope (
     json2tsv = callPackage ./suckless/json2tsv { };
     lacc = callPackage ./suckless/lacc { };
     lel = callPackage ./suckless/lel { };
+    libst = callPackage ./suckless/libst { };
     quark = callPackage ./suckless/quark { };
     saait = callPackage ./suckless/saait { };
     sbase = callPackage ./suckless/sbase { };
