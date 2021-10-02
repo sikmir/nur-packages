@@ -219,6 +219,7 @@ lib.makeScope newScope (
     gpx-layer = perlPackages.callPackage ./gpx/gpx-layer { };
     gpx2yaml = callPackage ./gpx/gpx2yaml { };
     gpxchart = callPackage ./gpx/gpxchart { };
+    gpxeditor = callPackage ./gpx/gpxeditor { };
     gpxlib = callPackage ./gpx/gpxlib { };
     gpxsee-bin = callPackage ./gpx/gpxsee/bin.nix { };
     gpxtools = callPackage ./gpx/gpxtools { };
