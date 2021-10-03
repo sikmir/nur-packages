@@ -1,4 +1,4 @@
-{ lib, mkDerivation, fetchFromGitHub, qmake, pkg-config
+{ lib, stdenv, mkDerivation, fetchFromGitHub, qmake, pkg-config
 , fftwFloat, sigutils, suscan, suwidgets, volk
 , fftw, libsndfile, soapysdr
 }:
