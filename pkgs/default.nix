@@ -238,6 +238,7 @@ lib.makeScope newScope (
     opendict = callPackage ./linguistics/opendict { };
     python-hfst = callPackage ./linguistics/python-hfst { };
     redict = libsForQt5.callPackage ./linguistics/redict { };
+    revtok = callPackage ./linguistics/revtok { };
     stardict-tools = callPackage ./linguistics/stardict-tools { };
     tatoebatools = callPackage ./linguistics/tatoebatools { };
     wikitextprocessor = callPackage ./linguistics/wikitextprocessor { };
