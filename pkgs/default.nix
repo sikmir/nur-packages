@@ -222,6 +222,7 @@ lib.makeScope newScope (
     ### LINGUISTICS
 
     dict2rest = callPackage ./linguistics/dict2rest { };
+    distance = callPackage ./linguistics/distance { };
     foma = callPackage ./linguistics/foma {
       libtool = if pkgs.stdenv.isDarwin then pkgs.darwin.cctools else null;
     };
