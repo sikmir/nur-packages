@@ -316,6 +316,7 @@ lib.makeScope newScope (
     smrender = callPackage ./osm/smrender { };
     taginfo-tools = callPackage ./osm/taginfo-tools { };
     tilemaker = callPackage ./osm/tilemaker { };
+    vectiler = callPackage ./osm/vectiler { };
 
     ### RADIO
 
