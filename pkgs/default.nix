@@ -244,6 +244,7 @@ lib.makeScope newScope (
     odict = callPackage ./linguistics/odict { };
     opendict = callPackage ./linguistics/opendict { };
     python-hfst = callPackage ./linguistics/python-hfst { };
+    pytorchtext = callPackage ./linguistics/pytorchtext { };
     redict = libsForQt5.callPackage ./linguistics/redict { };
     revtok = callPackage ./linguistics/revtok { };
     stardict-tools = callPackage ./linguistics/stardict-tools { };
