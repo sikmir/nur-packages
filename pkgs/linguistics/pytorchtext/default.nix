@@ -1,4 +1,4 @@
-{ lib, fetchFromGitHub, python3Packages, cmake, which, revtok }:
+{ lib, stdenv, fetchFromGitHub, python3Packages, cmake, which, revtok }:
 
 python3Packages.buildPythonPackage rec {
   pname = "pytorchtext";
@@ -40,5 +40,6 @@ python3Packages.buildPythonPackage rec {
     inherit (src.meta) homepage;
     license = licenses.bsd3;
     maintainers = [ maintainers.sikmir ];
+    broken = stdenv.isDarwin;
   };
 }
