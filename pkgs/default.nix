@@ -170,6 +170,7 @@ lib.makeScope newScope (
       proj = pkgs.proj_7;
     };
     mbtiles2osmand = callPackage ./geospatial/mbtiles2osmand { };
+    mbutiles = callPackage ./geospatial/mbutiles { };
     polyvectorization = libsForQt5.callPackage ./geospatial/polyvectorization { };
     py-staticmaps = callPackage ./geospatial/py-staticmaps { };
     qgis-bin = callPackage ./geospatial/qgis/bin.nix { };
