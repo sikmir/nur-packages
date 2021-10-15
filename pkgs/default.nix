@@ -280,6 +280,7 @@ lib.makeScope newScope (
     repolocli = callPackage ./misc/repolocli { };
     sdorfehs = callPackage ./misc/sdorfehs { };
     taskcoach = callPackage ./misc/taskcoach { };
+    tcvt = callPackage ./misc/tcvt { };
     tlstunnel = callPackage ./misc/tlstunnel { };
     xfractint = callPackage ./misc/xfractint { };
     xtr = callPackage ./misc/xtr {
