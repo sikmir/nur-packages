@@ -332,6 +332,7 @@ lib.makeScope newScope (
       inherit sigutils suscan suwidgets;
     };
     sigutils = callPackage ./radio/sigutils { };
+    smallrx = callPackage ./radio/smallrx { };
     suscan = callPackage ./radio/suscan { };
     suwidgets = libsForQt5.callPackage ./radio/suwidgets {
       inherit sigutils;
