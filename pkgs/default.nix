@@ -13,7 +13,6 @@ lib.makeScope newScope (
     klogg-bin = callPackage ./applications/misc/klogg/bin.nix { };
     librewolf = callPackage ./applications/networking/librewolf { };
     macpass-bin = callPackage ./applications/macpass/bin.nix { };
-    nnn-plugins = callPackage ./applications/nnn-plugins { };
     openorienteering-mapper-bin = callPackage ./applications/gis/openorienteering-mapper/bin.nix { };
     qutebrowser-bin = callPackage ./applications/networking/qutebrowser/bin.nix { };
     synwrite-bin = callPackage ./applications/synwrite/bin.nix { };
