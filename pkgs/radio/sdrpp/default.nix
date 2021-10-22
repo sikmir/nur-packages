@@ -1,30 +1,34 @@
 { stdenv, lib, fetchFromGitHub, cmake, pkg-config
 , libX11, glfw, glew, fftwFloat, volk
 # Sources
-, airspy_source ? false, airspy
+, airspy_source ? true, airspy
 , airspyhf_source ? true, airspyhf
-, bladerf_source ? true, libbladeRF
+, bladerf_source ? false, libbladeRF
 , file_source ? true
 , hackrf_source ? true, hackrf
-, limesdr_source ? true, limesuite
+, limesdr_source ? false, limesuite
 , sddc_source ? false
-, rtl_sdr_source ? true, librtlsdr, libusb
+, rtl_sdr_source ? true, librtlsdr, libusb1
 , rtl_tcp_source ? true
 , sdrplay_source ? false, sdrplay
 , soapy_source ? true, soapysdr
-, spyserver_source ? false
+, spyserver_source ? true
 , plutosdr_source ? true, libiio, libad9361
 # Sinks
 , audio_sink ? true, rtaudio
+, portaudio_sink ? false, portaudio
+, network_sink ? true
 # Decoders
-, falcon9_decoder ? false, ffmpeg-full
+, falcon9_decoder ? false
+, m17_decoder ? false, codec2
 , meteor_demodulator ? true
 , radio ? true
-, weather_sat_decoder ? false
+, weather_sat_decoder ? true
 # Misc
-, discord_integration ? true
+, discord_presence ? true
 , frequency_manager ? true
 , recorder ? true
+, rigctl_server ? true
 }:
 
 stdenv.mkDerivation rec {
@@ -41,6 +45,8 @@ stdenv.mkDerivation rec {
   postPatch = ''
     substituteInPlace CMakeLists.txt \
       --replace "/usr" $out
+    substituteInPlace decoder_modules/m17_decoder/src/m17dsp.h \
+      --replace "codec2.h" "codec2/codec2.h"
   '';
 
   nativeBuildInputs = [ cmake pkg-config ];
@@ -52,11 +58,13 @@ stdenv.mkDerivation rec {
     ++ lib.optional bladerf_source libbladeRF
     ++ lib.optional hackrf_source hackrf
     ++ lib.optional limesdr_source limesuite
-    ++ lib.optionals rtl_sdr_source [ librtlsdr libusb ]
+    ++ lib.optionals rtl_sdr_source [ librtlsdr libusb1 ]
     ++ lib.optional sdrplay_source sdrplay
     ++ lib.optional soapy_source soapysdr
     ++ lib.optionals plutosdr_source [ libiio libad9361 ]
-    ++ lib.optional audio_sink rtaudio;
+    ++ lib.optional audio_sink rtaudio
+    ++ lib.optional portaudio_sink portaudio
+    ++ lib.optional m17_decoder codec2;
 
   cmakeFlags = lib.mapAttrsToList (k: v: "-D${k}=${if v then "ON" else "OFF"}") {
     OPT_BUILD_AIRSPY_SOURCE = airspy_source;
@@ -73,14 +81,21 @@ stdenv.mkDerivation rec {
     OPT_BUILD_SPYSERVER_SOURCE = spyserver_source;
     OPT_BUILD_PLUTOSDR_SOURCE = plutosdr_source;
     OPT_BUILD_AUDIO_SINK = audio_sink;
+    OPT_BUILD_PORTAUDIO_SINK = portaudio_sink;
+    OPT_BUILD_NETWORK_SINK = network_sink;
+    OPT_BUILD_NEW_PORTAUDIO_SINK = portaudio_sink;
     OPT_BUILD_FALCON9_DECODER = falcon9_decoder;
+    OPT_BUILD_M17_DECODER = m17_decoder;
     OPT_BUILD_METEOR_DEMODULATOR = meteor_demodulator;
     OPT_BUILD_RADIO = radio;
     OPT_BUILD_WEATHER_SAT_DECODER = weather_sat_decoder;
-    OPT_BUILD_DISCORD_PRESENCE = discord_integration;
+    OPT_BUILD_DISCORD_PRESENCE = discord_presence;
     OPT_BUILD_FREQUENCY_MANAGER = frequency_manager;
     OPT_BUILD_RECORDER = recorder;
+    OPT_BUILD_RIGCTL_SERVER = rigctl_server;
   };
+
+  NIX_CFLAGS_COMPILE = "-fpermissive";
 
   meta = with lib; {
     description = "Cross-Platform SDR Software";
