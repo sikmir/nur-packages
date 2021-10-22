@@ -326,6 +326,7 @@ lib.makeScope newScope (
 
     airspyhf = callPackage ./radio/airspyhf { };
     aprsc = callPackage ./radio/aprsc { };
+    gqrx-scanner = callPackage ./radio/gqrx-scanner { };
     libad9361 = callPackage ./radio/libad9361 { };
     linrad = callPackage ./radio/linrad { };
     sdrpp = callPackage ./radio/sdrpp { };
