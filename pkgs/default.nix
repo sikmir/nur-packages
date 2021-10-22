@@ -310,6 +310,7 @@ lib.makeScope newScope (
     osm-area-tools = callPackage ./osm/osm-area-tools { };
     osm-python-tools = callPackage ./osm/osm-python-tools { };
     osmcoastline = callPackage ./osm/osmcoastline { };
+    osmosis = callPackage ./osm/osmosis { };
     overpass-api = callPackage ./osm/overpass-api { };
     osmwalkthrough = callPackage ./osm/osmwalkthrough { };
     phyghtmap = callPackage ./osm/phyghtmap { };
