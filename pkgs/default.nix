@@ -324,12 +324,9 @@ lib.makeScope newScope (
 
     ### RADIO
 
-    airspyhf = callPackage ./radio/airspyhf { };
     aprsc = callPackage ./radio/aprsc { };
     gqrx-scanner = callPackage ./radio/gqrx-scanner { };
-    libad9361 = callPackage ./radio/libad9361 { };
     linrad = callPackage ./radio/linrad { };
-    sdrpp = callPackage ./radio/sdrpp { };
     sigdigger = libsForQt5.callPackage ./radio/sigdigger {
       inherit sigutils suscan suwidgets;
     };
