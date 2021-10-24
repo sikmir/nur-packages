@@ -13,6 +13,8 @@ stdenv.mkDerivation rec {
 
   nativeBuildInputs = [ cmake ];
 
+  NIX_CFLAGS_COMPILE = lib.optional stdenv.isDarwin "-DOSX";
+
   meta = with lib; {
     description = "A frequency scanner for Gqrx Software Defined Radio receiver";
     inherit (src.meta) homepage;
