@@ -139,7 +139,6 @@ lib.makeScope newScope (
     gemserv = callPackage ./gemini/gemserv { };
     gloggery = callPackage ./gemini/gloggery { };
     gmi2html = callPackage ./gemini/gmi2html { };
-    gmid = callPackage ./gemini/gmid { };
     gmnhg = callPackage ./gemini/gmnhg { };
     gmnigit = callPackage ./gemini/gmnigit { };
     gssg = callPackage ./gemini/gssg { };
