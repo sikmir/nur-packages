@@ -339,6 +339,7 @@ lib.makeScope newScope (
     ### SUCKLESS
 
     blind = callPackage ./suckless/blind { };
+    chibicc = callPackage ./suckless/chibicc { };
     cproc = callPackage ./suckless/cproc { };
     farbfeld-utils = callPackage ./suckless/farbfeld-utils { };
     hurl = callPackage ./suckless/hurl { };
