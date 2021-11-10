@@ -266,6 +266,7 @@ lib.makeScope newScope (
     didder = callPackage ./misc/didder { };
     docker-reg-tool = callPackage ./misc/docker-reg-tool { };
     docx2csv = callPackage ./misc/docx2csv { };
+    finalcut = callPackage ./misc/finalcut { };
     gef = callPackage ./misc/gef { };
     glauth = callPackage ./misc/glauth { };
     how-to-use-pvs-studio-free = callPackage ./misc/pvs-studio/how-to-use-pvs-studio-free.nix { };
