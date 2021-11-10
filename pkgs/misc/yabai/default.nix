@@ -27,6 +27,6 @@ stdenv.mkDerivation rec {
     license = licenses.mit;
     maintainers = [ maintainers.sikmir ];
     platforms = platforms.darwin;
-    skip.ci = !stdenv.isDarwin;
+    skip.ci = true; # Failed on Big Sur (11)
   };
 }
