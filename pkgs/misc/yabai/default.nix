@@ -1,4 +1,4 @@
-{ lib, stdenv, fetchFromGitHub, Cocoa, ScriptingBridge, installShellFiles, xxd }:
+{ lib, stdenv, fetchFromGitHub, Carbon, Cocoa, SkyLight, ScriptingBridge, installShellFiles, xxd }:
 
 stdenv.mkDerivation rec {
   pname = "yabai";
@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
 
   nativeBuildInputs = [ installShellFiles xxd ];
 
-  buildInputs = [ Cocoa ScriptingBridge ];
+  buildInputs = [ Carbon Cocoa SkyLight ScriptingBridge ];
 
   postInstall = ''
     install -Dm755 bin/yabai -t $out/bin
