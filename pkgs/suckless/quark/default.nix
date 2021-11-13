@@ -10,7 +10,9 @@ stdenv.mkDerivation {
     sha256 = "sha256-Jtu5zJfHd+6Oq572nVem5msMDCOjdqDNH4SQck8/O5A=";
   };
 
-  makeFlags = [ "PREFIX=$(out)" ];
+  makeFlags = [ "CC:=$(CC)" ];
+
+  installFlags = [ "PREFIX=$(out)" ];
 
   meta = with lib; {
     description = "Extremely small and simple HTTP GET/HEAD-only web server for static content";

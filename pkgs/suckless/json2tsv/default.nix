@@ -10,6 +10,8 @@ stdenv.mkDerivation rec {
     sha256 = "sha256-bpXEVWayFQYJDXDzaJIFuoNJubgbw5URNOpYz3K0DPI=";
   };
 
+  makeFlags = [ "RANLIB:=$(RANLIB)" ];
+
   installFlags = [ "PREFIX=$(out)" ];
 
   meta = with lib; {
