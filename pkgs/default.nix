@@ -354,7 +354,6 @@ lib.makeScope newScope (
     sbase = callPackage ./suckless/sbase { };
     scc = callPackage ./suckless/scc { };
     scroll = callPackage ./suckless/scroll { };
-    sfeed = callPackage ./suckless/sfeed { };
     sfeed_curses = callPackage ./suckless/sfeed_curses { };
     sthkd = callPackage ./suckless/sthkd { };
     svtm = callPackage ./suckless/svtm { };
