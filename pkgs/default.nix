@@ -147,6 +147,7 @@ lib.makeScope newScope (
     qute-gemini = callPackage ./gemini/qute-gemini { };
     satellite = callPackage ./gemini/satellite { };
     shavit = callPackage ./gemini/shavit { };
+    stagit-gemini = callPackage ./gemini/stagit-gemini { };
     stargazer = callPackage ./gemini/stargazer {
       inherit (darwin.apple_sdk.frameworks) Security;
     };
