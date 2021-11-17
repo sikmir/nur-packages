@@ -344,6 +344,7 @@ lib.makeScope newScope (
     chibicc = callPackage ./suckless/chibicc { };
     cproc = callPackage ./suckless/cproc { };
     farbfeld-utils = callPackage ./suckless/farbfeld-utils { };
+    ffshot = callPackage ./suckless/ffshot { };
     hurl = callPackage ./suckless/hurl { };
     imscript = callPackage ./suckless/imscript { };
     json2tsv = callPackage ./suckless/json2tsv { };
