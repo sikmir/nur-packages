@@ -353,7 +353,6 @@ lib.makeScope newScope (
     lel = callPackage ./suckless/lel { };
     libst = callPackage ./suckless/libst { };
     pista = callPackage ./suckless/pista { };
-    quark = callPackage ./suckless/quark { };
     saait = callPackage ./suckless/saait { };
     sbase = callPackage ./suckless/sbase { };
     scc = callPackage ./suckless/scc { };
