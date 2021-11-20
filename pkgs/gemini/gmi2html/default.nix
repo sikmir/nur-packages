@@ -2,19 +2,14 @@
 
 stdenv.mkDerivation rec {
   pname = "gmi2html";
-  version = "0.4.0";
+  version = "2021-10-24";
 
   src = fetchFromGitHub {
     owner = "shtanton";
     repo = pname;
-    rev = "v${version}";
-    hash = "sha256-B0+1s2eB1SAaVkGqj9OupMg0wGJGPj86NMEN765e7OU=";
+    rev = "5de5d162511aba10c32fe603af701f111b3a32ce";
+    hash = "sha256-AYA2PWhowoSascD+jnLyXpLvxwZDGJiC8CvnN2tr+Ec=";
   };
-
-  patches = [
-    # https://github.com/shtanton/gmi2html/pull/12
-    ./webp.patch
-  ];
 
   nativeBuildInputs = [ zig scdoc installShellFiles ];
 
@@ -28,8 +23,7 @@ stdenv.mkDerivation rec {
   doCheck = true;
 
   checkPhase = ''
-    substituteInPlace tests/test.sh \
-      --replace "zig-cache" "zig-out"
+    substituteInPlace tests/test.sh --replace "zig-cache" "zig-out"
     sh tests/test.sh
   '';
 
