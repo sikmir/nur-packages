@@ -1,12 +1,6 @@
-{ lib
-, stdenv
-, mkDerivation
-, fetchFromGitHub
-, qmake
-, qtserialport
-}:
+{ lib, stdenv, fetchFromGitHub, qmake, qtserialport, wrapQtAppsHook }:
 
-mkDerivation rec {
+stdenv.mkDerivation rec {
   pname = "visualgps-unstable";
   version = "2020-03-29";
 
@@ -18,7 +12,7 @@ mkDerivation rec {
     fetchSubmodules = true;
   };
 
-  nativeBuildInputs = [ qmake ];
+  nativeBuildInputs = [ qmake wrapQtAppsHook ];
 
   buildInputs = [ qtserialport ];
 
