@@ -16,7 +16,11 @@ stdenv.mkDerivation rec {
   postPatch = ''
     substituteInPlace fmreceiver.pro \
       --replace "-lqwt-qt5" "-lqwt" \
-      --replace "CONFIG" "#CONFIG" \
+      --replace "CONFIG" "#CONFIG"
+  '' + lib.optionalString stdenv.isDarwin ''
+    substituteInPlace fmreceiver.pro --replace "-lrt " ""
+    substituteInPlace includes/fm-constants.h --replace "<malloc.h>" "<stdlib.h>"
+    substituteInPlace devices/rtlsdr-handler/rtlsdr-handler.cpp --replace ".so" ".dylib"
   '';
 
   nativeBuildInputs = [ qmake wrapQtAppsHook ];
@@ -26,10 +30,14 @@ stdenv.mkDerivation rec {
   qmakeFlags = [ "CONFIG+=dabstick" ];
 
   qtWrapperArgs = [
-    "--prefix LD_LIBRARY_PATH : ${lib.makeLibraryPath [ rtl-sdr ]}"
+    "--prefix ${lib.optionalString stdenv.isDarwin "DY"}LD_LIBRARY_PATH : ${lib.makeLibraryPath [ rtl-sdr ]}"
   ];
 
-  installPhase = ''
+  installPhase = if stdenv.isDarwin then ''
+    mkdir -p $out/Applications
+    mv linux-bin/fmreceiver-2.0.app $out/Applications/fmreceiver.app
+    install_name_tool -change {,${qwt}/lib/}libqwt.6.dylib "$out/Applications/fmreceiver.app/Contents/MacOS/fmreceiver-2.0"
+  '' else ''
     install -Dm755 linux-bin/fmreceiver-2.0 $out/bin/fmreceiver
   '';
 
@@ -38,7 +46,6 @@ stdenv.mkDerivation rec {
     inherit (src.meta) homepage;
     license = licenses.gpl2Plus;
     maintainers = [ maintainers.sikmir ];
-    platforms = platforms.linux;
-    skip.ci = stdenv.isDarwin;
+    platforms = platforms.unix;
   };
 }
