@@ -280,6 +280,7 @@ lib.makeScope newScope (
     pnoise = callPackage ./misc/pnoise { };
     ptunnel = callPackage ./misc/ptunnel { };
     pvs-studio = callPackage ./misc/pvs-studio { };
+    qasync = callPackage ./misc/qasync { };
     repolocli = callPackage ./misc/repolocli { };
     sdorfehs = callPackage ./misc/sdorfehs { };
     taskcoach = callPackage ./misc/taskcoach { };
