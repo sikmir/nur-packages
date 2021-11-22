@@ -331,6 +331,7 @@ lib.makeScope newScope (
     fmreceiver = libsForQt5.callPackage ./radio/fmreceiver { };
     gqrx-scanner = callPackage ./radio/gqrx-scanner { };
     linrad = callPackage ./radio/linrad { };
+    rtlsdr-airband = callPackage ./radio/rtlsdr-airband { };
     sigdigger = libsForQt5.callPackage ./radio/sigdigger {
       inherit sigutils suscan suwidgets;
     };
