@@ -22,7 +22,6 @@ stdenv.mkDerivation rec {
     if stdenv.isDarwin then ''
       mkdir -p $out/Applications
       mv *.app $out/Applications
-      wrapQtApp $out/Applications/VisualGPSqt.app/Contents/MacOS/VisualGPSqt
     '' else ''
       install -Dm755 VisualGPSqt -t $out/bin
     '';

@@ -11,19 +11,22 @@ stdenv.mkDerivation rec {
     hash = "sha256-AYA2PWhowoSascD+jnLyXpLvxwZDGJiC8CvnN2tr+Ec=";
   };
 
+  postPatch = ''
+    substituteInPlace tests/test.sh \
+      --replace "zig-cache" "zig-out"
+  '';
+
   nativeBuildInputs = [ zig scdoc installShellFiles ];
 
-  preConfigure = "HOME=$TMP";
-
   buildPhase = ''
-    zig build -Drelease-safe
+    export HOME=$TMPDIR
+    zig build -Drelease-safe=true
     scdoc < doc/gmi2html.scdoc > doc/gmi2html.1
   '';
 
   doCheck = true;
 
   checkPhase = ''
-    substituteInPlace tests/test.sh --replace "zig-cache" "zig-out"
     sh tests/test.sh
   '';
 

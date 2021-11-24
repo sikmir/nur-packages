@@ -14,11 +14,14 @@ stdenv.mkDerivation rec {
 
   nativeBuildInputs = [ zig ];
 
-  preConfigure = "HOME=$TMP";
+  buildPhase = ''
+    export HOME=$TMPDIR
+    zig build -Drelease-safe=true
+  '';
 
-  buildPhase = "zig build";
-
-  installPhase = "install -Dm755 zig-out/bin/gurl -t $out/bin";
+  installPhase = ''
+    install -Dm755 zig-out/bin/gurl -t $out/bin
+  '';
 
   meta = with lib; {
     description = "A curl-like cli application to interact with Gemini sites";
