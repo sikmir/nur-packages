@@ -129,6 +129,7 @@ lib.makeScope newScope (
 
     ### GEMINI
 
+    agunua = callPackage ./gemini/agunua { };
     astronaut = callPackage ./gemini/astronaut { };
     comitium = callPackage ./gemini/comitium { };
     gemcert = callPackage ./gemini/gemcert { };
