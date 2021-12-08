@@ -272,6 +272,7 @@ lib.makeScope newScope (
     docker-reg-tool = callPackage ./misc/docker-reg-tool { };
     docx2csv = callPackage ./misc/docx2csv { };
     finalcut = callPackage ./misc/finalcut { };
+    gaiagpsclient = callPackage ./misc/gaiagpsclient { };
     gef = callPackage ./misc/gef { };
     glauth = callPackage ./misc/glauth { };
     how-to-use-pvs-studio-free = callPackage ./misc/pvs-studio/how-to-use-pvs-studio-free.nix { };
