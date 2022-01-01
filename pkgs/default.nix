@@ -138,7 +138,9 @@ lib.makeScope newScope (
     gemreader = callPackage ./gemini/gemreader { };
     gemserv = callPackage ./gemini/gemserv { };
     gloggery = callPackage ./gemini/gloggery { };
-    gmi2html = callPackage ./gemini/gmi2html { };
+    gmi2html = callPackage ./gemini/gmi2html {
+      zig = pkgs.zig_0_8_1;
+    };
     gmnhg = callPackage ./gemini/gmnhg { };
     gmnigit = callPackage ./gemini/gmnigit { };
     gssg = callPackage ./gemini/gssg { };
