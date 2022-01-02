@@ -1,4 +1,4 @@
-{ lib, rustPlatform, fetchFromGitHub, pkg-config, gdal, openssl, Security }:
+{ lib, stdenv, rustPlatform, fetchFromGitHub, pkg-config, gdal, openssl, Security }:
 
 rustPlatform.buildRustPackage rec {
   pname = "t-rex";
