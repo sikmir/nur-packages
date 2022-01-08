@@ -375,6 +375,7 @@ lib.makeScope newScope (
     libgrapheme = callPackage ./suckless/libgrapheme { };
     libst = callPackage ./suckless/libst { };
     mage = callPackage ./suckless/mage { };
+    makel = callPackage ./suckless/makel { };
     nsxiv = callPackage ./suckless/nsxiv { };
     pista = callPackage ./suckless/pista { };
     saait = callPackage ./suckless/saait { };
