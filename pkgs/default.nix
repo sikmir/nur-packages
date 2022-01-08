@@ -372,6 +372,7 @@ lib.makeScope newScope (
     json2tsv = callPackage ./suckless/json2tsv { };
     lacc = callPackage ./suckless/lacc { };
     lel = callPackage ./suckless/lel { };
+    libgrapheme = callPackage ./suckless/libgrapheme { };
     libst = callPackage ./suckless/libst { };
     mage = callPackage ./suckless/mage { };
     nsxiv = callPackage ./suckless/nsxiv { };
