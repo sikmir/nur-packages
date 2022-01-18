@@ -165,6 +165,7 @@ lib.makeScope newScope (
       click = click-6-7;
     };
     geographiclib = callPackage ./geospatial/geographiclib { };
+    go-pmtiles = callPackage ./geospatial/go-pmtiles { };
     go-staticmaps = callPackage ./geospatial/go-staticmaps { };
     mapsoft = callPackage ./geospatial/mapsoft {
       proj = pkgs.proj_7;
