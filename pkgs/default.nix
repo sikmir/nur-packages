@@ -287,6 +287,7 @@ lib.makeScope newScope (
     how-to-use-pvs-studio-free = callPackage ./misc/pvs-studio/how-to-use-pvs-studio-free.nix { };
     ish = callPackage ./misc/ish { };
     lazyscraper = callPackage ./misc/lazyscraper { };
+    miband4 = callPackage ./misc/miband4 { };
     morse-talk = callPackage ./misc/morse-talk { };
     musig = callPackage ./misc/musig { };
     objlab = callPackage ./misc/objlab { };
