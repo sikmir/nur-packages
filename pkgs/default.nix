@@ -133,6 +133,7 @@ lib.makeScope newScope (
     astronaut = callPackage ./gemini/astronaut { };
     comitium = callPackage ./gemini/comitium { };
     gemcert = callPackage ./gemini/gemcert { };
+    gemgen = callPackage ./gemini/gemgen { };
     gemget = callPackage ./gemini/gemget { };
     gemini-ipfs-gateway = callPackage ./gemini/gemini-ipfs-gateway { };
     geminid = callPackage ./gemini/geminid { };
