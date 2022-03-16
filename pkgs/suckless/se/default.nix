@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
     description = "screen oriented version of the classic UNIX text editor ed";
     inherit (src.meta) homepage;
     license = licenses.publicDomain;
-    platforms = platforms.linux;
+    platforms = platforms.unix;
     maintainers = [ maintainers.sikmir ];
   };
 }
