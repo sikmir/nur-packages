@@ -8,7 +8,6 @@ lib.makeScope newScope (
     ### APPLICATIONS
 
     goldencheetah-bin = callPackage ./applications/goldencheetah/bin.nix { };
-    iterm2-bin = callPackage ./applications/iterm2/bin.nix { };
     klogg = libsForQt5.callPackage ./applications/misc/klogg { };
     klogg-bin = callPackage ./applications/misc/klogg/bin.nix { };
     macpass-bin = callPackage ./applications/macpass/bin.nix { };
