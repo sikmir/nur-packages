@@ -187,6 +187,7 @@ lib.makeScope newScope (
     qgis-ltr-bin = qgis-bin.override { releaseType = "ltr"; };
     qmapshack-bin = callPackage ./geospatial/qmapshack/bin.nix { };
     render_geojson = callPackage ./geospatial/render_geojson { };
+    rio-cogeo = callPackage ./geospatial/rio-cogeo { };
     rio-color = callPackage ./geospatial/rio-color { };
     rio-mbtiles = callPackage ./geospatial/rio-mbtiles { };
     rio-mucho = callPackage ./geospatial/rio-mucho { };
