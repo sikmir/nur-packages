@@ -193,6 +193,7 @@ lib.makeScope newScope (
     rio-mucho = callPackage ./geospatial/rio-mucho { };
     rio-tiler = callPackage ./geospatial/rio-tiler { };
     sasplanet-bin = callPackage ./geospatial/sasplanet/bin.nix { };
+    scooby = callPackage ./geospatial/scooby { };
     starlette-cramjam = callPackage ./geospatial/starlette-cramjam { };
     supermercado = callPackage ./geospatial/supermercado { };
     tdh = callPackage ./geospatial/tdh { };
