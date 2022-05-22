@@ -161,6 +161,7 @@ lib.makeScope newScope (
     ### GEOSPATIAL
 
     arcgis2geojson = callPackage ./geospatial/arcgis2geojson { };
+    cogeo-mosaic = callPackage ./geospatial/cogeo-mosaic { };
     datamaps = callPackage ./geospatial/datamaps { };
     elevation = callPackage ./geospatial/elevation {
       click = click-6-7;
