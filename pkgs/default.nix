@@ -84,6 +84,8 @@ lib.makeScope newScope (
     geotiler = callPackage ./development/python-modules/geotiler { };
     gpxelevations = callPackage ./development/python-modules/gpxelevations { };
     jsonseq = callPackage ./development/python-modules/jsonseq { };
+    large-image = callPackage ./development/python-modules/large-image { };
+    large-image-source-gdal = (callPackage ./development/python-modules/large-image/sources.nix { }).source-gdal;
     lru-dict = callPackage ./development/python-modules/lru-dict { };
     portolan = callPackage ./development/python-modules/portolan { };
     pymbtiles = callPackage ./development/python-modules/pymbtiles { };
