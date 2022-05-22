@@ -200,6 +200,7 @@ lib.makeScope newScope (
     tilesets-cli = callPackage ./geospatial/tilesets-cli { };
     tpkutils = callPackage ./geospatial/tpkutils { };
     vt2geojson = callPackage ./geospatial/vt2geojson { };
+    titiler = callPackage ./geospatial/titiler { };
 
     ### GNSS
 
