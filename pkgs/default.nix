@@ -171,6 +171,7 @@ lib.makeScope newScope (
     geojson-pydantic = callPackage ./geospatial/geojson-pydantic { };
     go-pmtiles = callPackage ./geospatial/go-pmtiles { };
     go-staticmaps = callPackage ./geospatial/go-staticmaps { };
+    localtileserver = callPackage ./geospatial/localtileserver { };
     mapsoft = callPackage ./geospatial/mapsoft {
       proj = pkgs.proj_7;
     };
