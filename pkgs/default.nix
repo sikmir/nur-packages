@@ -356,6 +356,7 @@ lib.makeScope newScope (
     phyghtmap = callPackage ./osm/phyghtmap { };
     polytiles = callPackage ./osm/polytiles { };
     pyrobuf = callPackage ./osm/pyrobuf { };
+    pyrosm = callPackage ./osm/pyrosm { };
     sdlmap = callPackage ./osm/sdlmap { };
     smopy = callPackage ./osm/smopy { };
     smrender = callPackage ./osm/smrender {
