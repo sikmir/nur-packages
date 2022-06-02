@@ -355,6 +355,7 @@ lib.makeScope newScope (
     osmwalkthrough = callPackage ./osm/osmwalkthrough { };
     phyghtmap = callPackage ./osm/phyghtmap { };
     polytiles = callPackage ./osm/polytiles { };
+    pyrobuf = callPackage ./osm/pyrobuf { };
     sdlmap = callPackage ./osm/sdlmap { };
     smopy = callPackage ./osm/smopy { };
     smrender = callPackage ./osm/smrender {
