@@ -340,6 +340,7 @@ lib.makeScope newScope (
 
     ### OSM
 
+    cykhash = callPackage ./osm/cykhash { };
     imposm = callPackage ./osm/imposm { };
     map-machine = callPackage ./osm/map-machine { };
     map-stylizer = callPackage ./osm/map-stylizer { };
