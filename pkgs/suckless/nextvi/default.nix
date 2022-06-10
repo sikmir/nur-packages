@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
   };
 
   buildPhase = ''
-    sh ./build.sh
+    CFLAGS=-D_DARWIN_C_SOURCE sh ./build.sh
   '';
 
   installPhase = ''
@@ -23,8 +23,7 @@ stdenv.mkDerivation rec {
     description = "Next version of neatvi (a small vi/ex editor)";
     inherit (src.meta) homepage;
     license = licenses.mit;
-    platforms = platforms.linux;
+    platforms = platforms.unix;
     maintainers = [ maintainers.sikmir ];
-    skip.ci = stdenv.isDarwin;
   };
 }
