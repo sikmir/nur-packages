@@ -2,18 +2,16 @@
 
 stdenv.mkDerivation rec {
   pname = "nextvi";
-  version = "2022-06-04";
+  version = "2022-06-10";
 
   src = fetchFromGitHub {
     owner = "kyx0r";
     repo = pname;
-    rev = "bf25beff4a0fc26b95955f29f7614f3cec855b09";
-    hash = "sha256-BRIZF+D+2nxnLXaVw+e78iAQIgQOt+IHPcn2BN/6TT4=";
+    rev = "ffe30839b4ab24ca17ad762ae1f882447f040882";
+    hash = "sha256-voS+v4DFNSN2rU3Njhc3ydo8PwVgcPyH7JQoIzrkow4=";
   };
 
-  buildPhase = if stdenv.isDarwin then ''
-    CFLAGS=-D_DARWIN_C_SOURCE sh ./build.sh
-  '' else ''
+  buildPhase = ''
     sh ./build.sh
   '';
 
