@@ -11,8 +11,10 @@ stdenv.mkDerivation rec {
     hash = "sha256-BRIZF+D+2nxnLXaVw+e78iAQIgQOt+IHPcn2BN/6TT4=";
   };
 
-  buildPhase = ''
+  buildPhase = if stdenv.isDarwin then ''
     CFLAGS=-D_DARWIN_C_SOURCE sh ./build.sh
+  '' else ''
+    sh ./build.sh
   '';
 
   installPhase = ''
