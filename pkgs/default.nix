@@ -163,6 +163,7 @@ lib.makeScope newScope (
 
     apispec-webframeworks = callPackage ./geospatial/apispec-webframeworks { };
     arcgis2geojson = callPackage ./geospatial/arcgis2geojson { };
+    c2cwsgiutils = callPackage ./geospatial/c2cwsgiutils { };
     cogeo-mosaic = callPackage ./geospatial/cogeo-mosaic { };
     datamaps = callPackage ./geospatial/datamaps { };
     elevation = callPackage ./geospatial/elevation {
