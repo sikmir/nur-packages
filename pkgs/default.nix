@@ -184,6 +184,7 @@ lib.makeScope newScope (
     morecantile = callPackage ./geospatial/morecantile { };
     orbisgis-bin = callPackage ./geospatial/orbisgis/bin.nix { jre = pkgs.jre8; };
     pmtiles = callPackage ./geospatial/pmtiles { };
+    pipfile = callPackage ./geospatial/pipfile { };
     polyvectorization = libsForQt5.callPackage ./geospatial/polyvectorization { };
     py-staticmaps = callPackage ./geospatial/py-staticmaps { };
     pystac = callPackage ./geospatial/pystac { };
