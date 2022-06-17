@@ -1,4 +1,4 @@
-{ lib, stdenv, rustPlatform, fetchFromGitHub, pkg-config, openssl }:
+{ lib, stdenv, rustPlatform, fetchFromGitHub, pkg-config, openssl, Security }:
 
 rustPlatform.buildRustPackage rec {
   pname = "hecate";
@@ -15,7 +15,7 @@ rustPlatform.buildRustPackage rec {
 
   nativeBuildInputs = [ pkg-config ];
 
-  buildInputs = [ openssl ];
+  buildInputs = [ openssl ] ++ lib.optional stdenv.isDarwin Security;
 
   doCheck = false;
 
