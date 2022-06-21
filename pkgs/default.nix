@@ -166,6 +166,7 @@ lib.makeScope newScope (
     c2cwsgiutils = callPackage ./geospatial/c2cwsgiutils { };
     cogeo-mosaic = callPackage ./geospatial/cogeo-mosaic { };
     datamaps = callPackage ./geospatial/datamaps { };
+    deegree = callPackage ./geospatial/deegree { };
     elevation = callPackage ./geospatial/elevation {
       click = click-6-7;
     };
