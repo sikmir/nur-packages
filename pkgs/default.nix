@@ -171,6 +171,7 @@ lib.makeScope newScope (
     };
     geographiclib = callPackage ./geospatial/geographiclib { };
     geojson-pydantic = callPackage ./geospatial/geojson-pydantic { };
+    geowebcache = callPackage ./geospatial/geowebcache { };
     go-pmtiles = callPackage ./geospatial/go-pmtiles { };
     go-staticmaps = callPackage ./geospatial/go-staticmaps { };
     hecate = callPackage ./geospatial/hecate {
