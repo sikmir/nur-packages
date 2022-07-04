@@ -341,11 +341,15 @@ lib.makeScope newScope (
 
     elevation_server = callPackage ./nakarte/elevation_server { };
     map-tiler = callPackage ./nakarte/map-tiler { };
-    maprec = callPackage ./nakarte/maprec { };
+    maprec = callPackage ./nakarte/maprec {
+      python3Packages = pkgs.python39Packages;
+    };
     nakarte = callPackage ./nakarte/nakarte { };
     ozi_map = callPackage ./nakarte/ozi_map { };
     pyimagequant = callPackage ./nakarte/pyimagequant { };
-    thinplatespline = callPackage ./nakarte/thinplatespline { };
+    thinplatespline = callPackage ./nakarte/thinplatespline {
+      python3Packages = pkgs.python39Packages;
+    };
     tracks_storage_server = callPackage ./nakarte/tracks_storage_server { };
 
     ### OSM
