@@ -79,8 +79,6 @@ lib.makeScope newScope (
 
     ### DEVELOPMENT / PYTHON MODULES
 
-    cjkwrap = callPackage ./development/python-modules/cjkwrap { };
-    bson = callPackage ./development/python-modules/bson { };
     click-6-7 = callPackage ./development/python-modules/click { };
     contextily = callPackage ./development/python-modules/contextily { };
     curses-menu = callPackage ./development/python-modules/curses-menu { };
