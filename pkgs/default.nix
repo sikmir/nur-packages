@@ -264,9 +264,6 @@ lib.makeScope newScope (
 
     dict2rest = callPackage ./linguistics/dict2rest { };
     distance = callPackage ./linguistics/distance { };
-    foma = callPackage ./linguistics/foma {
-      libtool = if pkgs.stdenv.isDarwin then pkgs.darwin.cctools else null;
-    };
     gdcv = callPackage ./linguistics/gdcv { };
     goldendict-bin = callPackage ./linguistics/goldendict/bin.nix { };
     gt-bash-client = callPackage ./linguistics/gt-bash-client { };
