@@ -28,6 +28,6 @@ stdenv.mkDerivation rec {
     description = "Serve tiles with Apache directly from an .mbtiles file";
     license = licenses.free;
     maintainers = [ maintainers.sikmir ];
-    platforms = platforms.linux;
+    platforms = platforms.unix;
   };
 }
