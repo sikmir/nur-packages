@@ -1,4 +1,4 @@
-{ lib, fetchFromGitHub, buildGoPackage, lz4 }:
+{ lib, stdenv, fetchFromGitHub, buildGoPackage, lz4 }:
 
 buildGoPackage rec {
   pname = "elevation_server";
