@@ -1,6 +1,6 @@
 { lib, fetchFromGitHub, ocamlPackages }:
 
-ocamlPackages.buildDunePackage {
+ocamlPackages.buildDunePackage rec {
   pname = "tlstunnel";
   version = "2022-01-09";
 
