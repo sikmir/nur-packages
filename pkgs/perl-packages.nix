@@ -133,4 +133,19 @@ rec {
       license = licenses.free;
     };
   };
+
+  IpcShareLite = buildPerlPackage rec {
+    pname = "IPC-ShareLite";
+    version = "0.17";
+    src = fetchurl {
+      url = "mirror://cpan/authors/id/A/AN/ANDYA/${pname}-${version}.tar.gz";
+      hash = "sha256-FNQGuR2pbWUh0NGoLSKjBidHZSJrhrClbn/93Plq578=";
+    };
+    propagatedBuildInputs = [  ];
+    meta = with lib; {
+      homepage = "https://metacpan.org/pod/IPC::ShareLite";
+      description = "IPC::ShareLite - Lightweight interface to shared memory";
+      license = licenses.free;
+    };
+  };
 }
