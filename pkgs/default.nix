@@ -310,6 +310,7 @@ lib.makeScope newScope (
     glauth = callPackage ./misc/glauth {
       buildGoModule = pkgs.buildGo117Module;
     };
+    gsl-lite = callPackage ./misc/gsl-lite { };
     how-to-use-pvs-studio-free = callPackage ./misc/pvs-studio/how-to-use-pvs-studio-free.nix { };
     huami-token = callPackage ./misc/huami-token { };
     imsg-compat = callPackage ./misc/imsg-compat { };
