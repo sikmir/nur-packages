@@ -334,6 +334,7 @@ lib.makeScope newScope (
     qoiview = callPackage ./misc/qoiview { };
     repolocli = callPackage ./misc/repolocli { };
     sdorfehs = callPackage ./misc/sdorfehs { };
+    serverpp = callPackage ./misc/serverpp { };
     taskcoach = callPackage ./misc/taskcoach { };
     tcvt = callPackage ./misc/tcvt { };
     telegabber = callPackage ./misc/telegabber { };
