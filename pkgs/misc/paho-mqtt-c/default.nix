@@ -1,4 +1,4 @@
-{ lib, stdenv, fetchFromGitHub, cmake, openssl }:
+{ lib, stdenv, fetchFromGitHub, cmake, openssl, makeWrapper }:
 
 stdenv.mkDerivation rec {
   pname = "paho.mqtt.c";
