@@ -337,6 +337,7 @@ lib.makeScope newScope (
     taskcoach = callPackage ./misc/taskcoach { };
     tcvt = callPackage ./misc/tcvt { };
     telegabber = callPackage ./misc/telegabber { };
+    telnetpp = callPackage ./misc/telnetpp { };
     tlstunnel = callPackage ./misc/tlstunnel { };
     worm = callPackage ./misc/worm { };
     wptools = callPackage ./misc/wptools { };
