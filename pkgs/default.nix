@@ -178,7 +178,6 @@ lib.makeScope newScope (
     elevation = callPackage ./geospatial/elevation {
       click = click-6-7;
     };
-    geographiclib = callPackage ./geospatial/geographiclib { };
     geojson-pydantic = callPackage ./geospatial/geojson-pydantic { };
     geowebcache = callPackage ./geospatial/geowebcache { };
     go-pmtiles = callPackage ./geospatial/go-pmtiles { };
