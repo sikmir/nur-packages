@@ -95,6 +95,10 @@ lib.makeScope newScope (
     s2sphere = callPackage ./development/python-modules/s2sphere { };
     xyzservices = callPackage ./development/python-modules/xyzservices { };
 
+    ### EMBEDDED
+
+    chdk = callPackage ./embedded/chdk { };
+
     ### EMBOX
 
     embox-aarch64 = callPackage ./embox { arch = "aarch64"; };
