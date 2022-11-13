@@ -25,6 +25,10 @@ lib.makeScope newScope (
     fetchwebarchive = callPackage ./build-support/fetchwebarchive { };
     fetchymaps = callPackage ./build-support/fetchymaps { };
 
+    ### DARWIN
+
+    marta-bin = callPackage ./darwin/marta { };
+
     ### DATA
 
     dadako = callPackage ./data/dicts/dadako { };
