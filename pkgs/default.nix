@@ -14,9 +14,7 @@ lib.makeScope newScope (
     goldencheetah-bin = callPackage ./applications/goldencheetah/bin.nix { };
     klogg = libsForQt5.callPackage ./applications/misc/klogg { };
     klogg-bin = callPackage ./applications/misc/klogg/bin.nix { };
-    macpass-bin = callPackage ./applications/macpass/bin.nix { };
     synwrite-bin = callPackage ./applications/synwrite/bin.nix { };
-    wireguard-statusbar-bin = callPackage ./applications/wireguard-statusbar { };
 
     ### BUILD SUPPORT
 
@@ -27,6 +25,7 @@ lib.makeScope newScope (
 
     ### DARWIN
 
+    macpass-bin = callPackage ./darwin/macpass/bin.nix { };
     marta-bin = callPackage ./darwin/marta { };
 
     ### DATA
