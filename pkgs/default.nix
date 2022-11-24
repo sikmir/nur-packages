@@ -310,7 +310,6 @@ lib.makeScope newScope (
     how-to-use-pvs-studio-free = callPackage ./misc/pvs-studio/how-to-use-pvs-studio-free.nix { };
     huami-token = callPackage ./misc/huami-token { };
     imsg-compat = callPackage ./misc/imsg-compat { };
-    influxdb-cxx = callPackage ./misc/influxdb-cxx { };
     ish = callPackage ./misc/ish { };
     jenkins-cli = callPackage ./misc/jenkins-cli { };
     lazyscraper = callPackage ./misc/lazyscraper { };
@@ -318,8 +317,6 @@ lib.makeScope newScope (
     md2html = callPackage ./misc/md2html { };
     miband4 = callPackage ./misc/miband4 { };
     morse-talk = callPackage ./misc/morse-talk { };
-    mqtt-benchmark = callPackage ./misc/mqtt-benchmark { };
-    mqtt-to-influxdb = callPackage ./misc/mqtt-to-influxdb { };
     musig = callPackage ./misc/musig { };
     nanodns = callPackage ./misc/nanodns { };
     nmtree = callPackage ./misc/nmtree { };
@@ -345,6 +342,12 @@ lib.makeScope newScope (
     xtr = callPackage ./misc/xtr {
       inherit (darwin.apple_sdk.frameworks) Foundation;
     };
+
+    ### MQTT
+
+    influxdb-cxx = callPackage ./mqtt/influxdb-cxx { };
+    mqtt-benchmark = callPackage ./mqtt/mqtt-benchmark { };
+    mqtt-to-influxdb = callPackage ./mqtt/mqtt-to-influxdb { };
 
     ### NAKARTE
 
