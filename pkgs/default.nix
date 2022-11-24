@@ -310,6 +310,7 @@ lib.makeScope newScope (
     how-to-use-pvs-studio-free = callPackage ./misc/pvs-studio/how-to-use-pvs-studio-free.nix { };
     huami-token = callPackage ./misc/huami-token { };
     imsg-compat = callPackage ./misc/imsg-compat { };
+    influxdb-cxx = callPackage ./misc/influxdb-cxx { };
     ish = callPackage ./misc/ish { };
     jenkins-cli = callPackage ./misc/jenkins-cli { };
     lazyscraper = callPackage ./misc/lazyscraper { };
