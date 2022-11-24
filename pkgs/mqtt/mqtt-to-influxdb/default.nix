@@ -29,10 +29,11 @@ stdenv.mkDerivation (finalAttrs: {
   };
 
   postPatch = ''
-    substituteInPlace src/libmqtt-to-influxdb/CMakeLists.txt \
-      --replace "stdc++fs" ""
     substituteInPlace src/app/CMakeLists.txt \
       --replace "/usr" "$out"
+  '' + lib.optionalString stdenv.cc.isClang ''
+    substituteInPlace src/libmqtt-to-influxdb/CMakeLists.txt \
+      --replace "stdc++fs" ""
   '';
 
   nativeBuildInputs = [ cmake ];
@@ -57,5 +58,6 @@ stdenv.mkDerivation (finalAttrs: {
     inherit (finalAttrs.src.meta) homepage;
     license = licenses.mit;
     maintainers = [ maintainers.sikmir ];
+    platforms = platforms.unix;
   };
 })
