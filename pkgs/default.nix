@@ -319,6 +319,7 @@ lib.makeScope newScope (
     miband4 = callPackage ./misc/miband4 { };
     morse-talk = callPackage ./misc/morse-talk { };
     mqtt-benchmark = callPackage ./misc/mqtt-benchmark { };
+    mqtt-to-influxdb = callPackage ./misc/mqtt-to-influxdb { };
     musig = callPackage ./misc/musig { };
     nanodns = callPackage ./misc/nanodns { };
     nmtree = callPackage ./misc/nmtree { };

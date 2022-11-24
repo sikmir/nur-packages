@@ -17,7 +17,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   meta = with lib; {
     description = "InfluxDB C++ client library";
-    inherit (src.meta) homepage;
+    inherit (finalAttrs.src.meta) homepage;
     license = licenses.mit;
     maintainers = [ maintainers.sikmir ];
   };
