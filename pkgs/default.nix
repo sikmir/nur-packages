@@ -346,6 +346,7 @@ lib.makeScope newScope (
     ### MQTT
 
     influxdb-cxx = callPackage ./mqtt/influxdb-cxx { };
+    janus-mqtt-proxy = callPackage ./mqtt/janus-mqtt-proxy { };
     mqtt-benchmark = callPackage ./mqtt/mqtt-benchmark { };
     mqtt-to-influxdb = callPackage ./mqtt/mqtt-to-influxdb { };
     mqtt-to-influxdb-forwarder = callPackage ./mqtt/mqtt-to-influxdb-forwarder { };
