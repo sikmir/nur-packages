@@ -15,7 +15,7 @@
 , withI18n ? true
 }:
 
-stdenv.mkDerivation rec {
+stdenv.mkDerivation (finalAttrs: {
   pname = "redict";
   version = "2019-06-21";
 
@@ -50,10 +50,10 @@ stdenv.mkDerivation rec {
 
   meta = with lib; {
     description = "A dictionary for Linux, based on C++/Qt development";
-    inherit (src.meta) homepage;
+    inherit (finalAttrs.src.meta) homepage;
     license = licenses.gpl3;
     maintainers = [ maintainers.sikmir ];
     platforms = platforms.unix;
     broken = stdenv.isDarwin;
   };
-}
+})

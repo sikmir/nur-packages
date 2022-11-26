@@ -3,14 +3,14 @@
 , sigutils, soapysdr, suscan, suwidgets, volk
 }:
 
-stdenv.mkDerivation rec {
+stdenv.mkDerivation (finalAttrs: {
   pname = "sigdigger";
   version = "0.3.0";
 
   src = fetchFromGitHub {
     owner = "BatchDrake";
     repo = "SigDigger";
-    rev = "v${version}";
+    rev = "v${finalAttrs.version}";
     hash = "sha256-dS+Fc0iQz7GIlGaR556Ur/EQh3Uzhqm9uBW42IuEqoE=";
   };
 
@@ -38,9 +38,9 @@ stdenv.mkDerivation rec {
 
   meta = with lib; {
     description = "Qt-based digital signal analyzer, using Suscan core and Sigutils DSP library";
-    inherit (src.meta) homepage;
+    inherit (finalAttrs.src.meta) homepage;
     license = licenses.gpl3Plus;
     maintainers = [ maintainers.sikmir ];
     platforms = platforms.unix;
   };
-}
+})

@@ -1,13 +1,13 @@
 { lib, stdenv, fetchFromGitHub, pkg-config, curl, openssl, memstreamHook }:
 
-stdenv.mkDerivation rec {
+stdenv.mkDerivation (finalAttrs: {
   pname = "gplaces";
   version = "0.16.30";
 
   src = fetchFromGitHub {
     owner = "dimkr";
     repo = "gplaces";
-    rev = "v${version}";
+    rev = "v${finalAttrs.version}";
     hash = "sha256-W/tXwxJ4j7q3ka36TI7y/Psf9VHGXL/F2rNRGGkBKo0=";
     fetchSubmodules = true;
   };
@@ -22,10 +22,10 @@ stdenv.mkDerivation rec {
 
   meta = with lib; {
     description = "A simple terminal based Gemini client";
-    inherit (src.meta) homepage;
+    inherit (finalAttrs.src.meta) homepage;
     license = licenses.gpl3Plus;
     maintainers = [ maintainers.sikmir ];
     platforms = platforms.unix;
     broken = stdenv.isDarwin;
   };
-}
+})

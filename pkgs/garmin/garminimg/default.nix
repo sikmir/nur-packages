@@ -1,6 +1,6 @@
 { lib, mkDerivation, fetchFromGitHub, cmake, gdal, proj }:
 
-mkDerivation rec {
+mkDerivation (finalAttrs: {
   pname = "garminimg";
   version = "2021-01-07";
 
@@ -30,9 +30,9 @@ mkDerivation rec {
 
   meta = with lib; {
     description = "Encode/decode a Garmin IMG file";
-    inherit (src.meta) homepage;
+    inherit (finalAttrs.src.meta) homepage;
     license = licenses.gpl3Plus;
     maintainers = [ maintainers.sikmir ];
     platforms = platforms.unix;
   };
-}
+})

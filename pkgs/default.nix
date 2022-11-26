@@ -309,7 +309,6 @@ lib.makeScope newScope (
     gsl-lite = callPackage ./misc/gsl-lite { };
     how-to-use-pvs-studio-free = callPackage ./misc/pvs-studio/how-to-use-pvs-studio-free.nix { };
     huami-token = callPackage ./misc/huami-token { };
-    imsg-compat = callPackage ./misc/imsg-compat { };
     ish = callPackage ./misc/ish { };
     jenkins-cli = callPackage ./misc/jenkins-cli { };
     lazyscraper = callPackage ./misc/lazyscraper { };
@@ -438,6 +437,7 @@ lib.makeScope newScope (
     ffshot = callPackage ./suckless/ffshot { };
     hurl = callPackage ./suckless/hurl { };
     imscript = callPackage ./suckless/imscript { };
+    imsg-compat = callPackage ./suckless/imsg-compat { };
     kilo = callPackage ./suckless/kilo { };
     lacc = callPackage ./suckless/lacc { };
     lbm = callPackage ./suckless/lbm { };

@@ -1,6 +1,6 @@
 { lib, stdenv, mkDerivation, fetchFromGitHub, cmake, boost165, eigen, opencv2 }:
 
-mkDerivation rec {
+mkDerivation (finalAttrs: {
   pname = "polyvectorization";
   version = "2019-08-23";
 
@@ -28,11 +28,11 @@ mkDerivation rec {
 
   meta = with lib; {
     description = "Reference implementation of Vectorization of Line Drawings via PolyVector Fields";
-    inherit (src.meta) homepage;
+    inherit (finalAttrs.src.meta) homepage;
     license = licenses.mit;
     maintainers = [ maintainers.sikmir ];
     platforms = platforms.linux;
     mainProgram = "polyvector_thing";
     skip.ci = stdenv.isDarwin;
   };
-}
+})

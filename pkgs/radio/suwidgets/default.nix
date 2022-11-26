@@ -2,7 +2,7 @@
 , fftw, sigutils
 }:
 
-stdenv.mkDerivation rec {
+stdenv.mkDerivation (finalAttrs: {
   pname = "suwidgets";
   version = "2022-04-03";
 
@@ -25,9 +25,9 @@ stdenv.mkDerivation rec {
 
   meta = with lib; {
     description = "Sigutils-related widgets";
-    inherit (src.meta) homepage;
+    inherit (finalAttrs.src.meta) homepage;
     license = licenses.gpl3Plus;
     maintainers = [ maintainers.sikmir ];
     platforms = platforms.unix;
   };
-}
+})
