@@ -344,6 +344,7 @@ lib.makeScope newScope (
 
     ### MQTT
 
+    go-mqtt-to-influxdb = callPackage ./mqtt/go-mqtt-to-influxdb { };
     influxdb-cxx = callPackage ./mqtt/influxdb-cxx { };
     janus-mqtt-proxy = callPackage ./mqtt/janus-mqtt-proxy { };
     mongoose = callPackage ./mqtt/mongoose { };
