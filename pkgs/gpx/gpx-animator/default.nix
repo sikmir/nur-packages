@@ -17,7 +17,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   installPhase = ''
     install -dm755 $out/bin
-    install -Dm644 $src $out/share/java/${src.name}
+    install -Dm644 $src $out/share/java/${finalAttrs.src.name}
 
     makeWrapper ${jre}/bin/java $out/bin/gpx-animator \
       --add-flags "-jar $out/share/java/gpx-animator-${finalAttrs.version}-all.jar"

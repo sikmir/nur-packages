@@ -9,7 +9,7 @@ stdenv.mkDerivation (finalAttrs: {
     repo = "i18n-editor";
     name = "i18n-editor-${finalAttrs.version}.zip";
     hash = "sha256-koJdCmcM9mH4D4JSyyi0i/zRCUeI6pYdMmS7SaC56aY=";
-    inherit version;
+    inherit (finalAttrs) version;
   };
 
   sourceRoot = ".";
