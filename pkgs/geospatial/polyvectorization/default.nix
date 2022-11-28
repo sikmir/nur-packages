@@ -1,6 +1,6 @@
 { lib, stdenv, mkDerivation, fetchFromGitHub, cmake, boost165, eigen, opencv2 }:
 
-mkDerivation (finalAttrs: {
+stdenv.mkDerivation rec {
   pname = "polyvectorization";
   version = "2019-08-23";
 
@@ -24,15 +24,17 @@ mkDerivation (finalAttrs: {
 
   NIX_CFLAGS_COMPILE = "-fpermissive";
 
-  installPhase = "install -Dm755 polyvector_thing -t $out/bin";
+  installPhase = ''
+    install -Dm755 polyvector_thing -t $out/bin
+  '';
 
   meta = with lib; {
     description = "Reference implementation of Vectorization of Line Drawings via PolyVector Fields";
-    inherit (finalAttrs.src.meta) homepage;
+    inherit (src.meta) homepage;
     license = licenses.mit;
     maintainers = [ maintainers.sikmir ];
     platforms = platforms.linux;
     mainProgram = "polyvector_thing";
     skip.ci = stdenv.isDarwin;
   };
-})
+}

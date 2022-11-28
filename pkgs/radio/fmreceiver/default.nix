@@ -2,14 +2,14 @@
 , portaudio, rtl-sdr, qmake, qwt, wrapQtAppsHook
 }:
 
-stdenv.mkDerivation (finalAttrs: {
+stdenv.mkDerivation rec {
   pname = "fmreceiver";
   version = "2.1";
 
   src = fetchFromGitHub {
     owner = "JvanKatwijk";
     repo = "sdr-j-fm";
-    rev = finalAttrs.version;
+    rev = version;
     hash = "sha256-U0m9PIB+X+TBoz5FfXMvR/tZjkNIy7B613I7eLT5UIs=";
   };
 
@@ -51,9 +51,9 @@ stdenv.mkDerivation (finalAttrs: {
 
   meta = with lib; {
     description = "A simple FM receiver";
-    inherit (finalAttrs.src.meta) homepage;
+    inherit (src.meta) homepage;
     license = licenses.gpl2Plus;
     maintainers = [ maintainers.sikmir ];
     platforms = platforms.unix;
   };
-})
+}

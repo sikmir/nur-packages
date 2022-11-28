@@ -1,6 +1,6 @@
-{ lib, mkDerivation, fetchFromGitHub, cmake, gdal, proj }:
+{ lib, stdenv, fetchFromGitHub, cmake, gdal, proj, wrapQtAppsHook }:
 
-mkDerivation (finalAttrs: {
+stdenv.mkDerivation rec {
   pname = "garminimg";
   version = "2021-01-07";
 
@@ -20,19 +20,21 @@ mkDerivation (finalAttrs: {
       --replace "PROJ4_" "PROJ_"
   '';
 
-  nativeBuildInputs = [ cmake ];
+  nativeBuildInputs = [ cmake wrapQtAppsHook ];
 
   buildInputs = [ gdal proj ];
 
   hardeningDisable = [ "format" ];
 
-  installPhase = "install -Dm755 bin/* -t $out/bin";
+  installPhase = ''
+    install -Dm755 bin/* -t $out/bin
+  '';
 
   meta = with lib; {
     description = "Encode/decode a Garmin IMG file";
-    inherit (finalAttrs.src.meta) homepage;
+    inherit (src.meta) homepage;
     license = licenses.gpl3Plus;
     maintainers = [ maintainers.sikmir ];
     platforms = platforms.unix;
   };
-})
+}
