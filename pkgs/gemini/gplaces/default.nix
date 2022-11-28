@@ -2,13 +2,13 @@
 
 stdenv.mkDerivation (finalAttrs: {
   pname = "gplaces";
-  version = "0.16.30";
+  version = "0.16.33";
 
   src = fetchFromGitHub {
     owner = "dimkr";
     repo = "gplaces";
     rev = "v${finalAttrs.version}";
-    hash = "sha256-W/tXwxJ4j7q3ka36TI7y/Psf9VHGXL/F2rNRGGkBKo0=";
+    hash = "sha256-orHIvqw7FOYp23nxWWJHAYOttkmudGgV93OXwfrxc+Y=";
     fetchSubmodules = true;
   };
 
@@ -16,7 +16,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   buildInputs = [ curl openssl ] ++ lib.optional stdenv.isDarwin memstreamHook;
 
-  makeFlags = [ "VERSION=${version}" ];
+  makeFlags = [ "VERSION=${finalAttrs.version}" ];
 
   installFlags = [ "PREFIX=$(out)" ];
 
