@@ -187,9 +187,7 @@ lib.makeScope newScope (
       inherit (darwin.apple_sdk.frameworks) Security;
     };
     localtileserver = callPackage ./geospatial/localtileserver { };
-    mapsoft = callPackage ./geospatial/mapsoft {
-      proj = pkgs.proj_7;
-    };
+    mapsoft = callPackage ./geospatial/mapsoft { };
     mapsoft2 = callPackage ./geospatial/mapsoft/2.nix { };
     mbtiles2osmand = callPackage ./geospatial/mbtiles2osmand { };
     mbutiles = callPackage ./geospatial/mbutiles { };
