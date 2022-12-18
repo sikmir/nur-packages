@@ -198,6 +198,7 @@ lib.makeScope newScope (
     pipfile = callPackage ./geospatial/pipfile { };
     polyvectorization = libsForQt5.callPackage ./geospatial/polyvectorization { };
     py-staticmaps = callPackage ./geospatial/py-staticmaps { };
+    pysheds = callPackage ./geospatial/pysheds { };
     pystac = callPackage ./geospatial/pystac { };
     qmapshack-bin = callPackage ./geospatial/qmapshack/bin.nix { };
     render_geojson = callPackage ./geospatial/render_geojson { };
