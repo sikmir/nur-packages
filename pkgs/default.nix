@@ -360,7 +360,7 @@ lib.makeScope newScope (
     maprec = callPackage ./nakarte/maprec {
       python3Packages = pkgs.python39Packages;
     };
-    nakarte = callPackage ./nakarte/nakarte { };
+    #nakarte = callPackage ./nakarte/nakarte { };
     ozi_map = callPackage ./nakarte/ozi_map {
       python3Packages = pkgs.python39Packages;
     };
