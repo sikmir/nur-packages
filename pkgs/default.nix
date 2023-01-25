@@ -320,6 +320,7 @@ lib.makeScope newScope (
     modbus-tools = callPackage ./misc/modbus-tools {
       inherit (darwin.apple_sdk.frameworks) IOKit;
     };
+    modbus_sim_cli = callPackage ./misc/modbus_sim_cli { };
     morse-talk = callPackage ./misc/morse-talk { };
     musig = callPackage ./misc/musig { };
     nanodns = callPackage ./misc/nanodns { };
