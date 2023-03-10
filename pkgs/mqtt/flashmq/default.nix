@@ -11,6 +11,10 @@ stdenv.mkDerivation rec {
     hash = "sha256-VikTaPczF1+Bk/K6D5lZgyLybNETtm0YTEwFgPmpiiw=";
   };
 
+  postPatch = lib.optionalString (stdenv.isLinux && !stdenv.isx86_64) ''
+    substituteInPlace CMakeLists.txt --replace "-msse4.2" ""
+  '';
+
   nativeBuildInputs = [ cmake installShellFiles ];
 
   buildInputs = [ openssl ];
