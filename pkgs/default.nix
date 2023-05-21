@@ -326,7 +326,6 @@ lib.makeScope newScope (
     capture2text = libsForQt5.callPackage ./misc/capture2text { };
     cfiles = callPackage ./misc/cfiles { };
     csvtools = callPackage ./misc/csvtools { };
-    didder = callPackage ./misc/didder { };
     dns-filter = callPackage ./misc/dns-filter { };
     docker-reg-tool = callPackage ./misc/docker-reg-tool { };
     docx2csv = callPackage ./misc/docx2csv { };
