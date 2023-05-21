@@ -104,7 +104,6 @@ lib.makeScope newScope (
     jsonseq = callPackage ./development/python-modules/jsonseq { };
     large-image = callPackage ./development/python-modules/large-image { };
     large-image-source-gdal = (callPackage ./development/python-modules/large-image/sources.nix { }).source-gdal;
-    lru-dict = callPackage ./development/python-modules/lru-dict { };
     modbus_tk = callPackage ./development/python-modules/modbus_tk { };
     portolan = callPackage ./development/python-modules/portolan { };
     pymbtiles = callPackage ./development/python-modules/pymbtiles { };
