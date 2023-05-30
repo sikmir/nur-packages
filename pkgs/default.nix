@@ -452,6 +452,7 @@ lib.makeScope newScope (
     aprsc = callPackage ./radio/aprsc { };
     fmreceiver = libsForQt5.callPackage ./radio/fmreceiver { };
     gqrx-scanner = callPackage ./radio/gqrx-scanner { };
+    libacars = callPackage ./radio/libacars { };
     linrad = callPackage ./radio/linrad { };
     rtlsdr-airband = callPackage ./radio/rtlsdr-airband { };
     sdr-server = callPackage ./radio/sdr-server { };
