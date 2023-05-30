@@ -455,6 +455,7 @@ lib.makeScope newScope (
     gqrx-scanner = callPackage ./radio/gqrx-scanner { };
     linrad = callPackage ./radio/linrad { };
     rtlsdr-airband = callPackage ./radio/rtlsdr-airband { };
+    sdr-server = callPackage ./radio/sdr-server { };
     smallrx = callPackage ./radio/smallrx { };
 
     ### SUCKLESS
