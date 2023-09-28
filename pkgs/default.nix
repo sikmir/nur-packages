@@ -513,6 +513,7 @@ lib.makeScope newScope (
     makel = callPackage ./suckless/makel { };
     nextvi = callPackage ./suckless/nextvi { };
     pista = callPackage ./suckless/pista { };
+    poe = callPackage ./suckless/poe { };
     saait = callPackage ./suckless/saait { };
     sbase = callPackage ./suckless/sbase { };
     scc = callPackage ./suckless/scc { };
