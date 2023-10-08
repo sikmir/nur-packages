@@ -307,7 +307,6 @@ lib.makeScope newScope (
     mikatools = callPackage ./linguistics/mikatools { };
     odict = callPackage ./linguistics/odict { };
     pytorchtext = callPackage ./linguistics/pytorchtext { };
-    redict = libsForQt5.callPackage ./linguistics/redict { };
     revtok = callPackage ./linguistics/revtok { };
     stardict-tools = callPackage ./linguistics/stardict-tools { };
     tatoebatools = callPackage ./linguistics/tatoebatools { };
