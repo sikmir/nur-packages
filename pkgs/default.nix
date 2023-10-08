@@ -380,7 +380,6 @@ lib.makeScope newScope (
     serial-studio-bin = callPackage ./misc/serial-studio/bin.nix { };
     serverpp = callPackage ./misc/serverpp { };
     subprocess = callPackage ./misc/subprocess { };
-    taskcoach = callPackage ./misc/taskcoach { };
     tcvt = callPackage ./misc/tcvt { };
     telegabber = callPackage ./misc/telegabber { };
     telegram-send = callPackage ./misc/telegram-send { };
