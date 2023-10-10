@@ -519,6 +519,7 @@ lib.makeScope newScope (
     sbase = callPackage ./suckless/sbase { };
     scc = callPackage ./suckless/scc { };
     scroll = callPackage ./suckless/scroll { };
+    sdhcp = callPackage ./suckless/sdhcp { };
     se = callPackage ./suckless/se { };
     sled = callPackage ./suckless/sled { };
     ste = callPackage ./suckless/ste { };
