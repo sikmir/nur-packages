@@ -1,5 +1,13 @@
-{ lib, fetchFromGitHub, python3Packages
-, rio-stac, rio-tiler, geojson-pydantic, rio-cogeo, starlette-cramjam, cogeo-mosaic }:
+{ lib
+, fetchFromGitHub
+, python3Packages
+, rio-stac
+, rio-tiler
+, geojson-pydantic
+, rio-cogeo
+, starlette-cramjam
+, cogeo-mosaic
+}:
 let
   pname = "titiler";
   version = "0.15.0";

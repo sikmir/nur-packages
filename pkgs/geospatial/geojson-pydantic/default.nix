@@ -15,7 +15,8 @@ python3Packages.buildPythonPackage rec {
   nativeBuildInputs = with python3Packages; [ flit ];
 
   propagatedBuildInputs = with python3Packages; [
-    pydantic shapely
+    pydantic
+    shapely
   ];
 
   doCheck = false;
