@@ -410,6 +410,7 @@ lib.makeScope newScope (
     mqtt-benchmark = callPackage ./mqtt/mqtt-benchmark { };
     mqtt-cli = callPackage ./mqtt/mqtt-cli { };
     mqtt-explorer = callPackage ./mqtt/mqtt-explorer { };
+    mqtt-launcher = callPackage ./mqtt/mqtt-launcher { };
     mqtt-proxy = callPackage ./mqtt/mqtt-proxy { };
     mqtt-shell = callPackage ./mqtt/mqtt-shell { };
     mqtt-to-influxdb = callPackage ./mqtt/mqtt-to-influxdb { };
