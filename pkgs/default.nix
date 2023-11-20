@@ -340,6 +340,7 @@ lib.makeScope newScope (
     complgen = callPackage ./misc/complgen { };
     csv2html = callPackage ./misc/csv2html { };
     csvtools = callPackage ./misc/csvtools { };
+    diagon = callPackage ./misc/diagon { };
     dns-filter = callPackage ./misc/dns-filter { };
     docker-reg-tool = callPackage ./misc/docker-reg-tool { };
     docx2csv = callPackage ./misc/docx2csv { };
