@@ -112,6 +112,7 @@ lib.makeScope newScope (
     portolan = callPackage ./development/python-modules/portolan { };
     pymbtiles = callPackage ./development/python-modules/pymbtiles { };
     pytest-mp = callPackage ./development/python-modules/pytest-mp { };
+    pytest-skip-markers = callPackage ./development/python-modules/pytest-skip-markers { };
     s2sphere = callPackage ./development/python-modules/s2sphere { };
 
     ### EMBEDDED
