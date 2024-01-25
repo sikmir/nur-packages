@@ -192,7 +192,6 @@ lib.makeScope newScope (
 
     ### GEOSPATIAL
 
-    apispec-webframeworks = callPackage ./geospatial/apispec-webframeworks { };
     arcgis2geojson = callPackage ./geospatial/arcgis2geojson { };
     c2cwsgiutils = callPackage ./geospatial/c2cwsgiutils { };
     cogdumper = callPackage ./geospatial/cogdumper { };
