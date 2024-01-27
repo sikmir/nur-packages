@@ -232,6 +232,7 @@ lib.makeScope newScope (
         proj = pkgs.proj_7;
       };
       proj = pkgs.proj_7;
+      inherit garmindev;
     };
     render_geojson = callPackage ./geospatial/render_geojson {
       wxGTK = pkgs.wxGTK32;
