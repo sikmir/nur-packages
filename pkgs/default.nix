@@ -393,6 +393,7 @@ lib.makeScope newScope (
     sdorfehs = callPackage ./misc/sdorfehs { };
     serial-studio-bin = callPackage ./misc/serial-studio/bin.nix { };
     serverpp = callPackage ./misc/serverpp { };
+    shellprof = callPackage ./misc/shellprof { };
     socketcand = callPackage ./misc/socketcand { };
     subprocess = callPackage ./misc/subprocess { };
     tcvt = callPackage ./misc/tcvt { };
