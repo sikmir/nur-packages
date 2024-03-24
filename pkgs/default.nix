@@ -519,6 +519,7 @@ lib.makeScope newScope (
     gqrx-scanner = callPackage ./radio/gqrx-scanner { };
     libacars = callPackage ./radio/libacars { };
     linrad = callPackage ./radio/linrad { };
+    radiolib = callPackage ./radio/radiolib { };
     rtlsdr-airband = callPackage ./radio/rtlsdr-airband { };
     rtltcp = callPackage ./radio/rtltcp { };
     sdr-modem = callPackage ./radio/sdr-modem { };
