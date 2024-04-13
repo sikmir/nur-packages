@@ -366,6 +366,7 @@ lib.makeScope newScope (
     heapusage = callPackage ./misc/heapusage { };
     how-to-use-pvs-studio-free = callPackage ./misc/pvs-studio/how-to-use-pvs-studio-free.nix { };
     huami-token = callPackage ./misc/huami-token { };
+    ionscale = callPackage ./misc/ionscale { };
     ish = callPackage ./misc/ish { };
     json-tui = callPackage ./misc/json-tui { };
     lazyscraper = callPackage ./misc/lazyscraper { };
