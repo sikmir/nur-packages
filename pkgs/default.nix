@@ -183,6 +183,7 @@ lib.makeScope newScope (
     gssg = callPackage ./gemini/gssg { };
     gurl = callPackage ./gemini/gurl { };
     kineto = callPackage ./gemini/kineto { };
+    mdtohtml = callPackage ./gemini/mdtohtml { };
     py-gmi2html = callPackage ./gemini/py-gmi2html { };
     qute-gemini = callPackage ./gemini/qute-gemini { };
     satellite = callPackage ./gemini/satellite { };
