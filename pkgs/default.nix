@@ -213,6 +213,7 @@ lib.makeScope newScope (
     hecate = callPackage ./geospatial/hecate {
       inherit (darwin.apple_sdk.frameworks) Security;
     };
+    kealib = callPackage ./geospatial/kealib { };
     localtileserver = callPackage ./geospatial/localtileserver { };
     mapsoft = callPackage ./geospatial/mapsoft {
       proj = pkgs.proj_7;
@@ -249,6 +250,7 @@ lib.makeScope newScope (
     rio-mucho = callPackage ./geospatial/rio-mucho { };
     rio-stac = callPackage ./geospatial/rio-stac { };
     rio-tiler = callPackage ./geospatial/rio-tiler { };
+    rsgislib = callPackage ./geospatial/rsgislib { };
     sasplanet = callPackage ./geospatial/sasplanet { };
     server-thread = callPackage ./geospatial/server-thread { };
     starlette-cramjam = callPackage ./geospatial/starlette-cramjam { };
