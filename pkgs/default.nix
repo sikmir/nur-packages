@@ -413,6 +413,7 @@ lib.makeScope newScope (
     shellprof = callPackage ./misc/shellprof { };
     socketcand = callPackage ./misc/socketcand { };
     subprocess = callPackage ./misc/subprocess { };
+    tabiew = callPackage ./misc/tabiew { };
     tcvt = callPackage ./misc/tcvt { };
     telegabber = callPackage ./misc/telegabber { };
     telegram-send = callPackage ./misc/telegram-send { };
