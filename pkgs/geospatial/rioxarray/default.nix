@@ -12,7 +12,7 @@ python3Packages.buildPythonPackage rec {
     hash = "sha256-bumFZQktgUqo2lyoLtDXkh6Vv5oS/wobqYpvNYy7La0=";
   };
 
-  nativeBuildInputs = with python3Packages; [ setuptools ];
+  build-system = with python3Packages; [ setuptools ];
 
   propagatedBuildInputs = with python3Packages; [
     packaging
