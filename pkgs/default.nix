@@ -515,6 +515,7 @@ lib.makeScope newScope (
     ### RADIO
 
     acarsdec = callPackage ./radio/acarsdec { };
+    adsb_deku = callPackage ./radio/adsb_deku { };
     ais-catcher = callPackage ./radio/ais-catcher { };
     aprsc = callPackage ./radio/aprsc { };
     dumphfdl = callPackage ./radio/dumphfdl { };
