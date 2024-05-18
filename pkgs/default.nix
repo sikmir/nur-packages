@@ -204,6 +204,8 @@ lib.makeScope newScope (
       click = click-6-7;
     };
     garmindev = callPackage ./geospatial/qlandkartegt/garmindev.nix { };
+    geoarrow-c = callPackage ./geospatial/geoarrow-c { };
+    geoarrow-pyarrow = callPackage ./geospatial/geoarrow-pyarrow { };
     geojson-pydantic = callPackage ./geospatial/geojson-pydantic { };
     geowebcache = callPackage ./geospatial/geowebcache { };
     go-pmtiles = callPackage ./geospatial/go-pmtiles { };
