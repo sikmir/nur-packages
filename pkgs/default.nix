@@ -110,6 +110,7 @@ lib.makeScope newScope (
       python3Packages = pkgs.python310Packages;
     };
     portolan = callPackage ./development/python-modules/portolan { };
+    pyarrow_ops = callPackage ./development/python-modules/pyarrow_ops { };
     pymbtiles = callPackage ./development/python-modules/pymbtiles { };
     pytest-mp = callPackage ./development/python-modules/pytest-mp { };
     pytest-shell-utilities = callPackage ./development/python-modules/pytest-shell-utilities { };
