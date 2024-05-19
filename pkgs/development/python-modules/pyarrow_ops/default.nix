@@ -1,4 +1,9 @@
-{ lib, stdenv, python3Packages, fetchFromGitHub }:
+{
+  lib,
+  stdenv,
+  python3Packages,
+  fetchFromGitHub,
+}:
 
 python3Packages.buildPythonPackage rec {
   pname = "pyarrow_ops";
@@ -16,7 +21,10 @@ python3Packages.buildPythonPackage rec {
 
   nativeBuildInputs = with python3Packages; [ cython ];
 
-  propagatedBuildInputs = with python3Packages; [ numpy pyarrow ];
+  propagatedBuildInputs = with python3Packages; [
+    numpy
+    pyarrow
+  ];
 
   meta = with lib; {
     description = "Convenient pyarrow operations following the Pandas API";
