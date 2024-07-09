@@ -356,7 +356,7 @@ lib.makeScope newScope (
     mjs = callPackage ./misc/mjs { };
     modbus-tools = callPackage ./misc/modbus-tools { };
     modbus_sim_cli = callPackage ./misc/modbus_sim_cli { python3Packages = pkgs.python310Packages; };
-    morse-talk = callPackage ./misc/morse-talk { };
+    morse-talk = callPackage ./misc/morse-talk { python3Packages = pkgs.python311Packages; };
     musig = callPackage ./misc/musig { };
     mysql-to-sqlite3 = callPackage ./misc/mysql-to-sqlite3 { };
     nanodns = callPackage ./misc/nanodns { };
