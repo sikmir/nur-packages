@@ -527,5 +527,6 @@ lib.makeScope newScope (
     sthkd = callPackage ./suckless/sthkd { };
     svtm = callPackage ./suckless/svtm { };
     table = callPackage ./suckless/table { };
+    webdump = callPackage ./suckless/webdump { };
   }
 )
