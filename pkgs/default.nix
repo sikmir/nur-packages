@@ -457,6 +457,7 @@ lib.makeScope newScope (
     osmdbt = callPackage ./osm/osmdbt { };
     osmium-surplus = callPackage ./osm/osmium-surplus { };
     osmosis = callPackage ./osm/osmosis { };
+    osmptparser = callPackage ./osm/osmptparser { };
     osmwalkthrough = callPackage ./osm/osmwalkthrough { };
     overpassforge = callPackage ./osm/overpassforge { };
     phyghtmap = callPackage ./osm/phyghtmap { };
