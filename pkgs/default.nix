@@ -337,6 +337,7 @@ lib.makeScope newScope (
     dns-filter = callPackage ./misc/dns-filter { };
     docker-reg-tool = callPackage ./misc/docker-reg-tool { };
     docx2csv = callPackage ./misc/docx2csv { };
+    ffs = callPackage ./misc/ffs { };
     finalcut = callPackage ./misc/finalcut { };
     freeopcua = callPackage ./misc/freeopcua { };
     gaiagpsclient = callPackage ./misc/gaiagpsclient { };
