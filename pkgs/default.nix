@@ -393,6 +393,7 @@ lib.makeScope newScope (
     telegram-send = callPackage ./misc/telegram-send { };
     telnetpp = callPackage ./misc/telnetpp { };
     terminalpp = callPackage ./misc/terminalpp { };
+    tiny-frpc = callPackage ./misc/tiny-frpc { };
     tinyflux = callPackage ./misc/tinyflux { };
     tlstunnel = callPackage ./misc/tlstunnel { };
     turbo = callPackage ./misc/turbo { };
