@@ -101,6 +101,7 @@ lib.makeScope newScope (
     earthpy = callPackage ./development/python-modules/earthpy { };
     geotiler = callPackage ./development/python-modules/geotiler { };
     gpxelevations = callPackage ./development/python-modules/gpxelevations { };
+    hardpy = callPackage ./development/python-modules/hardpy { };
     jsonseq = callPackage ./development/python-modules/jsonseq { };
     modbus_tk = callPackage ./development/python-modules/modbus_tk {
       python3Packages = pkgs.python310Packages;
