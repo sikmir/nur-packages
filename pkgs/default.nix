@@ -107,6 +107,7 @@ lib.makeScope newScope (
     };
     portolan = callPackage ./development/python-modules/portolan { };
     pyarrow_ops = callPackage ./development/python-modules/pyarrow_ops { };
+    pycouchdb = callPackage ./development/python-modules/pycouchdb { };
     pymbtiles = callPackage ./development/python-modules/pymbtiles { };
     pytest-docker-fixtures = callPackage ./development/python-modules/pytest-docker-fixtures { };
     pytest-mp = callPackage ./development/python-modules/pytest-mp { };
