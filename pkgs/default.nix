@@ -120,6 +120,7 @@ lib.makeScope newScope (
     pytest-skip-markers = callPackage ./development/python-modules/pytest-skip-markers { };
     python-cmr = callPackage ./development/python-modules/python-cmr { };
     s2sphere = callPackage ./development/python-modules/s2sphere { };
+    tinynetrc = callPackage ./development/python-modules/tinynetrc { };
 
     ### EMBEDDED
 
