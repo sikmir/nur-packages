@@ -110,6 +110,7 @@ lib.makeScope newScope (
       python3Packages = pkgs.python310Packages;
     };
     portolan = callPackage ./development/python-modules/portolan { };
+    pqdm = callPackage ./development/python-modules/pqdm { };
     pyarrow_ops = callPackage ./development/python-modules/pyarrow_ops { };
     pycouchdb = callPackage ./development/python-modules/pycouchdb { };
     pymbtiles = callPackage ./development/python-modules/pymbtiles { };
