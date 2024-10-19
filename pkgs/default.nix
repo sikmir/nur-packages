@@ -101,6 +101,7 @@ lib.makeScope newScope (
     config-path = callPackage ./development/python-modules/config-path { };
     contextily = callPackage ./development/python-modules/contextily { };
     curses-menu = callPackage ./development/python-modules/curses-menu { };
+    earthaccess = callPackage ./development/python-modules/earthaccess { };
     earthpy = callPackage ./development/python-modules/earthpy { };
     geotiler = callPackage ./development/python-modules/geotiler { };
     gpxelevations = callPackage ./development/python-modules/gpxelevations { };
