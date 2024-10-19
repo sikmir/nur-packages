@@ -118,6 +118,7 @@ lib.makeScope newScope (
     pytest-mp = callPackage ./development/python-modules/pytest-mp { };
     pytest-shell-utilities = callPackage ./development/python-modules/pytest-shell-utilities { };
     pytest-skip-markers = callPackage ./development/python-modules/pytest-skip-markers { };
+    python-cmr = callPackage ./development/python-modules/python-cmr { };
     s2sphere = callPackage ./development/python-modules/s2sphere { };
 
     ### EMBEDDED
