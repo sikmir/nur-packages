@@ -96,6 +96,7 @@ lib.makeScope newScope (
 
     ### DEVELOPMENT / PYTHON MODULES
 
+    bounded-pool-executor = callPackage ./development/python-modules/bounded-pool-executor { };
     click-6-7 = callPackage ./development/python-modules/click { };
     config-path = callPackage ./development/python-modules/config-path { };
     contextily = callPackage ./development/python-modules/contextily { };
