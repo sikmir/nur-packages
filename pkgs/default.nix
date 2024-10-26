@@ -34,7 +34,7 @@ lib.makeScope newScope (
     amethyst = callPackage ./darwin/amethyst { };
     cudatext-bin = callPackage ./darwin/cudatext/bin.nix { };
     darktable-bin = callPackage ./darwin/darktable/bin.nix { };
-    finch = callPackage ./darwin/finch { buildGoModule = pkgs.buildGo122Module; };
+    finch = callPackage ./darwin/finch { };
     macpass = callPackage ./darwin/macpass { };
     macsvg = callPackage ./darwin/macsvg { };
     marta = callPackage ./darwin/marta { };
