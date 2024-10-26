@@ -205,7 +205,6 @@ lib.makeScope newScope (
     geoarrow-pyarrow = callPackage ./geospatial/geoarrow-pyarrow { };
     geojson-pydantic = callPackage ./geospatial/geojson-pydantic { };
     geowebcache = callPackage ./geospatial/geowebcache { };
-    go-pmtiles = callPackage ./geospatial/go-pmtiles { };
     go-staticmaps = callPackage ./geospatial/go-staticmaps { };
     hecate = callPackage ./geospatial/hecate { };
     kealib = callPackage ./geospatial/kealib { };
