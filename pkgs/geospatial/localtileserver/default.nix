@@ -13,7 +13,7 @@ python3Packages.buildPythonApplication rec {
   src = fetchFromGitHub {
     owner = "banesullivan";
     repo = "localtileserver";
-    rev = "v${version}";
+    tag = "v${version}";
     hash = "sha256-Vj7wUQU1xUsHPR545SpJcA8HgKV++bmNUxvqP/w3L2Q=";
   };
 
@@ -56,5 +56,6 @@ python3Packages.buildPythonApplication rec {
     homepage = "https://localtileserver.banesullivan.com/";
     license = lib.licenses.mit;
     maintainers = [ lib.maintainers.sikmir ];
+    inherit (python3Packages.rio-tiler.meta) broken;
   };
 }
