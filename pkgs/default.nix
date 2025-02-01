@@ -382,6 +382,7 @@ lib.makeScope newScope (
     nmtree = callPackage ./misc/nmtree { };
     objlab = callPackage ./misc/objlab { };
     ocelotgui = libsForQt5.callPackage ./misc/ocelotgui { };
+    opcua = callPackage ./misc/opcua { };
     #opcua-stack = callPackage ./misc/opcua-stack {
     #  openssl = pkgs.openssl_1_1;
     #};
