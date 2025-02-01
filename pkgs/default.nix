@@ -427,6 +427,7 @@ lib.makeScope newScope (
 
     ### MQTT
 
+    comqtt = callPackage ./mqtt/comqtt { };
     emitter = callPackage ./mqtt/emitter { };
     go-mqtt-to-influxdb = callPackage ./mqtt/go-mqtt-to-influxdb { };
     ioxy = callPackage ./mqtt/ioxy { };
