@@ -467,6 +467,7 @@ lib.makeScope newScope (
       python3Packages = pkgs.python310Packages;
     };
     tracks_storage_server = pkgs.python3Packages.callPackage ./nakarte/tracks_storage_server { };
+    westra_passes_for_nakarte = callPackage ./nakarte/westra_passes_for_nakarte { };
 
     ### OSM
 
