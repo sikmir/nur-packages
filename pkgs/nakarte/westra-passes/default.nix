@@ -5,7 +5,7 @@
 }:
 
 python3Packages.buildPythonPackage {
-  pname = "westra_passes_for_nakarte";
+  pname = "westra-passes";
   version = "0-unstable-2025-01-28";
   pyproject = true;
 

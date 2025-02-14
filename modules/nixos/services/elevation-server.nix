@@ -8,12 +8,12 @@
 with lib;
 
 let
-  cfg = config.services.elevation_server;
+  cfg = config.services.elevation-server;
 in
 {
-  options.services.elevation_server = {
-    enable = mkEnableOption "elevation_server";
-    package = mkPackageOption pkgs "elevation_server" { };
+  options.services.elevation-server = {
+    enable = mkEnableOption "elevation-server";
+    package = mkPackageOption pkgs "elevation-server" { };
     address = mkOption {
       type = types.str;
       default = "127.0.0.1";
@@ -61,13 +61,13 @@ in
 
   config = mkIf cfg.enable (mkMerge [
     {
-      systemd.services.elevation_server = {
+      systemd.services.elevation-server = {
         description = "Elevation server";
         after = [ "network.target" ];
         wantedBy = [ "multi-user.target" ];
         serviceConfig = {
           DynamicUser = true;
-          LogsDirectory = "elevation_server";
+          LogsDirectory = "elevation-server";
           ExecStart = "${getBin cfg.package}/bin/elevation_server -dem ${cfg.demTiles} -host ${cfg.address} -port ${toString cfg.port} -threads ${toString cfg.threads}";
           Restart = "always";
         };
