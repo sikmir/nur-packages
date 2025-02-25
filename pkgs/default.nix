@@ -432,6 +432,7 @@ lib.makeScope newScope (
     comqtt = callPackage ./mqtt/comqtt { };
     emitter = callPackage ./mqtt/emitter { };
     go-mqtt-to-influxdb = callPackage ./mqtt/go-mqtt-to-influxdb { };
+    hmq = callPackage ./mqtt/hmq { };
     ioxy = callPackage ./mqtt/ioxy { };
     janus-mqtt-proxy = callPackage ./mqtt/janus-mqtt-proxy { };
     libumqtt = callPackage ./mqtt/libumqtt { };
