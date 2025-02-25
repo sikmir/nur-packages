@@ -456,6 +456,7 @@ lib.makeScope newScope (
     pytest-mqtt = callPackage ./mqtt/pytest-mqtt { };
     rmqtt = callPackage ./mqtt/rmqtt { };
     rumqtt = callPackage ./mqtt/rumqtt { };
+    volantmq = callPackage ./mqtt/volantmq { };
 
     ### NAKARTE
 
