@@ -428,6 +428,7 @@ lib.makeScope newScope (
 
     ### MQTT
 
+    akasa = callPackage ./mqtt/akasa { };
     amqtt = callPackage ./mqtt/amqtt { };
     comqtt = callPackage ./mqtt/comqtt { };
     emitter = callPackage ./mqtt/emitter { };
