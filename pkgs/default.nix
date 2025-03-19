@@ -240,6 +240,7 @@ lib.makeScope newScope (
     rio-mbtiles = callPackage ./geospatial/rio-mbtiles { };
     rio-mucho = callPackage ./geospatial/rio-mucho { };
     rio-stac = callPackage ./geospatial/rio-stac { };
+    riverrem = callPackage ./geospatial/riverrem { };
     rsgislib = callPackage ./geospatial/rsgislib { };
     sasplanet = callPackage ./geospatial/sasplanet { };
     server-thread = callPackage ./geospatial/server-thread { };
