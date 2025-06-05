@@ -41,7 +41,6 @@ lib.makeScope newScope (
     pinentry-touchid = callPackage ./darwin/pinentry-touchid { };
     podman-desktop-bin = callPackage ./darwin/podman-desktop/bin.nix { };
     qtcreator-bin = callPackage ./darwin/qtcreator/bin.nix { };
-    qutebrowser-bin = callPackage ./darwin/qutebrowser/bin.nix { };
     sequel-ace = callPackage ./darwin/sequel-ace { };
     zed = callPackage ./darwin/zed { };
 
