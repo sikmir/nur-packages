@@ -458,6 +458,7 @@ lib.makeScope newScope (
     mqtt-stresser = callPackage ./mqtt/mqtt-stresser { };
     mqtt-to-influxdb = callPackage ./mqtt/mqtt-to-influxdb { };
     mqtt-to-influxdb-forwarder = callPackage ./mqtt/mqtt-to-influxdb-forwarder { };
+    mqttfs = callPackage ./mqtt/mqttfs { };
     mqttwarn = callPackage ./mqtt/mqttwarn { };
     nanosdk = callPackage ./mqtt/nanosdk { };
     pytest-mqtt = callPackage ./mqtt/pytest-mqtt { };
