@@ -479,6 +479,7 @@ lib.makeScope newScope (
     ### OSM
 
     abstreet = callPackage ./osm/abstreet { };
+    arnis = callPackage ./osm/arnis { };
     cykhash = callPackage ./osm/cykhash { };
     gcgn-converter = callPackage ./osm/gcgn-converter { };
     level0 = callPackage ./osm/level0 { };
