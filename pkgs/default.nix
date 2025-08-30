@@ -399,6 +399,7 @@ lib.makeScope newScope (
     repolocli = callPackage ./misc/repolocli { };
     rhttp = callPackage ./misc/rhttp { };
     riffraff = callPackage ./misc/riffraff { };
+    rodnik = callPackage ./misc/rodnik { };
     rst2txt = callPackage ./misc/rst2txt { };
     sdorfehs = callPackage ./misc/sdorfehs { };
     serverpp = callPackage ./misc/serverpp { };
