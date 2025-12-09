@@ -6,16 +6,16 @@
 }:
 let
   pname = "nakarte";
-  version = "2022-12-28";
+  version = "2025-12-07";
 in
 mkYarnPackage {
   name = "${pname}-${version}";
 
   src = fetchFromGitHub {
-    owner = "wladich";
+    owner = "sikmir";
     repo = "nakarte";
-    rev = "4d90013d9eaf802ff25bc1d29add6ea01f2f025b";
-    hash = "sha256-ksblTz+EyT6Dc3cG03QYNQYSN9TnC1Ly7t9sllpvDAM=";
+    rev = "67545a23da06e94bb17c95bf58a7b06128abd9ec";
+    hash = "sha256-HO1RJBMURCtGWvTD52x9WM/T9E9JnnsLJv7xbt0cQSA=";
   };
 
   postPatch =
@@ -40,11 +40,10 @@ mkYarnPackage {
   distPhase = "true";
 
   meta = {
-    homepage = "https://github.com/wladich/nakarte";
+    homepage = "https://github.com/sikmir/nakarte";
     license = lib.licenses.mit;
     maintainers = [ lib.maintainers.sikmir ];
     platforms = lib.platforms.all;
     skip.ci = true;
-    broken = true; # error while evaluating 'importJSON', only on NUR CI
   };
 }
