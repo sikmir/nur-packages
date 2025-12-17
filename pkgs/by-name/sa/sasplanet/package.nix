@@ -2,22 +2,19 @@
   lib,
   stdenv,
   fetchfromgh,
-  fetchFromGitea,
   fetchgdrive,
+  fetchgit,
   unzip,
   wineWow64Packages,
   makeWrapper,
-  withMaps ? false,
+  withMaps ? true,
   withExtremum ? false,
 }:
 let
-  maps = fetchFromGitea {
-    domain = "parasite.kicks-ass.org:3000";
-    owner = "sasgis";
-    repo = "maps";
-    rev = "578a182e0d8613107f67df0280b79419b43822f6";
-    hash = "sha256-6j4KZlAKbBYoFr2ZBcfW0j2kmUTRbnzsaT1UNGXyKIo=";
-    forceFetchGit = true;
+  maps = fetchgit {
+    url = "http://parasite.kicks-ass.org:3000/sasgis/maps.git";
+    rev = "9b988fd8f39a5d0c44c2002d41735d2fe5a55b04";
+    hash = "sha256-pxMlVM0w0+yZttSiCt96tLe9Lx/Lmea/txyQhy12AHM=";
   };
   extremum = fetchgdrive {
     id = "12PM_mEE8Xck036vXd5TAzPsUZeCnztJ5";
