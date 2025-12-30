@@ -1,21 +1,28 @@
 {
   lib,
-  mkYarnPackage,
+  stdenv,
   fetchFromGitHub,
+  fetchYarnDeps,
+  nodejs,
+  yarnConfigHook,
+  yarnBuildHook,
   secretsConfig ? null,
 }:
-let
+
+stdenv.mkDerivation (finalAttrs: {
   pname = "nakarte";
-  version = "2025-12-07";
-in
-mkYarnPackage {
-  name = "${pname}-${version}";
+  version = "2025-12-20";
 
   src = fetchFromGitHub {
     owner = "sikmir";
     repo = "nakarte";
-    rev = "67545a23da06e94bb17c95bf58a7b06128abd9ec";
-    hash = "sha256-HO1RJBMURCtGWvTD52x9WM/T9E9JnnsLJv7xbt0cQSA=";
+    rev = "0a2ffea6c504272cb837cee7afba3087a2e513bc";
+    hash = "sha256-qrXSLdnwcd59/PMSeUGktkr+iF0YXjPCnVHzsm1NhPA=";
+  };
+
+  yarnOfflineCache = fetchYarnDeps {
+    yarnLock = "${finalAttrs.src}/yarn.lock";
+    hash = "sha256-JFjeu3EVVQkz1jLQX+lb736jzr5xtvor4azctn20Mo4=";
   };
 
   postPatch =
@@ -24,20 +31,16 @@ mkYarnPackage {
     else
       "cp src/secrets.js{.template,}";
 
-  buildPhase = ''
-    runHook preBuild
-
-    yarn build
-
-    runHook postBuild
-  '';
+  nativeBuildInputs = [
+    nodejs
+    yarnConfigHook
+    yarnBuildHook
+  ];
 
   installPhase = ''
     install -dm755 $out
-    cp -r deps/nakarte/build/* $out
+    cp -r build/* $out
   '';
-
-  distPhase = "true";
 
   meta = {
     homepage = "https://github.com/sikmir/nakarte";
@@ -46,4 +49,4 @@ mkYarnPackage {
     platforms = lib.platforms.all;
     skip.ci = true;
   };
-}
+})
